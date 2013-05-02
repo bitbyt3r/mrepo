@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+ <group>
+  <id>32bit</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <display_order>1024</display_order>
+  <name>CSEE 32 Bit Repository</name>
+  <description>This is a repo!</description>
+   <packagelist>
+    packagereq type="mandatory">package1</packagereq>
+    packagereq type="mandatory">package2</packagereq>
+    packagereq type="mandatory">package3</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>64bit</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <display_order>1024</display_order>
+  <name>CSEE 64 Bit Group</name>
+  <description>This is another Group!</description>
+   <packagelist>
+    packagereq type="mandatory">packagea</packagereq>
+    packagereq type="mandatory">packageb</packagereq>
+    packagereq type="mandatory">packagec</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>local</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <display_order>1024</display_order>
+  <name>CSEE-Local</name>
+  <description>This is the base install for csee</description>
+   <packagelist>
+    packagereq type="mandatory">cfengine</packagereq>
+    packagereq type="mandatory">createrepo</packagereq>
+    packagereq type="mandatory">dkms</packagereq>
+    packagereq type="mandatory">dkms-openafs</packagereq>
+    packagereq type="mandatory">faac</packagereq>
+    packagereq type="mandatory">faac-devel</packagereq>
+    packagereq type="mandatory">ffmpeg</packagereq>
+   </packagelist>
+ </group>
+</comps>
