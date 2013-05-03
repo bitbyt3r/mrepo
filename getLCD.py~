@@ -1,0 +1,45 @@
+#!/usr/bin/python
+# This will take a list of packages and return the packages that aren't
+# depended on by other packages in the list, i.e. the lowest common
+# denominator needed to get yum to install the other packages.
+import os
+import rpm
+import sys
+
+def main():
+  packages = {}
+  
+  notKept = open("notKept")
+  checkList = [x.strip() for x in notKept.readlines()]
+  notKept.close()
+  
+  grouped = open("grouped")
+  groupedList = [x.strip() for x in grouped.readlines()]
+  checkList.extend(groupedList)
+  grouped.close()
+  
+  ts = rpm.TransactionSet()
+  for i in checkList:
+    mi = ts.dbMatch('name', i)
+    packages[i] = []
+    for ind in range(mi.count()):
+	h = mi.next()
+	for dep in h[rpm.RPMTAG_REQUIRENAME]:
+	  if not("/" in dep):
+	    packages[i].append(dep.split("(")[0])
+    packages[i] = set(packages[i])
+	    
+  finalPacks = dict(packages)
+  copypacks = dict(packages)
+  for i in packages.keys():
+    for j in copypacks.keys():
+      if i in copypacks[j]:
+	if i in finalPacks.keys():
+	  del finalPacks[i]
+  finalPacksList = list(finalPacks)
+  finalPacksList.sort()
+  for i in finalPacksList:
+    if not(i in groupedList):
+      print i
+  # if i is required by someone else, remove i from packages
+main()
