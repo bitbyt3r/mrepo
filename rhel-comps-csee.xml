@@ -1,0 +1,4485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+ <group>
+  <id>additional-devel</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Additional Development</name>
+  <description>Additional Development</description>
+   <packagelist>
+    <packagereq type="mandatory">GConf2-devel</packagereq>
+    <packagereq type="mandatory">alsa-lib-devel</packagereq>
+    <packagereq type="mandatory">audit-libs-devel</packagereq>
+    <packagereq type="mandatory">binutils-devel</packagereq>
+    <packagereq type="mandatory">boost-devel</packagereq>
+    <packagereq type="mandatory">bzip2-devel</packagereq>
+    <packagereq type="mandatory">cyrus-sasl-devel</packagereq>
+    <packagereq type="mandatory">dbus-glib-devel</packagereq>
+    <packagereq type="mandatory">elfutils-devel</packagereq>
+    <packagereq type="mandatory">elfutils-libelf-devel</packagereq>
+    <packagereq type="mandatory">evolution-data-server-devel</packagereq>
+    <packagereq type="mandatory">gnome-desktop-devel</packagereq>
+    <packagereq type="mandatory">gnome-keyring-devel</packagereq>
+    <packagereq type="mandatory">gstreamer-devel</packagereq>
+    <packagereq type="mandatory">gvfs-devel</packagereq>
+    <packagereq type="mandatory">hmaccalc</packagereq>
+    <packagereq type="mandatory">libacl-devel</packagereq>
+    <packagereq type="mandatory">libattr-devel</packagereq>
+    <packagereq type="mandatory">libcanberra-devel</packagereq>
+    <packagereq type="mandatory">libcap-ng-devel</packagereq>
+    <packagereq type="mandatory">libcgroup-devel</packagereq>
+    <packagereq type="mandatory">libcurl-devel</packagereq>
+    <packagereq type="mandatory">libgnome-devel</packagereq>
+    <packagereq type="mandatory">libnotify-devel</packagereq>
+    <packagereq type="mandatory">librsvg2-devel</packagereq>
+    <packagereq type="mandatory">libselinux-devel</packagereq>
+    <packagereq type="mandatory">libsoup-devel</packagereq>
+    <packagereq type="mandatory">mysql-devel</packagereq>
+    <packagereq type="mandatory">perl-ExtUtils-MakeMaker</packagereq>
+    <packagereq type="mandatory">perl-devel</packagereq>
+    <packagereq type="mandatory">polkit-devel</packagereq>
+    <packagereq type="mandatory">postgresql-devel</packagereq>
+    <packagereq type="mandatory">pulseaudio-libs-devel</packagereq>
+    <packagereq type="mandatory">pygtk2-devel</packagereq>
+    <packagereq type="mandatory">python-devel</packagereq>
+    <packagereq type="mandatory">readline-devel</packagereq>
+    <packagereq type="mandatory">sqlite-devel</packagereq>
+    <packagereq type="mandatory">PyQt4-devel</packagereq>
+    <packagereq type="mandatory">SDL-devel</packagereq>
+    <packagereq type="mandatory">cups-devel</packagereq>
+    <packagereq type="mandatory">e2fsprogs-devel</packagereq>
+    <packagereq type="mandatory">expat-devel</packagereq>
+    <packagereq type="mandatory">fuse-devel</packagereq>
+    <packagereq type="mandatory">gmp-devel</packagereq>
+    <packagereq type="mandatory">gnutls-devel</packagereq>
+    <packagereq type="mandatory">gstreamer-plugins-base-devel</packagereq>
+    <packagereq type="mandatory">httpd-devel</packagereq>
+    <packagereq type="mandatory">hunspell-devel</packagereq>
+    <packagereq type="mandatory">iptables-devel</packagereq>
+    <packagereq type="mandatory">junit</packagereq>
+    <packagereq type="mandatory">kdebase-devel</packagereq>
+    <packagereq type="mandatory">kdebase-workspace-devel</packagereq>
+    <packagereq type="mandatory">kdegraphics-devel</packagereq>
+    <packagereq type="mandatory">kdelibs-apidocs</packagereq>
+    <packagereq type="mandatory">kdelibs-devel</packagereq>
+    <packagereq type="mandatory">kdemultimedia-devel</packagereq>
+    <packagereq type="mandatory">kdenetwork-devel</packagereq>
+    <packagereq type="mandatory">kdepim-devel</packagereq>
+    <packagereq type="mandatory">kdepimlibs-devel</packagereq>
+    <packagereq type="mandatory">kdesdk-devel</packagereq>
+    <packagereq type="mandatory">libXau-devel</packagereq>
+    <packagereq type="mandatory">libXaw-devel</packagereq>
+    <packagereq type="mandatory">libXinerama-devel</packagereq>
+    <packagereq type="mandatory">libXmu-devel</packagereq>
+    <packagereq type="mandatory">libXpm-devel</packagereq>
+    <packagereq type="mandatory">libXrandr-devel</packagereq>
+    <packagereq type="mandatory">libaio-devel</packagereq>
+    <packagereq type="mandatory">libblkid-devel</packagereq>
+    <packagereq type="mandatory">libbonobo-devel</packagereq>
+    <packagereq type="mandatory">libcap-devel</packagereq>
+    <packagereq type="mandatory">libdrm-devel</packagereq>
+    <packagereq type="mandatory">libgcrypt-devel</packagereq>
+    <packagereq type="mandatory">libglade2-devel</packagereq>
+    <packagereq type="mandatory">libgnomeui-devel</packagereq>
+    <packagereq type="mandatory">libgudev1-devel</packagereq>
+    <packagereq type="mandatory">libhugetlbfs-devel</packagereq>
+    <packagereq type="mandatory">libibverbs-devel</packagereq>
+    <packagereq type="mandatory">libnl-devel</packagereq>
+    <packagereq type="mandatory">libtiff-devel</packagereq>
+    <packagereq type="mandatory">libtopology-devel</packagereq>
+    <packagereq type="mandatory">libudev-devel</packagereq>
+    <packagereq type="mandatory">libusb-devel</packagereq>
+    <packagereq type="mandatory">libuuid-devel</packagereq>
+    <packagereq type="mandatory">libxslt-devel</packagereq>
+    <packagereq type="mandatory">net-snmp-devel</packagereq>
+    <packagereq type="mandatory">numactl-devel</packagereq>
+    <packagereq type="mandatory">openmotif-devel</packagereq>
+    <packagereq type="mandatory">papi-devel</packagereq>
+    <packagereq type="mandatory">pcre-devel</packagereq>
+    <packagereq type="mandatory">perl-Test-Pod</packagereq>
+    <packagereq type="mandatory">perl-Test-Pod-Coverage</packagereq>
+    <packagereq type="mandatory">popt-devel</packagereq>
+    <packagereq type="mandatory">sane-backends-devel</packagereq>
+    <packagereq type="mandatory">startup-notification-devel</packagereq>
+    <packagereq type="mandatory">tcl-devel</packagereq>
+    <packagereq type="mandatory">tcp_wrappers-devel</packagereq>
+    <packagereq type="mandatory">tk-devel</packagereq>
+    <packagereq type="mandatory">unique-devel</packagereq>
+    <packagereq type="mandatory">unixODBC-devel</packagereq>
+    <packagereq type="mandatory">xorg-x11-proto-devel</packagereq>
+    <packagereq type="mandatory">xz-devel</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>afrikaans-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Afrikaans Support</name>
+  <description>Afrikaans Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hyphen-af</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>albanian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Albanian Support</name>
+  <description>Albanian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-sq</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>amazigh-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Amazigh Support</name>
+  <description>Amazigh Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ber</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>arabic-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Arabic Support</name>
+  <description>Arabic Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-mono-fonts</packagereq>
+    <packagereq type="mandatory">kacst-art-fonts</packagereq>
+    <packagereq type="mandatory">kacst-book-fonts</packagereq>
+    <packagereq type="mandatory">kacst-decorative-fonts</packagereq>
+    <packagereq type="mandatory">kacst-digital-fonts</packagereq>
+    <packagereq type="mandatory">kacst-farsi-fonts</packagereq>
+    <packagereq type="mandatory">kacst-letter-fonts</packagereq>
+    <packagereq type="mandatory">kacst-naskh-fonts</packagereq>
+    <packagereq type="mandatory">kacst-office-fonts</packagereq>
+    <packagereq type="mandatory">kacst-one-fonts</packagereq>
+    <packagereq type="mandatory">kacst-pen-fonts</packagereq>
+    <packagereq type="mandatory">kacst-poster-fonts</packagereq>
+    <packagereq type="mandatory">kacst-qurn-fonts</packagereq>
+    <packagereq type="mandatory">kacst-screen-fonts</packagereq>
+    <packagereq type="mandatory">kacst-title-fonts</packagereq>
+    <packagereq type="mandatory">kacst-titlel-fonts</packagereq>
+    <packagereq type="mandatory">paktype-naqsh-fonts</packagereq>
+    <packagereq type="mandatory">paktype-tehreer-fonts</packagereq>
+    <packagereq type="mandatory">eclipse-nls-ar</packagereq>
+    <packagereq type="mandatory">hunspell-ar</packagereq>
+    <packagereq type="mandatory">kde-i18n-Arabic</packagereq>
+    <packagereq type="mandatory">kde-l10n-Arabic</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>armenian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Armenian Support</name>
+  <description>Armenian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-hy</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>assamese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Assamese Support</name>
+  <description>Assamese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-assamese-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-assamese</packagereq>
+    <packagereq type="mandatory">m17n-db-assamese</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-as-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">hunspell-as</packagereq>
+    <packagereq type="mandatory">hyphen-as</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>azerbaijani-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Azerbaijani Support</name>
+  <description>Azerbaijani Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-az</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>backup-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Backup Client</name>
+  <description>Backup Client</description>
+   <packagelist>
+    <packagereq type="mandatory">amanda-client</packagereq>
+    <packagereq type="mandatory">bacula-client</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>base</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Base</name>
+  <description>Base</description>
+   <packagelist>
+    <packagereq type="mandatory">alsa-utils</packagereq>
+    <packagereq type="mandatory">at</packagereq>
+    <packagereq type="mandatory">authconfig</packagereq>
+    <packagereq type="mandatory">bc</packagereq>
+    <packagereq type="mandatory">bind-utils</packagereq>
+    <packagereq type="mandatory">crontabs</packagereq>
+    <packagereq type="mandatory">cyrus-sasl-plain</packagereq>
+    <packagereq type="mandatory">dbus</packagereq>
+    <packagereq type="mandatory">ed</packagereq>
+    <packagereq type="mandatory">file</packagereq>
+    <packagereq type="mandatory">logrotate</packagereq>
+    <packagereq type="mandatory">lsof</packagereq>
+    <packagereq type="mandatory">man</packagereq>
+    <packagereq type="mandatory">ntsysv</packagereq>
+    <packagereq type="mandatory">parted</packagereq>
+    <packagereq type="mandatory">pciutils</packagereq>
+    <packagereq type="mandatory">psacct</packagereq>
+    <packagereq type="mandatory">quota</packagereq>
+    <packagereq type="mandatory">redhat-indexhtml</packagereq>
+    <packagereq type="mandatory">setserial</packagereq>
+    <packagereq type="mandatory">tmpwatch</packagereq>
+    <packagereq type="mandatory">traceroute</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-en-US</packagereq>
+    <packagereq type="mandatory">abrt-addon-ccpp</packagereq>
+    <packagereq type="mandatory">abrt-addon-kerneloops</packagereq>
+    <packagereq type="mandatory">abrt-addon-python</packagereq>
+    <packagereq type="mandatory">abrt-cli</packagereq>
+    <packagereq type="mandatory">acpid</packagereq>
+    <packagereq type="mandatory">b43-fwcutter</packagereq>
+    <packagereq type="mandatory">blktrace</packagereq>
+    <packagereq type="mandatory">bridge-utils</packagereq>
+    <packagereq type="mandatory">bzip2</packagereq>
+    <packagereq type="mandatory">cpuspeed</packagereq>
+    <packagereq type="mandatory">cryptsetup-luks</packagereq>
+    <packagereq type="mandatory">dmraid</packagereq>
+    <packagereq type="mandatory">dosfstools</packagereq>
+    <packagereq type="mandatory">eject</packagereq>
+    <packagereq type="mandatory">ethtool</packagereq>
+    <packagereq type="mandatory">fprintd-pam</packagereq>
+    <packagereq type="mandatory">gnupg2</packagereq>
+    <packagereq type="mandatory">hunspell</packagereq>
+    <packagereq type="mandatory">irqbalance</packagereq>
+    <packagereq type="mandatory">kexec-tools</packagereq>
+    <packagereq type="mandatory">libaio</packagereq>
+    <packagereq type="mandatory">lvm2</packagereq>
+    <packagereq type="mandatory">man-pages</packagereq>
+    <packagereq type="mandatory">man-pages-overrides</packagereq>
+    <packagereq type="mandatory">mdadm</packagereq>
+    <packagereq type="mandatory">microcode_ctl</packagereq>
+    <packagereq type="mandatory">mlocate</packagereq>
+    <packagereq type="mandatory">mtr</packagereq>
+    <packagereq type="mandatory">nano</packagereq>
+    <packagereq type="mandatory">openssh-clients</packagereq>
+    <packagereq type="mandatory">pam_passwdqc</packagereq>
+    <packagereq type="mandatory">pcmciautils</packagereq>
+    <packagereq type="mandatory">pinfo</packagereq>
+    <packagereq type="mandatory">plymouth</packagereq>
+    <packagereq type="mandatory">pm-utils</packagereq>
+    <packagereq type="mandatory">prelink</packagereq>
+    <packagereq type="mandatory">rdate</packagereq>
+    <packagereq type="mandatory">readahead</packagereq>
+    <packagereq type="mandatory">rfkill</packagereq>
+    <packagereq type="mandatory">rng-tools</packagereq>
+    <packagereq type="mandatory">rsync</packagereq>
+    <packagereq type="mandatory">setuptool</packagereq>
+    <packagereq type="mandatory">smartmontools</packagereq>
+    <packagereq type="mandatory">sos</packagereq>
+    <packagereq type="mandatory">strace</packagereq>
+    <packagereq type="mandatory">sysstat</packagereq>
+    <packagereq type="mandatory">system-config-firewall-tui</packagereq>
+    <packagereq type="mandatory">system-config-network-tui</packagereq>
+    <packagereq type="mandatory">systemtap-runtime</packagereq>
+    <packagereq type="mandatory">tcpdump</packagereq>
+    <packagereq type="mandatory">tcsh</packagereq>
+    <packagereq type="mandatory">time</packagereq>
+    <packagereq type="mandatory">unzip</packagereq>
+    <packagereq type="mandatory">usbutils</packagereq>
+    <packagereq type="mandatory">vconfig</packagereq>
+    <packagereq type="mandatory">vim-enhanced</packagereq>
+    <packagereq type="mandatory">wget</packagereq>
+    <packagereq type="mandatory">which</packagereq>
+    <packagereq type="mandatory">wireless-tools</packagereq>
+    <packagereq type="mandatory">words</packagereq>
+    <packagereq type="mandatory">xz</packagereq>
+    <packagereq type="mandatory">yum-utils</packagereq>
+    <packagereq type="mandatory">zip</packagereq>
+    <packagereq type="mandatory">brltty</packagereq>
+    <packagereq type="mandatory">dos2unix</packagereq>
+    <packagereq type="mandatory">dumpet</packagereq>
+    <packagereq type="mandatory">ecryptfs-utils</packagereq>
+    <packagereq type="mandatory">edac-utils</packagereq>
+    <packagereq type="mandatory">genisoimage</packagereq>
+    <packagereq type="mandatory">gpm</packagereq>
+    <packagereq type="mandatory">kernel-doc</packagereq>
+    <packagereq type="mandatory">logwatch</packagereq>
+    <packagereq type="mandatory">mkbootdisk</packagereq>
+    <packagereq type="mandatory">mtools</packagereq>
+    <packagereq type="mandatory">ncurses-term</packagereq>
+    <packagereq type="mandatory">nss_db</packagereq>
+    <packagereq type="mandatory">oddjob</packagereq>
+    <packagereq type="mandatory">pax</packagereq>
+    <packagereq type="mandatory">python-dmidecode</packagereq>
+    <packagereq type="mandatory">python-volume_key</packagereq>
+    <packagereq type="mandatory">rsyslog-gnutls</packagereq>
+    <packagereq type="mandatory">rsyslog-gssapi</packagereq>
+    <packagereq type="mandatory">rsyslog-relp</packagereq>
+    <packagereq type="mandatory">sgpio</packagereq>
+    <packagereq type="mandatory">sox</packagereq>
+    <packagereq type="mandatory">squashfs-tools</packagereq>
+    <packagereq type="mandatory">star</packagereq>
+    <packagereq type="mandatory">tunctl</packagereq>
+    <packagereq type="mandatory">udftools</packagereq>
+    <packagereq type="mandatory">unix2dos</packagereq>
+    <packagereq type="mandatory">uuidd</packagereq>
+    <packagereq type="mandatory">volume_key</packagereq>
+    <packagereq type="mandatory">wodim</packagereq>
+    <packagereq type="mandatory">x86info</packagereq>
+    <packagereq type="mandatory">yum-plugin-aliases</packagereq>
+    <packagereq type="mandatory">yum-plugin-changelog</packagereq>
+    <packagereq type="mandatory">yum-plugin-downloadonly</packagereq>
+    <packagereq type="mandatory">yum-plugin-security</packagereq>
+    <packagereq type="mandatory">yum-plugin-tmprepo</packagereq>
+    <packagereq type="mandatory">yum-plugin-verify</packagereq>
+    <packagereq type="mandatory">yum-plugin-versionlock</packagereq>
+    <packagereq type="mandatory">yum-presto</packagereq>
+    <packagereq type="mandatory">zsh</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>basic-desktop</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Desktop</name>
+  <description>Desktop</description>
+   <packagelist>
+    <packagereq type="mandatory">NetworkManager</packagereq>
+    <packagereq type="mandatory">NetworkManager-gnome</packagereq>
+    <packagereq type="mandatory">alsa-plugins-pulseaudio</packagereq>
+    <packagereq type="mandatory">at-spi</packagereq>
+    <packagereq type="mandatory">control-center</packagereq>
+    <packagereq type="mandatory">dbus</packagereq>
+    <packagereq type="mandatory">gdm</packagereq>
+    <packagereq type="mandatory">gdm-user-switch-applet</packagereq>
+    <packagereq type="mandatory">gnome-panel</packagereq>
+    <packagereq type="mandatory">gnome-power-manager</packagereq>
+    <packagereq type="mandatory">gnome-screensaver</packagereq>
+    <packagereq type="mandatory">gnome-session</packagereq>
+    <packagereq type="mandatory">gnome-terminal</packagereq>
+    <packagereq type="mandatory">gvfs-archive</packagereq>
+    <packagereq type="mandatory">gvfs-fuse</packagereq>
+    <packagereq type="mandatory">gvfs-smb</packagereq>
+    <packagereq type="mandatory">metacity</packagereq>
+    <packagereq type="mandatory">nautilus</packagereq>
+    <packagereq type="mandatory">notification-daemon</packagereq>
+    <packagereq type="mandatory">polkit-gnome</packagereq>
+    <packagereq type="mandatory">xdg-user-dirs-gtk</packagereq>
+    <packagereq type="mandatory">yelp</packagereq>
+    <packagereq type="mandatory">eog</packagereq>
+    <packagereq type="mandatory">gdm-plugin-fingerprint</packagereq>
+    <packagereq type="mandatory">gnome-applets</packagereq>
+    <packagereq type="mandatory">gnome-media</packagereq>
+    <packagereq type="mandatory">gnome-packagekit</packagereq>
+    <packagereq type="mandatory">gnome-vfs2-smb</packagereq>
+    <packagereq type="mandatory">gok</packagereq>
+    <packagereq type="mandatory">openssh-askpass</packagereq>
+    <packagereq type="mandatory">orca</packagereq>
+    <packagereq type="mandatory">pulseaudio-module-gconf</packagereq>
+    <packagereq type="mandatory">pulseaudio-module-x11</packagereq>
+    <packagereq type="mandatory">rhn-setup-gnome</packagereq>
+    <packagereq type="mandatory">vino</packagereq>
+    <packagereq type="mandatory">control-center-extra</packagereq>
+    <packagereq type="mandatory">sabayon-apply</packagereq>
+    <packagereq type="mandatory">tigervnc-server</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>basque-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Basque Support</name>
+  <description>Basque Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-eu</packagereq>
+    <packagereq type="mandatory">kde-l10n-Basque</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>belarusian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Belarusian Support</name>
+  <description>Belarusian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-be</packagereq>
+    <packagereq type="mandatory">hyphen-be</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>bengali-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Bengali Support</name>
+  <description>Bengali Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-bengali-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-bengali</packagereq>
+    <packagereq type="mandatory">m17n-db-bengali</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-bn-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">hunspell-bn</packagereq>
+    <packagereq type="mandatory">hyphen-bn</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-i18n-Bengali</packagereq>
+    <packagereq type="mandatory">kde-l10n-Bengali-India</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>bhutanese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Bhutanese Support</name>
+  <description>Bhutanese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">jomolhari-fonts</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>brazilian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Brazilian Portuguese Support</name>
+  <description>Brazilian Portuguese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-pt-BR</packagereq>
+    <packagereq type="mandatory">eclipse-nls-pt_BR</packagereq>
+    <packagereq type="mandatory">hunspell-pt</packagereq>
+    <packagereq type="mandatory">hyphen-pt</packagereq>
+    <packagereq type="mandatory">kde-i18n-Brazil</packagereq>
+    <packagereq type="mandatory">kde-l10n-Brazil</packagereq>
+    <packagereq type="mandatory">mythes-pt</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>breton-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Breton Support</name>
+  <description>Breton Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-br</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>british-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>English (UK) Support</name>
+  <description>English (UK) Support</description>
+   <packagelist>
+    <packagereq type="mandatory">kde-i18n-British</packagereq>
+    <packagereq type="mandatory">kde-l10n-British</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>bulgarian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Bulgarian Support</name>
+  <description>Bulgarian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-bg</packagereq>
+    <packagereq type="mandatory">hunspell-bg</packagereq>
+    <packagereq type="mandatory">hyphen-bg</packagereq>
+    <packagereq type="mandatory">kde-i18n-Bulgarian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Bulgarian</packagereq>
+    <packagereq type="mandatory">mythes-bg</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>burmese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Myanmar (Burmese) Support</name>
+  <description>Myanmar (Burmese) Support</description>
+   <packagelist>
+    <packagereq type="mandatory">sil-padauk-fonts</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>catalan-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Catalan Support</name>
+  <description>Catalan Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ca</packagereq>
+    <packagereq type="mandatory">hyphen-ca</packagereq>
+    <packagereq type="mandatory">kde-i18n-Catalan</packagereq>
+    <packagereq type="mandatory">kde-l10n-Catalan</packagereq>
+    <packagereq type="mandatory">mythes-ca</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>chhattisgarhi-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Chhattisgarhi Support</name>
+  <description>Chhattisgarhi Support</description>
+   <packagelist>
+    <packagereq type="mandatory">kde-l10n-Chhattisgarhi</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>chichewa-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Chichewa Support</name>
+  <description>Chichewa Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ny</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>chinese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Chinese Support</name>
+  <description>Chinese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-zh-CN</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-zh-TW</packagereq>
+    <packagereq type="mandatory">cjkuni-ukai-fonts</packagereq>
+    <packagereq type="mandatory">cjkuni-uming-fonts</packagereq>
+    <packagereq type="mandatory">ibus-table-cangjie</packagereq>
+    <packagereq type="mandatory">ibus-table-erbi</packagereq>
+    <packagereq type="mandatory">ibus-table-wubi</packagereq>
+    <packagereq type="mandatory">wqy-zenhei-fonts</packagereq>
+    <packagereq type="mandatory">cjkuni-fonts-ghostscript</packagereq>
+    <packagereq type="mandatory">eclipse-nls-zh</packagereq>
+    <packagereq type="mandatory">eclipse-nls-zh_TW</packagereq>
+    <packagereq type="mandatory">ibus-chewing</packagereq>
+    <packagereq type="mandatory">ibus-pinyin</packagereq>
+    <packagereq type="mandatory">kde-i18n-Chinese</packagereq>
+    <packagereq type="mandatory">kde-i18n-Chinese-Big5</packagereq>
+    <packagereq type="mandatory">kde-l10n-Chinese</packagereq>
+    <packagereq type="mandatory">kde-l10n-Chinese-Traditional</packagereq>
+    <packagereq type="mandatory">openoffice.org-langpack-zh_TW</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>cifs-file-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>CIFS file server</name>
+  <description>CIFS file server</description>
+   <packagelist>
+    <packagereq type="mandatory">samba</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>compat-libraries</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Compatibility libraries</name>
+  <description>Compatibility libraries</description>
+   <packagelist>
+    <packagereq type="mandatory">compat-db</packagereq>
+    <packagereq type="mandatory">compat-expat1</packagereq>
+    <packagereq type="mandatory">compat-glibc</packagereq>
+    <packagereq type="mandatory">compat-libcap1</packagereq>
+    <packagereq type="mandatory">compat-libf2c-34</packagereq>
+    <packagereq type="mandatory">compat-libgcc-296</packagereq>
+    <packagereq type="mandatory">compat-libgfortran-41</packagereq>
+    <packagereq type="mandatory">compat-libstdc++-296</packagereq>
+    <packagereq type="mandatory">compat-libstdc++-33</packagereq>
+    <packagereq type="mandatory">compat-libtermcap</packagereq>
+    <packagereq type="mandatory">compat-openldap</packagereq>
+    <packagereq type="mandatory">openssl098e</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>console-internet</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Console internet tools</name>
+  <description>Console internet tools</description>
+   <packagelist>
+    <packagereq type="mandatory">elinks</packagereq>
+    <packagereq type="mandatory">fetchmail</packagereq>
+    <packagereq type="mandatory">ftp</packagereq>
+    <packagereq type="mandatory">irssi</packagereq>
+    <packagereq type="mandatory">jwhois</packagereq>
+    <packagereq type="mandatory">lftp</packagereq>
+    <packagereq type="mandatory">mutt</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>coptic-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Coptic Support</name>
+  <description>Coptic Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-cop</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>core</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Core</name>
+  <description>Core</description>
+   <packagelist>
+    <packagereq type="mandatory">acl</packagereq>
+    <packagereq type="mandatory">aic94xx-firmware</packagereq>
+    <packagereq type="mandatory">atmel-firmware</packagereq>
+    <packagereq type="mandatory">attr</packagereq>
+    <packagereq type="mandatory">audit</packagereq>
+    <packagereq type="mandatory">b43-openfwwf</packagereq>
+    <packagereq type="mandatory">basesystem</packagereq>
+    <packagereq type="mandatory">bash</packagereq>
+    <packagereq type="mandatory">bfa-firmware</packagereq>
+    <packagereq type="mandatory">coreutils</packagereq>
+    <packagereq type="mandatory">cpio</packagereq>
+    <packagereq type="mandatory">cronie</packagereq>
+    <packagereq type="mandatory">dhclient</packagereq>
+    <packagereq type="mandatory">e2fsprogs</packagereq>
+    <packagereq type="mandatory">filesystem</packagereq>
+    <packagereq type="mandatory">glibc</packagereq>
+    <packagereq type="mandatory">initscripts</packagereq>
+    <packagereq type="mandatory">iproute</packagereq>
+    <packagereq type="mandatory">iptables</packagereq>
+    <packagereq type="mandatory">iptables-ipv6</packagereq>
+    <packagereq type="mandatory">iputils</packagereq>
+    <packagereq type="mandatory">ipw2100-firmware</packagereq>
+    <packagereq type="mandatory">ipw2200-firmware</packagereq>
+    <packagereq type="mandatory">ivtv-firmware</packagereq>
+    <packagereq type="mandatory">iwl1000-firmware</packagereq>
+    <packagereq type="mandatory">iwl3945-firmware</packagereq>
+    <packagereq type="mandatory">iwl4965-firmware</packagereq>
+    <packagereq type="mandatory">iwl5000-firmware</packagereq>
+    <packagereq type="mandatory">iwl5150-firmware</packagereq>
+    <packagereq type="mandatory">iwl6000-firmware</packagereq>
+    <packagereq type="mandatory">iwl6050-firmware</packagereq>
+    <packagereq type="mandatory">kbd</packagereq>
+    <packagereq type="mandatory">kernel-firmware</packagereq>
+    <packagereq type="mandatory">libertas-usb8388-firmware</packagereq>
+    <packagereq type="mandatory">ncurses</packagereq>
+    <packagereq type="mandatory">openssh-server</packagereq>
+    <packagereq type="mandatory">passwd</packagereq>
+    <packagereq type="mandatory">policycoreutils</packagereq>
+    <packagereq type="mandatory">postfix</packagereq>
+    <packagereq type="mandatory">procps</packagereq>
+    <packagereq type="mandatory">ql2100-firmware</packagereq>
+    <packagereq type="mandatory">ql2200-firmware</packagereq>
+    <packagereq type="mandatory">ql23xx-firmware</packagereq>
+    <packagereq type="mandatory">ql2400-firmware</packagereq>
+    <packagereq type="mandatory">ql2500-firmware</packagereq>
+    <packagereq type="mandatory">rhnsd</packagereq>
+    <packagereq type="mandatory">rootfiles</packagereq>
+    <packagereq type="mandatory">rpm</packagereq>
+    <packagereq type="mandatory">rsyslog</packagereq>
+    <packagereq type="mandatory">rt61pci-firmware</packagereq>
+    <packagereq type="mandatory">rt73usb-firmware</packagereq>
+    <packagereq type="mandatory">selinux-policy-targeted</packagereq>
+    <packagereq type="mandatory">setup</packagereq>
+    <packagereq type="mandatory">shadow-utils</packagereq>
+    <packagereq type="mandatory">sudo</packagereq>
+    <packagereq type="mandatory">util-linux-ng</packagereq>
+    <packagereq type="mandatory">vim-minimal</packagereq>
+    <packagereq type="mandatory">xorg-x11-drv-ati-firmware</packagereq>
+    <packagereq type="mandatory">yum</packagereq>
+    <packagereq type="mandatory">yum-rhn-plugin</packagereq>
+    <packagereq type="mandatory">zd1211-firmware</packagereq>
+    <packagereq type="mandatory">efibootmgr</packagereq>
+    <packagereq type="mandatory">grub</packagereq>
+    <packagereq type="mandatory">dracut-fips</packagereq>
+    <packagereq type="mandatory">dracut-network</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>croatian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Croatian Support</name>
+  <description>Croatian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-hr</packagereq>
+    <packagereq type="mandatory">hyphen-hr</packagereq>
+    <packagereq type="mandatory">kde-l10n-Croatian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>czech-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Czech Support</name>
+  <description>Czech Support</description>
+   <packagelist>
+    <packagereq type="mandatory">m17n-contrib-czech</packagereq>
+    <packagereq type="mandatory">eclipse-nls-cs</packagereq>
+    <packagereq type="mandatory">hunspell-cs</packagereq>
+    <packagereq type="mandatory">hyphen-cs</packagereq>
+    <packagereq type="mandatory">kde-i18n-Czech</packagereq>
+    <packagereq type="mandatory">kde-l10n-Czech</packagereq>
+    <packagereq type="mandatory">man-pages-cs</packagereq>
+    <packagereq type="mandatory">mythes-cs</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>danish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Danish Support</name>
+  <description>Danish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-da</packagereq>
+    <packagereq type="mandatory">hunspell-da</packagereq>
+    <packagereq type="mandatory">hyphen-da</packagereq>
+    <packagereq type="mandatory">kde-i18n-Danish</packagereq>
+    <packagereq type="mandatory">kde-l10n-Danish</packagereq>
+    <packagereq type="mandatory">mythes-da</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>debugging</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Debugging Tools</name>
+  <description>Debugging Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">gdb</packagereq>
+    <packagereq type="mandatory">kexec-tools</packagereq>
+    <packagereq type="mandatory">latrace</packagereq>
+    <packagereq type="mandatory">strace</packagereq>
+    <packagereq type="mandatory">systemtap-runtime</packagereq>
+    <packagereq type="mandatory">abrt-addon-ccpp</packagereq>
+    <packagereq type="mandatory">abrt-addon-python</packagereq>
+    <packagereq type="mandatory">abrt-cli</packagereq>
+    <packagereq type="mandatory">cas</packagereq>
+    <packagereq type="mandatory">crash</packagereq>
+    <packagereq type="mandatory">crash-trace-command</packagereq>
+    <packagereq type="mandatory">elfutils</packagereq>
+    <packagereq type="mandatory">ltrace</packagereq>
+    <packagereq type="mandatory">trace-cmd</packagereq>
+    <packagereq type="mandatory">valgrind</packagereq>
+    <packagereq type="mandatory">flightrecorder</packagereq>
+    <packagereq type="mandatory">gdb-gdbserver</packagereq>
+    <packagereq type="mandatory">glibc-utils</packagereq>
+    <packagereq type="mandatory">lslk</packagereq>
+    <packagereq type="mandatory">memtest86+</packagereq>
+    <packagereq type="mandatory">systemtap-client</packagereq>
+    <packagereq type="mandatory">systemtap-initscript</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>desktop-debugging</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Desktop Debugging and Performance Tools</name>
+  <description>Desktop Debugging and Performance Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">abrt-desktop</packagereq>
+    <packagereq type="mandatory">abrt-gui</packagereq>
+    <packagereq type="mandatory">bltk</packagereq>
+    <packagereq type="mandatory">oprofile-gui</packagereq>
+    <packagereq type="mandatory">systemtap-grapher</packagereq>
+    <packagereq type="mandatory">xrestop</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>desktop-platform</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Desktop Platform</name>
+  <description>Desktop Platform</description>
+   <packagelist>
+    <packagereq type="mandatory">atk</packagereq>
+    <packagereq type="mandatory">cairo</packagereq>
+    <packagereq type="mandatory">dbus</packagereq>
+    <packagereq type="mandatory">dbus-libs</packagereq>
+    <packagereq type="mandatory">fontconfig</packagereq>
+    <packagereq type="mandatory">freetype</packagereq>
+    <packagereq type="mandatory">glib2</packagereq>
+    <packagereq type="mandatory">gtk2</packagereq>
+    <packagereq type="mandatory">libICE</packagereq>
+    <packagereq type="mandatory">libSM</packagereq>
+    <packagereq type="mandatory">libX11</packagereq>
+    <packagereq type="mandatory">libXext</packagereq>
+    <packagereq type="mandatory">libXft</packagereq>
+    <packagereq type="mandatory">libXi</packagereq>
+    <packagereq type="mandatory">libXrender</packagereq>
+    <packagereq type="mandatory">libXt</packagereq>
+    <packagereq type="mandatory">libXtst</packagereq>
+    <packagereq type="mandatory">libpng</packagereq>
+    <packagereq type="mandatory">libxml2</packagereq>
+    <packagereq type="mandatory">mesa-libGL</packagereq>
+    <packagereq type="mandatory">mesa-libGLU</packagereq>
+    <packagereq type="mandatory">pango</packagereq>
+    <packagereq type="mandatory">qt</packagereq>
+    <packagereq type="mandatory">qt3</packagereq>
+    <packagereq type="mandatory">redhat-lsb-graphics</packagereq>
+    <packagereq type="mandatory">redhat-lsb-printing</packagereq>
+    <packagereq type="mandatory">qt-mysql</packagereq>
+    <packagereq type="mandatory">qt-odbc</packagereq>
+    <packagereq type="mandatory">qt-postgresql</packagereq>
+    <packagereq type="mandatory">qt3-MySQL</packagereq>
+    <packagereq type="mandatory">qt3-ODBC</packagereq>
+    <packagereq type="mandatory">qt3-PostgreSQL</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>desktop-platform-devel</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Desktop Platform Development</name>
+  <description>Desktop Platform Development</description>
+   <packagelist>
+    <packagereq type="mandatory">atk-devel</packagereq>
+    <packagereq type="mandatory">cairo-devel</packagereq>
+    <packagereq type="mandatory">dbus-devel</packagereq>
+    <packagereq type="mandatory">fontconfig-devel</packagereq>
+    <packagereq type="mandatory">freetype-devel</packagereq>
+    <packagereq type="mandatory">glib2-devel</packagereq>
+    <packagereq type="mandatory">gtk2-devel</packagereq>
+    <packagereq type="mandatory">libICE-devel</packagereq>
+    <packagereq type="mandatory">libSM-devel</packagereq>
+    <packagereq type="mandatory">libX11-devel</packagereq>
+    <packagereq type="mandatory">libXext-devel</packagereq>
+    <packagereq type="mandatory">libXft-devel</packagereq>
+    <packagereq type="mandatory">libXi-devel</packagereq>
+    <packagereq type="mandatory">libXrender-devel</packagereq>
+    <packagereq type="mandatory">libXt-devel</packagereq>
+    <packagereq type="mandatory">libXtst-devel</packagereq>
+    <packagereq type="mandatory">libpng-devel</packagereq>
+    <packagereq type="mandatory">libxml2-devel</packagereq>
+    <packagereq type="mandatory">mesa-libGL-devel</packagereq>
+    <packagereq type="mandatory">mesa-libGLU-devel</packagereq>
+    <packagereq type="mandatory">pango-devel</packagereq>
+    <packagereq type="mandatory">qt-devel</packagereq>
+    <packagereq type="mandatory">qt3-devel</packagereq>
+    <packagereq type="mandatory">xorg-x11-docs</packagereq>
+    <packagereq type="mandatory">desktop-file-utils</packagereq>
+    <packagereq type="mandatory">glade3</packagereq>
+    <packagereq type="mandatory">gnome-common</packagereq>
+    <packagereq type="mandatory">gnome-devel-docs</packagereq>
+    <packagereq type="mandatory">gtk2-devel-docs</packagereq>
+    <packagereq type="mandatory">kdesdk</packagereq>
+    <packagereq type="mandatory">qt-doc</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>development</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Development tools</name>
+  <description>Development tools</description>
+   <packagelist>
+    <packagereq type="mandatory">autoconf</packagereq>
+    <packagereq type="mandatory">automake</packagereq>
+    <packagereq type="mandatory">binutils</packagereq>
+    <packagereq type="mandatory">bison</packagereq>
+    <packagereq type="mandatory">flex</packagereq>
+    <packagereq type="mandatory">gcc</packagereq>
+    <packagereq type="mandatory">gcc-c++</packagereq>
+    <packagereq type="mandatory">gettext</packagereq>
+    <packagereq type="mandatory">libtool</packagereq>
+    <packagereq type="mandatory">make</packagereq>
+    <packagereq type="mandatory">patch</packagereq>
+    <packagereq type="mandatory">pkgconfig</packagereq>
+    <packagereq type="mandatory">redhat-rpm-config</packagereq>
+    <packagereq type="mandatory">rpm-build</packagereq>
+    <packagereq type="mandatory">byacc</packagereq>
+    <packagereq type="mandatory">cscope</packagereq>
+    <packagereq type="mandatory">ctags</packagereq>
+    <packagereq type="mandatory">cvs</packagereq>
+    <packagereq type="mandatory">diffstat</packagereq>
+    <packagereq type="mandatory">doxygen</packagereq>
+    <packagereq type="mandatory">elfutils</packagereq>
+    <packagereq type="mandatory">gcc-gfortran</packagereq>
+    <packagereq type="mandatory">git</packagereq>
+    <packagereq type="mandatory">indent</packagereq>
+    <packagereq type="mandatory">intltool</packagereq>
+    <packagereq type="mandatory">patchutils</packagereq>
+    <packagereq type="mandatory">rcs</packagereq>
+    <packagereq type="mandatory">subversion</packagereq>
+    <packagereq type="mandatory">swig</packagereq>
+    <packagereq type="mandatory">systemtap</packagereq>
+    <packagereq type="mandatory">ElectricFence</packagereq>
+    <packagereq type="mandatory">ant</packagereq>
+    <packagereq type="mandatory">babel</packagereq>
+    <packagereq type="mandatory">bzr</packagereq>
+    <packagereq type="mandatory">chrpath</packagereq>
+    <packagereq type="mandatory">cmake</packagereq>
+    <packagereq type="mandatory">compat-gcc-34</packagereq>
+    <packagereq type="mandatory">compat-gcc-34-c++</packagereq>
+    <packagereq type="mandatory">compat-gcc-34-g77</packagereq>
+    <packagereq type="mandatory">dejagnu</packagereq>
+    <packagereq type="mandatory">expect</packagereq>
+    <packagereq type="mandatory">gcc-gnat</packagereq>
+    <packagereq type="mandatory">gcc-java</packagereq>
+    <packagereq type="mandatory">gcc-objc</packagereq>
+    <packagereq type="mandatory">gcc-objc++</packagereq>
+    <packagereq type="mandatory">imake</packagereq>
+    <packagereq type="mandatory">jpackage-utils</packagereq>
+    <packagereq type="mandatory">libstdc++-docs</packagereq>
+    <packagereq type="mandatory">mercurial</packagereq>
+    <packagereq type="mandatory">mod_dav_svn</packagereq>
+    <packagereq type="mandatory">nasm</packagereq>
+    <packagereq type="mandatory">perltidy</packagereq>
+    <packagereq type="mandatory">python-docs</packagereq>
+    <packagereq type="mandatory">rpmdevtools</packagereq>
+    <packagereq type="mandatory">rpmlint</packagereq>
+    <packagereq type="mandatory">systemtap-sdt-devel</packagereq>
+    <packagereq type="mandatory">systemtap-server</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>dial-up</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Dial-up Networking Support</name>
+  <description>Dial-up Networking Support</description>
+   <packagelist>
+    <packagereq type="mandatory">ppp</packagereq>
+    <packagereq type="mandatory">lrzsz</packagereq>
+    <packagereq type="mandatory">minicom</packagereq>
+    <packagereq type="mandatory">wvdial</packagereq>
+    <packagereq type="mandatory">efax</packagereq>
+    <packagereq type="mandatory">isdn4k-utils</packagereq>
+    <packagereq type="mandatory">pptp</packagereq>
+    <packagereq type="mandatory">rp-pppoe</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>directory-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Directory Client</name>
+  <description>Directory Client</description>
+   <packagelist>
+    <packagereq type="mandatory">ipa-client</packagereq>
+    <packagereq type="mandatory">oddjob-mkhomedir</packagereq>
+    <packagereq type="mandatory">sssd</packagereq>
+    <packagereq type="mandatory">ypbind</packagereq>
+    <packagereq type="mandatory">certmonger</packagereq>
+    <packagereq type="mandatory">hesinfo</packagereq>
+    <packagereq type="mandatory">krb5-appl-clients</packagereq>
+    <packagereq type="mandatory">krb5-pkinit-openssl</packagereq>
+    <packagereq type="mandatory">krb5-workstation</packagereq>
+    <packagereq type="mandatory">ldapjdk</packagereq>
+    <packagereq type="mandatory">nscd</packagereq>
+    <packagereq type="mandatory">nss-pam-ldapd</packagereq>
+    <packagereq type="mandatory">openldap-clients</packagereq>
+    <packagereq type="mandatory">pam_krb5</packagereq>
+    <packagereq type="mandatory">pam_ldap</packagereq>
+    <packagereq type="mandatory">samba-winbind</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>directory-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Directory Server</name>
+  <description>Directory Server</description>
+   <packagelist>
+    <packagereq type="mandatory">krb5-server</packagereq>
+    <packagereq type="mandatory">krb5-server-ldap</packagereq>
+    <packagereq type="mandatory">migrationtools</packagereq>
+    <packagereq type="mandatory">openldap-servers</packagereq>
+    <packagereq type="mandatory">samba</packagereq>
+    <packagereq type="mandatory">ypserv</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>dutch-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Dutch Support</name>
+  <description>Dutch Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-nl</packagereq>
+    <packagereq type="mandatory">hunspell-nl</packagereq>
+    <packagereq type="mandatory">hyphen-nl</packagereq>
+    <packagereq type="mandatory">kde-i18n-Dutch</packagereq>
+    <packagereq type="mandatory">kde-l10n-Dutch</packagereq>
+    <packagereq type="mandatory">mythes-nl</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>eclipse</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Eclipse</name>
+  <description>Eclipse</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-cdt</packagereq>
+    <packagereq type="mandatory">eclipse-jdt</packagereq>
+    <packagereq type="mandatory">eclipse-callgraph</packagereq>
+    <packagereq type="mandatory">eclipse-changelog</packagereq>
+    <packagereq type="mandatory">eclipse-mylyn</packagereq>
+    <packagereq type="mandatory">eclipse-mylyn-java</packagereq>
+    <packagereq type="mandatory">eclipse-oprofile</packagereq>
+    <packagereq type="mandatory">eclipse-rpm-editor</packagereq>
+    <packagereq type="mandatory">eclipse-subclipse</packagereq>
+    <packagereq type="mandatory">eclipse-valgrind</packagereq>
+    <packagereq type="mandatory">eclipse-mylyn-cdt</packagereq>
+    <packagereq type="mandatory">eclipse-mylyn-pde</packagereq>
+    <packagereq type="mandatory">eclipse-mylyn-trac</packagereq>
+    <packagereq type="mandatory">eclipse-mylyn-webtasks</packagereq>
+    <packagereq type="mandatory">eclipse-mylyn-wikitext</packagereq>
+    <packagereq type="mandatory">eclipse-pde</packagereq>
+    <packagereq type="mandatory">eclipse-subclipse-graph</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>emacs</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Emacs</name>
+  <description>Emacs</description>
+   <packagelist>
+    <packagereq type="mandatory">emacs</packagereq>
+    <packagereq type="mandatory">ctags-etags</packagereq>
+    <packagereq type="mandatory">emacs-auctex</packagereq>
+    <packagereq type="mandatory">emacs-gnuplot</packagereq>
+    <packagereq type="mandatory">emacs-nox</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>esperanto-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Esperanto Support</name>
+  <description>Esperanto Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-eo</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>estonian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Estonian Support</name>
+  <description>Estonian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-et</packagereq>
+    <packagereq type="mandatory">hunspell-et</packagereq>
+    <packagereq type="mandatory">hyphen-et</packagereq>
+    <packagereq type="mandatory">kde-i18n-Estonian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Estonian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>ethiopic-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Ethiopic Support</name>
+  <description>Ethiopic Support</description>
+   <packagelist>
+    <packagereq type="mandatory">abyssinica-fonts</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>faroese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Faroese Support</name>
+  <description>Faroese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-fo</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>fijian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Fijian Support</name>
+  <description>Fijian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-fj</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>filipino-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Filipino Support</name>
+  <description>Filipino Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-tl</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>finnish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Finnish Support</name>
+  <description>Finnish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-fi</packagereq>
+    <packagereq type="mandatory">kde-i18n-Finnish</packagereq>
+    <packagereq type="mandatory">kde-l10n-Finnish</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>fonts</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Fonts</name>
+  <description>Fonts</description>
+   <packagelist>
+    <packagereq type="mandatory">abyssinica-fonts</packagereq>
+    <packagereq type="mandatory">cjkuni-uming-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-mono-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-serif-fonts</packagereq>
+    <packagereq type="mandatory">jomolhari-fonts</packagereq>
+    <packagereq type="mandatory">khmeros-base-fonts</packagereq>
+    <packagereq type="mandatory">kurdit-unikurd-web-fonts</packagereq>
+    <packagereq type="mandatory">liberation-mono-fonts</packagereq>
+    <packagereq type="mandatory">liberation-sans-fonts</packagereq>
+    <packagereq type="mandatory">liberation-serif-fonts</packagereq>
+    <packagereq type="mandatory">lklug-fonts</packagereq>
+    <packagereq type="mandatory">lohit-assamese-fonts</packagereq>
+    <packagereq type="mandatory">lohit-bengali-fonts</packagereq>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">lohit-gujarati-fonts</packagereq>
+    <packagereq type="mandatory">lohit-kannada-fonts</packagereq>
+    <packagereq type="mandatory">lohit-oriya-fonts</packagereq>
+    <packagereq type="mandatory">lohit-punjabi-fonts</packagereq>
+    <packagereq type="mandatory">lohit-tamil-fonts</packagereq>
+    <packagereq type="mandatory">lohit-telugu-fonts</packagereq>
+    <packagereq type="mandatory">madan-fonts</packagereq>
+    <packagereq type="mandatory">paktype-naqsh-fonts</packagereq>
+    <packagereq type="mandatory">paktype-tehreer-fonts</packagereq>
+    <packagereq type="mandatory">sil-padauk-fonts</packagereq>
+    <packagereq type="mandatory">smc-meera-fonts</packagereq>
+    <packagereq type="mandatory">stix-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-waree-fonts</packagereq>
+    <packagereq type="mandatory">tibetan-machine-uni-fonts</packagereq>
+    <packagereq type="mandatory">un-core-dotum-fonts</packagereq>
+    <packagereq type="mandatory">vlgothic-fonts</packagereq>
+    <packagereq type="mandatory">wqy-zenhei-fonts</packagereq>
+    <packagereq type="mandatory">bitmap-fixed-fonts</packagereq>
+    <packagereq type="mandatory">bitmap-lucida-typewriter-fonts</packagereq>
+    <packagereq type="mandatory">cjkuni-fonts-ghostscript</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>french-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>French Support</name>
+  <description>French Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-fr-FR</packagereq>
+    <packagereq type="mandatory">eclipse-nls-fr</packagereq>
+    <packagereq type="mandatory">hunspell-fr</packagereq>
+    <packagereq type="mandatory">hyphen-fr</packagereq>
+    <packagereq type="mandatory">kde-i18n-French</packagereq>
+    <packagereq type="mandatory">kde-l10n-French</packagereq>
+    <packagereq type="mandatory">mythes-fr</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>frisian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Frisian Support</name>
+  <description>Frisian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-fy</packagereq>
+    <packagereq type="mandatory">kde-l10n-Frisian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>friulian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Friulian Support</name>
+  <description>Friulian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-fur</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>ftp-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>FTP server</name>
+  <description>FTP server</description>
+   <packagelist>
+    <packagereq type="mandatory">vsftpd</packagereq>
+    <packagereq type="mandatory">xferstats</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>gaelic-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Gaelic Support</name>
+  <description>Gaelic Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-gd</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>galician-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Galician Support</name>
+  <description>Galician Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-gl</packagereq>
+    <packagereq type="mandatory">kde-l10n-Galician</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>general-desktop</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>General Purpose Desktop</name>
+  <description>General Purpose Desktop</description>
+   <packagelist>
+    <packagereq type="mandatory">PackageKit-gstreamer-plugin</packagereq>
+    <packagereq type="mandatory">authconfig-gtk</packagereq>
+    <packagereq type="mandatory">brasero-nautilus</packagereq>
+    <packagereq type="mandatory">cheese</packagereq>
+    <packagereq type="mandatory">compiz-gnome</packagereq>
+    <packagereq type="mandatory">evince</packagereq>
+    <packagereq type="mandatory">evince-dvi</packagereq>
+    <packagereq type="mandatory">file-roller</packagereq>
+    <packagereq type="mandatory">gcalctool</packagereq>
+    <packagereq type="mandatory">gedit</packagereq>
+    <packagereq type="mandatory">gnome-backgrounds</packagereq>
+    <packagereq type="mandatory">gnome-bluetooth</packagereq>
+    <packagereq type="mandatory">gnome-disk-utility</packagereq>
+    <packagereq type="mandatory">gnome-power-manager</packagereq>
+    <packagereq type="mandatory">gnome-system-monitor</packagereq>
+    <packagereq type="mandatory">gnome-themes</packagereq>
+    <packagereq type="mandatory">gnome-user-docs</packagereq>
+    <packagereq type="mandatory">gnome-user-share</packagereq>
+    <packagereq type="mandatory">gnome-utils</packagereq>
+    <packagereq type="mandatory">gnote</packagereq>
+    <packagereq type="mandatory">gthumb</packagereq>
+    <packagereq type="mandatory">gucharmap</packagereq>
+    <packagereq type="mandatory">gvfs-afc</packagereq>
+    <packagereq type="mandatory">gvfs-gphoto2</packagereq>
+    <packagereq type="mandatory">gvfs-obexftp</packagereq>
+    <packagereq type="mandatory">mousetweaks</packagereq>
+    <packagereq type="mandatory">nautilus-open-terminal</packagereq>
+    <packagereq type="mandatory">nautilus-sendto</packagereq>
+    <packagereq type="mandatory">rhn-setup-gnome</packagereq>
+    <packagereq type="mandatory">rhythmbox</packagereq>
+    <packagereq type="mandatory">scenery-backgrounds</packagereq>
+    <packagereq type="mandatory">seahorse</packagereq>
+    <packagereq type="mandatory">sound-juicer</packagereq>
+    <packagereq type="mandatory">system-config-firewall</packagereq>
+    <packagereq type="mandatory">system-config-users</packagereq>
+    <packagereq type="mandatory">totem</packagereq>
+    <packagereq type="mandatory">totem-nautilus</packagereq>
+    <packagereq type="mandatory">alacarte</packagereq>
+    <packagereq type="mandatory">dvgrab</packagereq>
+    <packagereq type="mandatory">gconf-editor</packagereq>
+    <packagereq type="mandatory">gedit-plugins</packagereq>
+    <packagereq type="mandatory">gnome-games</packagereq>
+    <packagereq type="mandatory">gnome-pilot</packagereq>
+    <packagereq type="mandatory">gnome-pilot-conduits</packagereq>
+    <packagereq type="mandatory">krb5-auth-dialog</packagereq>
+    <packagereq type="mandatory">rhythmbox-upnp</packagereq>
+    <packagereq type="mandatory">seahorse-plugins</packagereq>
+    <packagereq type="mandatory">totem-upnp</packagereq>
+    <packagereq type="mandatory">vim-X11</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>georgian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Georgian Support</name>
+  <description>Georgian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">bpg-chveulebrivi-fonts</packagereq>
+    <packagereq type="mandatory">bpg-courier-fonts</packagereq>
+    <packagereq type="mandatory">bpg-glaho-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-mono-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-serif-fonts</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>german-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>German Support</name>
+  <description>German Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-de-DE</packagereq>
+    <packagereq type="mandatory">eclipse-nls-de</packagereq>
+    <packagereq type="mandatory">hunspell-de</packagereq>
+    <packagereq type="mandatory">hyphen-de</packagereq>
+    <packagereq type="mandatory">kde-i18n-German</packagereq>
+    <packagereq type="mandatory">kde-l10n-German</packagereq>
+    <packagereq type="mandatory">mythes-de</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>graphical-admin-tools</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Graphical Administration Tools</name>
+  <description>Graphical Administration Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">dbus</packagereq>
+    <packagereq type="mandatory">authconfig-gtk</packagereq>
+    <packagereq type="mandatory">gnome-disk-utility</packagereq>
+    <packagereq type="mandatory">gnome-packagekit</packagereq>
+    <packagereq type="mandatory">system-config-firewall</packagereq>
+    <packagereq type="mandatory">system-config-kdump</packagereq>
+    <packagereq type="mandatory">system-config-keyboard</packagereq>
+    <packagereq type="mandatory">system-config-services</packagereq>
+    <packagereq type="mandatory">system-config-users</packagereq>
+    <packagereq type="mandatory">audit-viewer</packagereq>
+    <packagereq type="mandatory">firstaidkit-gui</packagereq>
+    <packagereq type="mandatory">policycoreutils-gui</packagereq>
+    <packagereq type="mandatory">sabayon</packagereq>
+    <packagereq type="mandatory">setroubleshoot</packagereq>
+    <packagereq type="mandatory">system-config-kickstart</packagereq>
+    <packagereq type="mandatory">system-config-lvm</packagereq>
+    <packagereq type="mandatory">system-config-services-docs</packagereq>
+    <packagereq type="mandatory">system-config-users-docs</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>graphics</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Graphics Creation Tools</name>
+  <description>Graphics Creation Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">gimp</packagereq>
+    <packagereq type="mandatory">gimp-data-extras</packagereq>
+    <packagereq type="mandatory">gimp-help</packagereq>
+    <packagereq type="mandatory">gimp-help-browser</packagereq>
+    <packagereq type="mandatory">gutenprint-plugin</packagereq>
+    <packagereq type="mandatory">libsane-hpaio</packagereq>
+    <packagereq type="mandatory">sane-backends-libs-gphoto2</packagereq>
+    <packagereq type="mandatory">sane-frontends</packagereq>
+    <packagereq type="mandatory">xsane</packagereq>
+    <packagereq type="mandatory">xsane-gimp</packagereq>
+    <packagereq type="mandatory">ImageMagick</packagereq>
+    <packagereq type="mandatory">dcraw</packagereq>
+    <packagereq type="mandatory">inkscape</packagereq>
+    <packagereq type="mandatory">netpbm-progs</packagereq>
+    <packagereq type="mandatory">xfig</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>greek-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Greek Support</name>
+  <description>Greek Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-el</packagereq>
+    <packagereq type="mandatory">hunspell-el</packagereq>
+    <packagereq type="mandatory">hyphen-el</packagereq>
+    <packagereq type="mandatory">kde-i18n-Greek</packagereq>
+    <packagereq type="mandatory">kde-l10n-Greek</packagereq>
+    <packagereq type="mandatory">mythes-el</packagereq>
+    <packagereq type="mandatory">tex-cm-lgc</packagereq>
+    <packagereq type="mandatory">tex-kerkis</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>gujarati-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Gujarati Support</name>
+  <description>Gujarati Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-gujarati-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-gujarati</packagereq>
+    <packagereq type="mandatory">m17n-db-gujarati</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-gu-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">samyak-gujarati-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-gu</packagereq>
+    <packagereq type="mandatory">hyphen-gu</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-l10n-Gujarati</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>hardware-monitoring</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Hardware monitoring utilities</name>
+  <description>Hardware monitoring utilities</description>
+   <packagelist>
+    <packagereq type="mandatory">smartmontools</packagereq>
+    <packagereq type="mandatory">edac-utils</packagereq>
+    <packagereq type="mandatory">lm_sensors</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>hebrew-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Hebrew Support</name>
+  <description>Hebrew Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">culmus-aharoni-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-caladings-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-david-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-drugulin-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-ellinia-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-frank-ruehl-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-miriam-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-miriam-mono-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-nachlieli-clm-fonts</packagereq>
+    <packagereq type="mandatory">culmus-yehuda-clm-fonts</packagereq>
+    <packagereq type="mandatory">eclipse-nls-he</packagereq>
+    <packagereq type="mandatory">hunspell-he</packagereq>
+    <packagereq type="mandatory">kde-i18n-Hebrew</packagereq>
+    <packagereq type="mandatory">kde-l10n-Hebrew</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>hiligaynon-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Hiligaynon Support</name>
+  <description>Hiligaynon Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-hil</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>hindi-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Hindi Support</name>
+  <description>Hindi Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-hindi</packagereq>
+    <packagereq type="mandatory">m17n-db-hindi</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-hi-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">samyak-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">eclipse-nls-hi</packagereq>
+    <packagereq type="mandatory">hunspell-hi</packagereq>
+    <packagereq type="mandatory">hyphen-hi</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-i18n-Hindi</packagereq>
+    <packagereq type="mandatory">kde-l10n-Hindi</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>hungarian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Hungarian Support</name>
+  <description>Hungarian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-hu</packagereq>
+    <packagereq type="mandatory">hunspell-hu</packagereq>
+    <packagereq type="mandatory">hyphen-hu</packagereq>
+    <packagereq type="mandatory">kde-i18n-Hungarian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Hungarian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>icelandic-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Icelandic Support</name>
+  <description>Icelandic Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-is</packagereq>
+    <packagereq type="mandatory">hyphen-is</packagereq>
+    <packagereq type="mandatory">kde-i18n-Icelandic</packagereq>
+    <packagereq type="mandatory">kde-l10n-Icelandic</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>indonesian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Indonesian Support</name>
+  <description>Indonesian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-id</packagereq>
+    <packagereq type="mandatory">hyphen-id</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>infiniband</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Infiniband Support</name>
+  <description>Infiniband Support</description>
+   <packagelist>
+    <packagereq type="mandatory">libibcm</packagereq>
+    <packagereq type="mandatory">libibverbs</packagereq>
+    <packagereq type="mandatory">libibverbs-utils</packagereq>
+    <packagereq type="mandatory">librdmacm</packagereq>
+    <packagereq type="mandatory">librdmacm-utils</packagereq>
+    <packagereq type="mandatory">rdma</packagereq>
+    <packagereq type="mandatory">libcxgb3</packagereq>
+    <packagereq type="mandatory">libibmad</packagereq>
+    <packagereq type="mandatory">libibumad</packagereq>
+    <packagereq type="mandatory">libmlx4</packagereq>
+    <packagereq type="mandatory">libmthca</packagereq>
+    <packagereq type="mandatory">rds-tools</packagereq>
+    <packagereq type="mandatory">libibcommon</packagereq>
+    <packagereq type="mandatory">mstflint</packagereq>
+    <packagereq type="mandatory">opensm</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>input-methods</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Input Methods</name>
+  <description>Input Methods</description>
+   <packagelist>
+    <packagereq type="mandatory">ibus-gtk</packagereq>
+    <packagereq type="mandatory">ibus-anthy</packagereq>
+    <packagereq type="mandatory">ibus-chewing</packagereq>
+    <packagereq type="mandatory">ibus-hangul</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">ibus-pinyin</packagereq>
+    <packagereq type="mandatory">ibus-rawcode</packagereq>
+    <packagereq type="mandatory">ibus-sayura</packagereq>
+    <packagereq type="mandatory">ibus-table-additional</packagereq>
+    <packagereq type="mandatory">m17n-contrib-assamese</packagereq>
+    <packagereq type="mandatory">m17n-contrib-bengali</packagereq>
+    <packagereq type="mandatory">m17n-contrib-gujarati</packagereq>
+    <packagereq type="mandatory">m17n-contrib-hindi</packagereq>
+    <packagereq type="mandatory">m17n-contrib-kannada</packagereq>
+    <packagereq type="mandatory">m17n-contrib-maithili</packagereq>
+    <packagereq type="mandatory">m17n-contrib-malayalam</packagereq>
+    <packagereq type="mandatory">m17n-contrib-marathi</packagereq>
+    <packagereq type="mandatory">m17n-contrib-oriya</packagereq>
+    <packagereq type="mandatory">m17n-contrib-punjabi</packagereq>
+    <packagereq type="mandatory">m17n-contrib-tamil</packagereq>
+    <packagereq type="mandatory">m17n-contrib-telugu</packagereq>
+    <packagereq type="mandatory">m17n-contrib-urdu</packagereq>
+    <packagereq type="mandatory">m17n-db-sinhala</packagereq>
+    <packagereq type="mandatory">m17n-db-thai</packagereq>
+    <packagereq type="mandatory">gtk2-immodule-xim</packagereq>
+    <packagereq type="mandatory">ibus-qt</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>interlingua-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Interlingua Support</name>
+  <description>Interlingua Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ia</packagereq>
+    <packagereq type="mandatory">hyphen-ia</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>internet-applications</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Internet Applications</name>
+  <description>Internet Applications</description>
+   <packagelist>
+    <packagereq type="mandatory">ekiga</packagereq>
+    <packagereq type="mandatory">evolution</packagereq>
+    <packagereq type="mandatory">evolution-help</packagereq>
+    <packagereq type="mandatory">evolution-mapi</packagereq>
+    <packagereq type="mandatory">pidgin</packagereq>
+    <packagereq type="mandatory">evolution-exchange</packagereq>
+    <packagereq type="mandatory">thunderbird</packagereq>
+    <packagereq type="mandatory">xchat</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>internet-browser</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Internet Browser</name>
+  <description>Internet Browser</description>
+   <packagelist>
+    <packagereq type="mandatory">firefox</packagereq>
+    <packagereq type="mandatory">nspluginwrapper</packagereq>
+    <packagereq type="mandatory">totem-mozplugin</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>inuktitut-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Inuktitut Support</name>
+  <description>Inuktitut Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>irish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Irish Support</name>
+  <description>Irish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ga</packagereq>
+    <packagereq type="mandatory">hyphen-ga</packagereq>
+    <packagereq type="mandatory">kde-l10n-Irish</packagereq>
+    <packagereq type="mandatory">mythes-ga</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>italian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Italian Support</name>
+  <description>Italian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-it-IT</packagereq>
+    <packagereq type="mandatory">eclipse-nls-it</packagereq>
+    <packagereq type="mandatory">hunspell-it</packagereq>
+    <packagereq type="mandatory">hyphen-it</packagereq>
+    <packagereq type="mandatory">kde-i18n-Italian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Italian</packagereq>
+    <packagereq type="mandatory">man-pages-it</packagereq>
+    <packagereq type="mandatory">mythes-it</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>japanese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Japanese Support</name>
+  <description>Japanese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-ja-JP</packagereq>
+    <packagereq type="mandatory">ipa-gothic-fonts</packagereq>
+    <packagereq type="mandatory">ipa-mincho-fonts</packagereq>
+    <packagereq type="mandatory">ipa-pgothic-fonts</packagereq>
+    <packagereq type="mandatory">ipa-pmincho-fonts</packagereq>
+    <packagereq type="mandatory">vlgothic-fonts</packagereq>
+    <packagereq type="mandatory">vlgothic-p-fonts</packagereq>
+    <packagereq type="mandatory">eclipse-nls-ja</packagereq>
+    <packagereq type="mandatory">ibus-anthy</packagereq>
+    <packagereq type="mandatory">kde-i18n-Japanese</packagereq>
+    <packagereq type="mandatory">kde-l10n-Japanese</packagereq>
+    <packagereq type="mandatory">man-pages-ja</packagereq>
+    <packagereq type="mandatory">poppler-data</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>kannada-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Kannada Support</name>
+  <description>Kannada Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-kannada-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-kannada</packagereq>
+    <packagereq type="mandatory">m17n-db-kannada</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-kn-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">hunspell-kn</packagereq>
+    <packagereq type="mandatory">hyphen-kn</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-l10n-Kannada</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>kashmiri-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Kashmiri Support</name>
+  <description>Kashmiri Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-kashmiri</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>kashubian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Kashubian Support</name>
+  <description>Kashubian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-csb</packagereq>
+    <packagereq type="mandatory">kde-l10n-Kashubian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>kazakh-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Kazakh Support</name>
+  <description>Kazakh Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-kk</packagereq>
+    <packagereq type="mandatory">kde-l10n-Kazakh</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>kde-desktop</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>KDE Desktop</name>
+  <description>KDE Desktop</description>
+   <packagelist>
+    <packagereq type="mandatory">alsa-plugins-pulseaudio</packagereq>
+    <packagereq type="mandatory">kde-settings-pulseaudio</packagereq>
+    <packagereq type="mandatory">kdeaccessibility</packagereq>
+    <packagereq type="mandatory">kdeartwork-screensavers</packagereq>
+    <packagereq type="mandatory">kdebase</packagereq>
+    <packagereq type="mandatory">kdebase-workspace</packagereq>
+    <packagereq type="mandatory">kdelibs</packagereq>
+    <packagereq type="mandatory">xsettings-kde</packagereq>
+    <packagereq type="mandatory">NetworkManager-gnome</packagereq>
+    <packagereq type="mandatory">k3b</packagereq>
+    <packagereq type="mandatory">kcoloredit</packagereq>
+    <packagereq type="mandatory">kdeadmin</packagereq>
+    <packagereq type="mandatory">kdegames</packagereq>
+    <packagereq type="mandatory">kdegraphics</packagereq>
+    <packagereq type="mandatory">kdemultimedia</packagereq>
+    <packagereq type="mandatory">kdenetwork</packagereq>
+    <packagereq type="mandatory">kdepim</packagereq>
+    <packagereq type="mandatory">kdepim-runtime</packagereq>
+    <packagereq type="mandatory">kdeplasma-addons</packagereq>
+    <packagereq type="mandatory">kdeutils</packagereq>
+    <packagereq type="mandatory">kdm</packagereq>
+    <packagereq type="mandatory">kiconedit</packagereq>
+    <packagereq type="mandatory">kipi-plugins</packagereq>
+    <packagereq type="mandatory">kmid</packagereq>
+    <packagereq type="mandatory">konq-plugins</packagereq>
+    <packagereq type="mandatory">ksig</packagereq>
+    <packagereq type="mandatory">ksshaskpass</packagereq>
+    <packagereq type="mandatory">pinentry-qt</packagereq>
+    <packagereq type="mandatory">rhn-setup-gnome</packagereq>
+    <packagereq type="mandatory">kdebase-workspace-akonadi</packagereq>
+    <packagereq type="mandatory">kdebase-workspace-python-applet</packagereq>
+    <packagereq type="mandatory">ibus-qt</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>khmer-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Khmer Support</name>
+  <description>Khmer Support</description>
+   <packagelist>
+    <packagereq type="mandatory">khmeros-base-fonts</packagereq>
+    <packagereq type="mandatory">khmeros-battambang-fonts</packagereq>
+    <packagereq type="mandatory">khmeros-bokor-fonts</packagereq>
+    <packagereq type="mandatory">khmeros-handwritten-fonts</packagereq>
+    <packagereq type="mandatory">khmeros-metal-chrieng-fonts</packagereq>
+    <packagereq type="mandatory">khmeros-muol-fonts</packagereq>
+    <packagereq type="mandatory">khmeros-siemreap-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-km</packagereq>
+    <packagereq type="mandatory">kde-l10n-Khmer</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>kinyarwanda-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Kinyarwanda Support</name>
+  <description>Kinyarwanda Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-rw</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>konkani-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Konkani Support</name>
+  <description>Konkani Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>korean-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Korean Support</name>
+  <description>Korean Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-ko-KR</packagereq>
+    <packagereq type="mandatory">un-core-batang-fonts</packagereq>
+    <packagereq type="mandatory">un-core-dinaru-fonts</packagereq>
+    <packagereq type="mandatory">un-core-dotum-fonts</packagereq>
+    <packagereq type="mandatory">un-core-graphic-fonts</packagereq>
+    <packagereq type="mandatory">un-core-gungseo-fonts</packagereq>
+    <packagereq type="mandatory">un-core-pilgi-fonts</packagereq>
+    <packagereq type="mandatory">eclipse-nls-ko</packagereq>
+    <packagereq type="mandatory">hunspell-ko</packagereq>
+    <packagereq type="mandatory">ibus-hangul</packagereq>
+    <packagereq type="mandatory">kde-i18n-Korean</packagereq>
+    <packagereq type="mandatory">kde-l10n-Korean</packagereq>
+    <packagereq type="mandatory">man-pages-ko</packagereq>
+    <packagereq type="mandatory">poppler-data</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>kurdish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Kurdish Support</name>
+  <description>Kurdish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">kurdit-unikurd-web-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-ku</packagereq>
+    <packagereq type="mandatory">kde-l10n-Kurdish</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>lao-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Lao Support</name>
+  <description>Lao Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>large-systems</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Large Systems Performance</name>
+  <description>Large Systems Performance</description>
+   <packagelist>
+    <packagereq type="mandatory">numactl</packagereq>
+    <packagereq type="mandatory">libcgroup</packagereq>
+    <packagereq type="mandatory">libhugetlbfs</packagereq>
+    <packagereq type="mandatory">libhugetlbfs-utils</packagereq>
+    <packagereq type="mandatory">libtopology</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>latin-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Latin Support</name>
+  <description>Latin Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-la</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>latvian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Latvian Support</name>
+  <description>Latvian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-lv</packagereq>
+    <packagereq type="mandatory">hyphen-lv</packagereq>
+    <packagereq type="mandatory">kde-l10n-Latvian</packagereq>
+    <packagereq type="mandatory">mythes-lv</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>legacy-unix</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Legacy UNIX compatibility</name>
+  <description>Legacy UNIX compatibility</description>
+   <packagelist>
+    <packagereq type="mandatory">xinetd</packagereq>
+    <packagereq type="mandatory">authd</packagereq>
+    <packagereq type="mandatory">cups-lpd</packagereq>
+    <packagereq type="mandatory">dump</packagereq>
+    <packagereq type="mandatory">finger</packagereq>
+    <packagereq type="mandatory">finger-server</packagereq>
+    <packagereq type="mandatory">krb5-appl-servers</packagereq>
+    <packagereq type="mandatory">ksh</packagereq>
+    <packagereq type="mandatory">mksh</packagereq>
+    <packagereq type="mandatory">ncompress</packagereq>
+    <packagereq type="mandatory">rsh</packagereq>
+    <packagereq type="mandatory">rsh-server</packagereq>
+    <packagereq type="mandatory">rusers</packagereq>
+    <packagereq type="mandatory">rusers-server</packagereq>
+    <packagereq type="mandatory">rwho</packagereq>
+    <packagereq type="mandatory">talk</packagereq>
+    <packagereq type="mandatory">talk-server</packagereq>
+    <packagereq type="mandatory">tcp_wrappers</packagereq>
+    <packagereq type="mandatory">telnet</packagereq>
+    <packagereq type="mandatory">telnet-server</packagereq>
+    <packagereq type="mandatory">tftp</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>legacy-x</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Legacy X Window System compatibility</name>
+  <description>Legacy X Window System compatibility</description>
+   <packagelist>
+    <packagereq type="mandatory">xorg-x11-fonts-100dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-1-100dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-Type1</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-misc</packagereq>
+    <packagereq type="mandatory">libXmu</packagereq>
+    <packagereq type="mandatory">libXp</packagereq>
+    <packagereq type="mandatory">openmotif</packagereq>
+    <packagereq type="mandatory">openmotif22</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-75dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-1-75dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-14-100dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-14-75dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-15-75dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-2-100dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-2-75dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-9-100dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ISO8859-9-75dpi</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-cyrillic</packagereq>
+    <packagereq type="mandatory">xorg-x11-fonts-ethiopic</packagereq>
+    <packagereq type="mandatory">xorg-x11-twm</packagereq>
+    <packagereq type="mandatory">xorg-x11-xdm</packagereq>
+    <packagereq type="mandatory">xterm</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>lithuanian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Lithuanian Support</name>
+  <description>Lithuanian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-lt</packagereq>
+    <packagereq type="mandatory">hyphen-lt</packagereq>
+    <packagereq type="mandatory">kde-i18n-Lithuanian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Lithuanian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>low-saxon-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Low Saxon Support</name>
+  <description>Low Saxon Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-nds</packagereq>
+    <packagereq type="mandatory">kde-l10n-LowSaxon</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>macedonian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Macedonian Support</name>
+  <description>Macedonian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-mk</packagereq>
+    <packagereq type="mandatory">kde-l10n-Macedonian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>mail-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>E-mail server</name>
+  <description>E-mail server</description>
+   <packagelist>
+    <packagereq type="mandatory">dovecot</packagereq>
+    <packagereq type="mandatory">postfix</packagereq>
+    <packagereq type="mandatory">spamassassin</packagereq>
+    <packagereq type="mandatory">cyrus-imapd</packagereq>
+    <packagereq type="mandatory">dovecot-mysql</packagereq>
+    <packagereq type="mandatory">dovecot-pgsql</packagereq>
+    <packagereq type="mandatory">dovecot-pigeonhole</packagereq>
+    <packagereq type="mandatory">mailman</packagereq>
+    <packagereq type="mandatory">sendmail</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>mainframe-access</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Mainframe Access</name>
+  <description>Mainframe Access</description>
+   <packagelist>
+    <packagereq type="mandatory">tn5250</packagereq>
+    <packagereq type="mandatory">x3270-x11</packagereq>
+    <packagereq type="mandatory">x3270-text</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>maithili-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Maithili Support</name>
+  <description>Maithili Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-maithili</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">hunspell-mai</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-l10n-Maithili</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>malagasy-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Malagasy Support</name>
+  <description>Malagasy Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-mg</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>malay-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Malay Support</name>
+  <description>Malay Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ms</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>malayalam-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Malayalam Support</name>
+  <description>Malayalam Support</description>
+   <packagelist>
+    <packagereq type="mandatory">m17n-contrib-malayalam</packagereq>
+    <packagereq type="mandatory">m17n-db-malayalam</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-ml-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">lohit-malayalam-fonts</packagereq>
+    <packagereq type="mandatory">samyak-malayalam-fonts</packagereq>
+    <packagereq type="mandatory">smc-anjalioldlipi-fonts</packagereq>
+    <packagereq type="mandatory">smc-dyuthi-fonts</packagereq>
+    <packagereq type="mandatory">smc-kalyani-fonts</packagereq>
+    <packagereq type="mandatory">smc-meera-fonts</packagereq>
+    <packagereq type="mandatory">smc-rachana-fonts</packagereq>
+    <packagereq type="mandatory">smc-raghumalayalam-fonts</packagereq>
+    <packagereq type="mandatory">smc-suruma-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-ml</packagereq>
+    <packagereq type="mandatory">hyphen-ml</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-l10n-Malayalam</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>maltese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Maltese Support</name>
+  <description>Maltese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-mt</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>manx-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Manx Support</name>
+  <description>Manx Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-gv</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>maori-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Maori Support</name>
+  <description>Maori Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-mi</packagereq>
+    <packagereq type="mandatory">hyphen-mi</packagereq>
+    <packagereq type="mandatory">mythes-mi</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>marathi-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Marathi Support</name>
+  <description>Marathi Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-marathi</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-mr-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">samyak-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-mr</packagereq>
+    <packagereq type="mandatory">hyphen-mr</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-l10n-Marathi</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>mongolian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Mongolian Support</name>
+  <description>Mongolian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-mn</packagereq>
+    <packagereq type="mandatory">hunspell-mn</packagereq>
+    <packagereq type="mandatory">hyphen-mn</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>mysql</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>MySQL Database server</name>
+  <description>MySQL Database server</description>
+   <packagelist>
+    <packagereq type="mandatory">mysql-server</packagereq>
+    <packagereq type="mandatory">mysql-bench</packagereq>
+    <packagereq type="mandatory">mysql-test</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>mysql-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>MySQL Database client</name>
+  <description>MySQL Database client</description>
+   <packagelist>
+    <packagereq type="mandatory">mysql</packagereq>
+    <packagereq type="mandatory">MySQL-python</packagereq>
+    <packagereq type="mandatory">mysql-connector-odbc</packagereq>
+    <packagereq type="mandatory">libdbi-dbd-mysql</packagereq>
+    <packagereq type="mandatory">mysql-connector-java</packagereq>
+    <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>nepali-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Nepali Support</name>
+  <description>Nepali Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-nepali</packagereq>
+    <packagereq type="mandatory">madan-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-ne</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>network-file-system-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Network file system client</name>
+  <description>Network file system client</description>
+   <packagelist>
+    <packagereq type="mandatory">autofs</packagereq>
+    <packagereq type="mandatory">cifs-utils</packagereq>
+    <packagereq type="mandatory">nfs-utils</packagereq>
+    <packagereq type="mandatory">nfs4-acl-tools</packagereq>
+    <packagereq type="mandatory">samba-client</packagereq>
+    <packagereq type="mandatory">cachefilesd</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>network-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Network Infrastructure Server</name>
+  <description>Network Infrastructure Server</description>
+   <packagelist>
+    <packagereq type="mandatory">bind</packagereq>
+    <packagereq type="mandatory">bind-chroot</packagereq>
+    <packagereq type="mandatory">bind-dyndb-ldap</packagereq>
+    <packagereq type="mandatory">dhcp</packagereq>
+    <packagereq type="mandatory">dnsmasq</packagereq>
+    <packagereq type="mandatory">freeradius</packagereq>
+    <packagereq type="mandatory">quagga</packagereq>
+    <packagereq type="mandatory">radvd</packagereq>
+    <packagereq type="mandatory">rsyslog-gnutls</packagereq>
+    <packagereq type="mandatory">rsyslog-gssapi</packagereq>
+    <packagereq type="mandatory">rsyslog-mysql</packagereq>
+    <packagereq type="mandatory">rsyslog-pgsql</packagereq>
+    <packagereq type="mandatory">rsyslog-relp</packagereq>
+    <packagereq type="mandatory">syslinux</packagereq>
+    <packagereq type="mandatory">tftp-server</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>network-tools</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Networking Tools</name>
+  <description>Networking Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">tcpdump</packagereq>
+    <packagereq type="mandatory">nc</packagereq>
+    <packagereq type="mandatory">openswan</packagereq>
+    <packagereq type="mandatory">NetworkManager-openswan</packagereq>
+    <packagereq type="mandatory">arptables_jf</packagereq>
+    <packagereq type="mandatory">arpwatch</packagereq>
+    <packagereq type="mandatory">dropwatch</packagereq>
+    <packagereq type="mandatory">ebtables</packagereq>
+    <packagereq type="mandatory">iptraf</packagereq>
+    <packagereq type="mandatory">iptstate</packagereq>
+    <packagereq type="mandatory">lksctp-tools</packagereq>
+    <packagereq type="mandatory">mipv6-daemon</packagereq>
+    <packagereq type="mandatory">mrtg</packagereq>
+    <packagereq type="mandatory">netlabel_tools</packagereq>
+    <packagereq type="mandatory">nmap</packagereq>
+    <packagereq type="mandatory">stunnel</packagereq>
+    <packagereq type="mandatory">wireshark</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>nfs-file-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>NFS file server</name>
+  <description>NFS file server</description>
+   <packagelist>
+    <packagereq type="mandatory">nfs-utils</packagereq>
+    <packagereq type="mandatory">nfs4-acl-tools</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>northern-sotho-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Northern Sotho Support</name>
+  <description>Northern Sotho Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-nso</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>norwegian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Norwegian Support</name>
+  <description>Norwegian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-no</packagereq>
+    <packagereq type="mandatory">hunspell-nb</packagereq>
+    <packagereq type="mandatory">hunspell-nn</packagereq>
+    <packagereq type="mandatory">hyphen-nb</packagereq>
+    <packagereq type="mandatory">hyphen-nn</packagereq>
+    <packagereq type="mandatory">kde-i18n-Norwegian</packagereq>
+    <packagereq type="mandatory">kde-i18n-Norwegian-Nynorsk</packagereq>
+    <packagereq type="mandatory">kde-l10n-Norwegian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Norwegian-Nynorsk</packagereq>
+    <packagereq type="mandatory">mythes-nb</packagereq>
+    <packagereq type="mandatory">mythes-nn</packagereq>
+    <packagereq type="mandatory">openoffice.org-langpack-nn_NO</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>occitan-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Occitan Support</name>
+  <description>Occitan Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-oc</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>office-suite</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Office Suite and Productivity</name>
+  <description>Office Suite and Productivity</description>
+   <packagelist>
+    <packagereq type="mandatory">openoffice.org-draw</packagereq>
+    <packagereq type="mandatory">openoffice.org-impress</packagereq>
+    <packagereq type="mandatory">openoffice.org-writer</packagereq>
+    <packagereq type="mandatory">openoffice.org-base</packagereq>
+    <packagereq type="mandatory">openoffice.org-headless</packagereq>
+    <packagereq type="mandatory">openoffice.org-ogltrans</packagereq>
+    <packagereq type="mandatory">openoffice.org-report-builder</packagereq>
+    <packagereq type="mandatory">planner</packagereq>
+    <packagereq type="mandatory">taskjuggler</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>oriya-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Oriya Support</name>
+  <description>Oriya Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-oriya-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-oriya</packagereq>
+    <packagereq type="mandatory">m17n-db-oriya</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-or-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">samyak-oriya-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-or</packagereq>
+    <packagereq type="mandatory">hyphen-or</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>performance</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Performance Tools</name>
+  <description>Performance Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">blktrace</packagereq>
+    <packagereq type="mandatory">sysstat</packagereq>
+    <packagereq type="mandatory">dstat</packagereq>
+    <packagereq type="mandatory">iotop</packagereq>
+    <packagereq type="mandatory">latencytop</packagereq>
+    <packagereq type="mandatory">oprofile</packagereq>
+    <packagereq type="mandatory">perf</packagereq>
+    <packagereq type="mandatory">powertop</packagereq>
+    <packagereq type="mandatory">seekwatcher</packagereq>
+    <packagereq type="mandatory">oprofile-jit</packagereq>
+    <packagereq type="mandatory">papi</packagereq>
+    <packagereq type="mandatory">sdparm</packagereq>
+    <packagereq type="mandatory">sg3_utils</packagereq>
+    <packagereq type="mandatory">tuned</packagereq>
+    <packagereq type="mandatory">tuned-utils</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>perl-runtime</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Perl Support</name>
+  <description>Perl Support</description>
+   <packagelist>
+    <packagereq type="mandatory">perl</packagereq>
+    <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
+    <packagereq type="mandatory">perl-XML-Dumper</packagereq>
+    <packagereq type="mandatory">perl-XML-Grove</packagereq>
+    <packagereq type="mandatory">perl-XML-Twig</packagereq>
+    <packagereq type="mandatory">perl-core</packagereq>
+    <packagereq type="mandatory">perl-DBD-SQLite</packagereq>
+    <packagereq type="mandatory">perl-Date-Calc</packagereq>
+    <packagereq type="mandatory">perl-Date-Manip</packagereq>
+    <packagereq type="mandatory">perl-Frontier-RPC</packagereq>
+    <packagereq type="mandatory">perl-LDAP</packagereq>
+    <packagereq type="mandatory">perl-suidperl</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>persian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Persian Support</name>
+  <description>Persian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-fa</packagereq>
+    <packagereq type="mandatory">hyphen-fa</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>php</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>PHP Support</name>
+  <description>PHP Support</description>
+   <packagelist>
+    <packagereq type="mandatory">php</packagereq>
+    <packagereq type="mandatory">php-gd</packagereq>
+    <packagereq type="mandatory">php-pdo</packagereq>
+    <packagereq type="mandatory">php-pear</packagereq>
+    <packagereq type="mandatory">php-xml</packagereq>
+    <packagereq type="mandatory">php-ldap</packagereq>
+    <packagereq type="mandatory">php-mysql</packagereq>
+    <packagereq type="mandatory">php-odbc</packagereq>
+    <packagereq type="mandatory">php-pecl-apc</packagereq>
+    <packagereq type="mandatory">php-pecl-memcache</packagereq>
+    <packagereq type="mandatory">php-pgsql</packagereq>
+    <packagereq type="mandatory">php-soap</packagereq>
+    <packagereq type="mandatory">php-xmlrpc</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>polish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Polish Support</name>
+  <description>Polish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-pl</packagereq>
+    <packagereq type="mandatory">hunspell-pl</packagereq>
+    <packagereq type="mandatory">hyphen-pl</packagereq>
+    <packagereq type="mandatory">kde-i18n-Polish</packagereq>
+    <packagereq type="mandatory">kde-l10n-Polish</packagereq>
+    <packagereq type="mandatory">man-pages-pl</packagereq>
+    <packagereq type="mandatory">mythes-pl</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>portuguese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Portuguese Support</name>
+  <description>Portuguese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-pt</packagereq>
+    <packagereq type="mandatory">hunspell-pt</packagereq>
+    <packagereq type="mandatory">hyphen-pt</packagereq>
+    <packagereq type="mandatory">kde-i18n-Portuguese</packagereq>
+    <packagereq type="mandatory">kde-l10n-Portuguese</packagereq>
+    <packagereq type="mandatory">mythes-pt</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>postgresql</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>PostgreSQL Database server</name>
+  <description>PostgreSQL Database server</description>
+   <packagelist>
+    <packagereq type="mandatory">postgresql-server</packagereq>
+    <packagereq type="mandatory">postgresql-docs</packagereq>
+    <packagereq type="mandatory">postgresql-contrib</packagereq>
+    <packagereq type="mandatory">postgresql-plperl</packagereq>
+    <packagereq type="mandatory">postgresql-plpython</packagereq>
+    <packagereq type="mandatory">postgresql-pltcl</packagereq>
+    <packagereq type="mandatory">postgresql-test</packagereq>
+    <packagereq type="mandatory">rhdb-utils</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>postgresql-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>PostgreSQL Database client</name>
+  <description>PostgreSQL Database client</description>
+   <packagelist>
+    <packagereq type="mandatory">postgresql</packagereq>
+    <packagereq type="mandatory">PyGreSQL</packagereq>
+    <packagereq type="mandatory">postgresql-odbc</packagereq>
+    <packagereq type="mandatory">python-psycopg2</packagereq>
+    <packagereq type="mandatory">libdbi-dbd-pgsql</packagereq>
+    <packagereq type="mandatory">perl-DBD-Pg</packagereq>
+    <packagereq type="mandatory">postgresql-jdbc</packagereq>
+    <packagereq type="mandatory">tcl-pgtcl</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>print-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Printing client</name>
+  <description>Printing client</description>
+   <packagelist>
+    <packagereq type="mandatory">cups</packagereq>
+    <packagereq type="mandatory">cups-pk-helper</packagereq>
+    <packagereq type="mandatory">enscript</packagereq>
+    <packagereq type="mandatory">printer-filters</packagereq>
+    <packagereq type="mandatory">foomatic</packagereq>
+    <packagereq type="mandatory">foomatic-db-ppds</packagereq>
+    <packagereq type="mandatory">gutenprint</packagereq>
+    <packagereq type="mandatory">gutenprint-cups</packagereq>
+    <packagereq type="mandatory">hpijs</packagereq>
+    <packagereq type="mandatory">paps</packagereq>
+    <packagereq type="mandatory">system-config-printer</packagereq>
+    <packagereq type="mandatory">system-config-printer-udev</packagereq>
+    <packagereq type="mandatory">hplip</packagereq>
+    <packagereq type="mandatory">hplip-gui</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>punjabi-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Punjabi Support</name>
+  <description>Punjabi Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-punjabi-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-punjabi</packagereq>
+    <packagereq type="mandatory">m17n-db-punjabi</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-pa-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">saab-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-pa</packagereq>
+    <packagereq type="mandatory">hyphen-pa</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-i18n-Punjabi</packagereq>
+    <packagereq type="mandatory">kde-l10n-Punjabi</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>remote-desktop-clients</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Remote Desktop Clients</name>
+  <description>Remote Desktop Clients</description>
+   <packagelist>
+    <packagereq type="mandatory">rdesktop</packagereq>
+    <packagereq type="mandatory">spice-client</packagereq>
+    <packagereq type="mandatory">spice-xpi</packagereq>
+    <packagereq type="mandatory">tigervnc</packagereq>
+    <packagereq type="mandatory">tsclient</packagereq>
+    <packagereq type="mandatory">vinagre</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>romanian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Romanian Support</name>
+  <description>Romanian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">terminus-fonts</packagereq>
+    <packagereq type="mandatory">eclipse-nls-ro</packagereq>
+    <packagereq type="mandatory">hunspell-ro</packagereq>
+    <packagereq type="mandatory">hyphen-ro</packagereq>
+    <packagereq type="mandatory">kde-i18n-Romanian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Romanian</packagereq>
+    <packagereq type="mandatory">mythes-ro</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>russian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Russian Support</name>
+  <description>Russian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-ru-RU</packagereq>
+    <packagereq type="mandatory">eclipse-nls-ru</packagereq>
+    <packagereq type="mandatory">hunspell-ru</packagereq>
+    <packagereq type="mandatory">hyphen-ru</packagereq>
+    <packagereq type="mandatory">kde-i18n-Russian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Russian</packagereq>
+    <packagereq type="mandatory">man-pages-ru</packagereq>
+    <packagereq type="mandatory">mythes-ru</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>sanskrit-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Sanskrit Support</name>
+  <description>Sanskrit Support</description>
+   <packagelist>
+    <packagereq type="mandatory">m17n-db-sanskrit</packagereq>
+    <packagereq type="mandatory">hyphen-sa</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>sardinian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Sardinian Support</name>
+  <description>Sardinian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-sc</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>scientific</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Scientific support</name>
+  <description>Scientific support</description>
+   <packagelist>
+    <packagereq type="mandatory">gnuplot</packagereq>
+    <packagereq type="mandatory">units</packagereq>
+    <packagereq type="mandatory">atlas</packagereq>
+    <packagereq type="mandatory">lapack</packagereq>
+    <packagereq type="mandatory">mpich2</packagereq>
+    <packagereq type="mandatory">mvapich2</packagereq>
+    <packagereq type="mandatory">numpy</packagereq>
+    <packagereq type="mandatory">openmpi</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>security-tools</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Security Tools</name>
+  <description>Security Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">aide</packagereq>
+    <packagereq type="mandatory">amtu</packagereq>
+    <packagereq type="mandatory">hmaccalc</packagereq>
+    <packagereq type="mandatory">openscap</packagereq>
+    <packagereq type="mandatory">tpm-tools</packagereq>
+    <packagereq type="mandatory">trousers</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>serbian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Serbian Support</name>
+  <description>Serbian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-sr</packagereq>
+    <packagereq type="mandatory">kde-i18n-Serbian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Serbian</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>server-platform</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Server Platform</name>
+  <description>Server Platform</description>
+   <packagelist>
+    <packagereq type="mandatory">db4</packagereq>
+    <packagereq type="mandatory">dbus-libs</packagereq>
+    <packagereq type="mandatory">glibc</packagereq>
+    <packagereq type="mandatory">krb5-libs</packagereq>
+    <packagereq type="mandatory">libgcc</packagereq>
+    <packagereq type="mandatory">libstdc++</packagereq>
+    <packagereq type="mandatory">ncurses-libs</packagereq>
+    <packagereq type="mandatory">nss</packagereq>
+    <packagereq type="mandatory">openldap</packagereq>
+    <packagereq type="mandatory">openssl</packagereq>
+    <packagereq type="mandatory">pam</packagereq>
+    <packagereq type="mandatory">redhat-lsb</packagereq>
+    <packagereq type="mandatory">zlib</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>server-platform-devel</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Server Platform Development</name>
+  <description>Server Platform Development</description>
+   <packagelist>
+    <packagereq type="mandatory">db4-devel</packagereq>
+    <packagereq type="mandatory">dbus-devel</packagereq>
+    <packagereq type="mandatory">glibc-devel</packagereq>
+    <packagereq type="mandatory">krb5-devel</packagereq>
+    <packagereq type="mandatory">libstdc++-devel</packagereq>
+    <packagereq type="mandatory">libvirt-devel</packagereq>
+    <packagereq type="mandatory">libvirt-java-devel</packagereq>
+    <packagereq type="mandatory">ncurses-devel</packagereq>
+    <packagereq type="mandatory">nss-devel</packagereq>
+    <packagereq type="mandatory">openldap-devel</packagereq>
+    <packagereq type="mandatory">openssl-devel</packagereq>
+    <packagereq type="mandatory">pam-devel</packagereq>
+    <packagereq type="mandatory">zlib-devel</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>sindhi-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Sindhi Support</name>
+  <description>Sindhi Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-devanagari-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-sindhi</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-pa-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>sinhala-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Sinhala Support</name>
+  <description>Sinhala Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lklug-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-sinhala</packagereq>
+    <packagereq type="mandatory">m17n-db-sinhala</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-si-LK</packagereq>
+    <packagereq type="mandatory">hunspell-si</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">ibus-sayura</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>slovak-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Slovak Support</name>
+  <description>Slovak Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-sk</packagereq>
+    <packagereq type="mandatory">hyphen-sk</packagereq>
+    <packagereq type="mandatory">kde-i18n-Slovak</packagereq>
+    <packagereq type="mandatory">kde-l10n-Slovak</packagereq>
+    <packagereq type="mandatory">mythes-sk</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>slovenian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Slovenian Support</name>
+  <description>Slovenian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-sl</packagereq>
+    <packagereq type="mandatory">hyphen-sl</packagereq>
+    <packagereq type="mandatory">kde-i18n-Slovenian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Slovenian</packagereq>
+    <packagereq type="mandatory">mythes-sl</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>smart-card</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Smart card support</name>
+  <description>Smart card support</description>
+   <packagelist>
+    <packagereq type="mandatory">ccid</packagereq>
+    <packagereq type="mandatory">coolkey</packagereq>
+    <packagereq type="mandatory">esc</packagereq>
+    <packagereq type="mandatory">pam_pkcs11</packagereq>
+    <packagereq type="mandatory">opencryptoki</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>somali-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Somali Support</name>
+  <description>Somali Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-so</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>southern-ndebele-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Southern Ndebele Support</name>
+  <description>Southern Ndebele Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-nr</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>southern-sotho-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Southern Sotho Support</name>
+  <description>Southern Sotho Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-st</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>spanish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Spanish Support</name>
+  <description>Spanish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-es-ES</packagereq>
+    <packagereq type="mandatory">eclipse-nls-es</packagereq>
+    <packagereq type="mandatory">hunspell-es</packagereq>
+    <packagereq type="mandatory">hyphen-es</packagereq>
+    <packagereq type="mandatory">kde-i18n-Spanish</packagereq>
+    <packagereq type="mandatory">kde-l10n-Spanish</packagereq>
+    <packagereq type="mandatory">man-pages-es</packagereq>
+    <packagereq type="mandatory">man-pages-es-extra</packagereq>
+    <packagereq type="mandatory">mythes-es</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>storage-client-fcoe</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>FCoE Storage Client</name>
+  <description>FCoE Storage Client</description>
+   <packagelist>
+    <packagereq type="mandatory">fcoe-utils</packagereq>
+    <packagereq type="mandatory">lldpad</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>storage-client-iscsi</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>iSCSI Storage Client</name>
+  <description>iSCSI Storage Client</description>
+   <packagelist>
+    <packagereq type="mandatory">iscsi-initiator-utils</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>storage-client-multipath</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Storage Availability Tools</name>
+  <description>Storage Availability Tools</description>
+   <packagelist>
+    <packagereq type="mandatory">device-mapper-multipath</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>storage-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Network Storage Server</name>
+  <description>Network Storage Server</description>
+   <packagelist>
+    <packagereq type="mandatory">scsi-target-utils</packagereq>
+    <packagereq type="mandatory">isns-utils</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>swahili-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Swahili Support</name>
+  <description>Swahili Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-sw</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>swati-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Swati Support</name>
+  <description>Swati Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ss</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>swedish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Swedish Support</name>
+  <description>Swedish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-sv</packagereq>
+    <packagereq type="mandatory">hunspell-sv</packagereq>
+    <packagereq type="mandatory">hyphen-sv</packagereq>
+    <packagereq type="mandatory">kde-i18n-Swedish</packagereq>
+    <packagereq type="mandatory">kde-l10n-Swedish</packagereq>
+    <packagereq type="mandatory">mythes-sv</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>system-admin-tools</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>System administration tools</name>
+  <description>System administration tools</description>
+   <packagelist>
+    <packagereq type="mandatory">conman</packagereq>
+    <packagereq type="mandatory">crypto-utils</packagereq>
+    <packagereq type="mandatory">dtach</packagereq>
+    <packagereq type="mandatory">hardlink</packagereq>
+    <packagereq type="mandatory">lsscsi</packagereq>
+    <packagereq type="mandatory">mc</packagereq>
+    <packagereq type="mandatory">mgetty</packagereq>
+    <packagereq type="mandatory">rdist</packagereq>
+    <packagereq type="mandatory">rrdtool</packagereq>
+    <packagereq type="mandatory">screen</packagereq>
+    <packagereq type="mandatory">scrub</packagereq>
+    <packagereq type="mandatory">symlinks</packagereq>
+    <packagereq type="mandatory">tree</packagereq>
+    <packagereq type="mandatory">vlock</packagereq>
+    <packagereq type="mandatory">xdelta</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>system-management</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>System Management</name>
+  <description>System Management</description>
+   <packagelist>
+    <packagereq type="mandatory">OpenIPMI</packagereq>
+    <packagereq type="mandatory">freeipmi</packagereq>
+    <packagereq type="mandatory">freeipmi-bmc-watchdog</packagereq>
+    <packagereq type="mandatory">freeipmi-ipmidetectd</packagereq>
+    <packagereq type="mandatory">ipmitool</packagereq>
+    <packagereq type="mandatory">openhpi</packagereq>
+    <packagereq type="mandatory">openhpi-subagent</packagereq>
+    <packagereq type="mandatory">watchdog</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>system-management-messaging-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Messaging Client Support</name>
+  <description>Messaging Client Support</description>
+   <packagelist>
+    <packagereq type="mandatory">qpid-cpp-client</packagereq>
+    <packagereq type="mandatory">python-qpid</packagereq>
+    <packagereq type="mandatory">qpid-tools</packagereq>
+    <packagereq type="mandatory">python-saslwrapper</packagereq>
+    <packagereq type="mandatory">qpid-tests</packagereq>
+    <packagereq type="mandatory">ruby-qpid</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>system-management-messaging-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Messaging Server Support</name>
+  <description>Messaging Server Support</description>
+   <packagelist>
+    <packagereq type="mandatory">qpid-cpp-server</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>system-management-snmp</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>SNMP Support</name>
+  <description>SNMP Support</description>
+   <packagelist>
+    <packagereq type="mandatory">net-snmp</packagereq>
+    <packagereq type="mandatory">net-snmp-utils</packagereq>
+    <packagereq type="mandatory">net-snmp-perl</packagereq>
+    <packagereq type="mandatory">net-snmp-python</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>system-management-wbem</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Web-Based Enterprise Management</name>
+  <description>Web-Based Enterprise Management</description>
+   <packagelist>
+    <packagereq type="mandatory">openwsman-client</packagereq>
+    <packagereq type="mandatory">sblim-sfcb</packagereq>
+    <packagereq type="mandatory">sblim-wbemcli</packagereq>
+    <packagereq type="mandatory">wsmancli</packagereq>
+    <packagereq type="mandatory">openwsman-server</packagereq>
+    <packagereq type="mandatory">sblim-cim-client</packagereq>
+    <packagereq type="mandatory">sblim-cim-client2</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-dhcp</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-dns</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-fsvol</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-network</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-nfsv3</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-nfsv4</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-params</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-samba</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-sysfs</packagereq>
+    <packagereq type="mandatory">sblim-cmpi-syslog</packagereq>
+    <packagereq type="mandatory">sblim-gather</packagereq>
+    <packagereq type="mandatory">sblim-gather-provider</packagereq>
+    <packagereq type="mandatory">sblim-indication_helper</packagereq>
+    <packagereq type="mandatory">sblim-smis-hba</packagereq>
+    <packagereq type="mandatory">sblim-tools-libra</packagereq>
+    <packagereq type="mandatory">tog-pegasus</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tagalog-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Tagalog Support</name>
+  <description>Tagalog Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-tl</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tajik-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Tajik Support</name>
+  <description>Tajik Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-mono-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-serif-fonts</packagereq>
+    <packagereq type="mandatory">kde-l10n-Tajik</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tamil-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Tamil Support</name>
+  <description>Tamil Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-tamil-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-tamil</packagereq>
+    <packagereq type="mandatory">m17n-db-tamil</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-ta-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">samyak-tamil-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-ta</packagereq>
+    <packagereq type="mandatory">hyphen-ta</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-i18n-Tamil</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>technical-writing</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Technical Writing</name>
+  <description>Technical Writing</description>
+   <packagelist>
+    <packagereq type="mandatory">docbook-slides</packagereq>
+    <packagereq type="mandatory">docbook-style-xsl</packagereq>
+    <packagereq type="mandatory">docbook-utils</packagereq>
+    <packagereq type="mandatory">docbook5-schemas</packagereq>
+    <packagereq type="mandatory">docbook5-style-xsl</packagereq>
+    <packagereq type="mandatory">xmlto</packagereq>
+    <packagereq type="mandatory">docbook-utils-pdf</packagereq>
+    <packagereq type="mandatory">texinfo</packagereq>
+    <packagereq type="mandatory">xmlto-tex</packagereq>
+    <packagereq type="mandatory">xmltoman</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>telugu-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Telugu Support</name>
+  <description>Telugu Support</description>
+   <packagelist>
+    <packagereq type="mandatory">lohit-telugu-fonts</packagereq>
+    <packagereq type="mandatory">m17n-contrib-telugu</packagereq>
+    <packagereq type="mandatory">m17n-db-telugu</packagereq>
+    <packagereq type="mandatory">Red_Hat_Enterprise_Linux-Release_Notes-6-te-IN</packagereq>
+    <packagereq type="mandatory">iok</packagereq>
+    <packagereq type="mandatory">pothana2000-fonts</packagereq>
+    <packagereq type="mandatory">vemana2000-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-te</packagereq>
+    <packagereq type="mandatory">hyphen-te</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tetum-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Tetum Support</name>
+  <description>Tetum Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-tet</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tex</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>TeX support</name>
+  <description>TeX support</description>
+   <packagelist>
+    <packagereq type="mandatory">tex-cm-lgc</packagereq>
+    <packagereq type="mandatory">texlive</packagereq>
+    <packagereq type="mandatory">texlive-latex</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>thai-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Thai Support</name>
+  <description>Thai Support</description>
+   <packagelist>
+    <packagereq type="mandatory">m17n-db-thai</packagereq>
+    <packagereq type="mandatory">thai-scalable-garuda-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-kinnari-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-loma-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-norasi-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-purisa-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-sawasdee-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-tlwgmono-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-tlwgtypewriter-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-tlwgtypist-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-tlwgtypo-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-umpush-fonts</packagereq>
+    <packagereq type="mandatory">thai-scalable-waree-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-th</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+    <packagereq type="mandatory">kde-l10n-Thai</packagereq>
+    <packagereq type="mandatory">poppler-data</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tibetan-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Tibetan Support</name>
+  <description>Tibetan Support</description>
+   <packagelist>
+    <packagereq type="mandatory">m17n-db-tibetan</packagereq>
+    <packagereq type="mandatory">tibetan-machine-uni-fonts</packagereq>
+    <packagereq type="mandatory">jomolhari-fonts</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tsonga-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Tsonga Support</name>
+  <description>Tsonga Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-ts</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>tswana-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Tswana Support</name>
+  <description>Tswana Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-tn</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>turbogears</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>TurboGears application framework</name>
+  <description>TurboGears application framework</description>
+   <packagelist>
+    <packagereq type="mandatory">TurboGears2</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>turkish-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Turkish Support</name>
+  <description>Turkish Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-tr</packagereq>
+    <packagereq type="mandatory">kde-i18n-Turkish</packagereq>
+    <packagereq type="mandatory">kde-l10n-Turkish</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>turkmen-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Turkmen Support</name>
+  <description>Turkmen Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-tk</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>ukrainian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Ukrainian Support</name>
+  <description>Ukrainian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">eclipse-nls-uk</packagereq>
+    <packagereq type="mandatory">hunspell-uk</packagereq>
+    <packagereq type="mandatory">hyphen-uk</packagereq>
+    <packagereq type="mandatory">kde-i18n-Ukrainian</packagereq>
+    <packagereq type="mandatory">kde-l10n-Ukrainian</packagereq>
+    <packagereq type="mandatory">man-pages-uk</packagereq>
+    <packagereq type="mandatory">mythes-uk</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>upper-sorbian-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Upper Sorbian Support</name>
+  <description>Upper Sorbian Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-hsb</packagereq>
+    <packagereq type="mandatory">hyphen-hsb</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>urdu-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Urdu Support</name>
+  <description>Urdu Support</description>
+   <packagelist>
+    <packagereq type="mandatory">m17n-contrib-urdu</packagereq>
+    <packagereq type="mandatory">paktype-naqsh-fonts</packagereq>
+    <packagereq type="mandatory">paktype-tehreer-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-mono-fonts</packagereq>
+    <packagereq type="mandatory">nafees-web-naskh-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-ur</packagereq>
+    <packagereq type="mandatory">ibus-m17n</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>uzbek-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Uzbek Support</name>
+  <description>Uzbek Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-uz</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>venda-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Venda Support</name>
+  <description>Venda Support</description>
+   <packagelist>
+    <packagereq type="mandatory">dejavu-sans-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-sans-mono-fonts</packagereq>
+    <packagereq type="mandatory">dejavu-serif-fonts</packagereq>
+    <packagereq type="mandatory">hunspell-ve</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>vietnamese-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Vietnamese Support</name>
+  <description>Vietnamese Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-vi</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>virtualization-client</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Virtualization Client</name>
+  <description>Virtualization Client</description>
+   <packagelist>
+    <packagereq type="mandatory">python-virtinst</packagereq>
+    <packagereq type="mandatory">virt-manager</packagereq>
+    <packagereq type="mandatory">virt-viewer</packagereq>
+    <packagereq type="mandatory">virt-top</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>virtualization-platform</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Virtualization Platform</name>
+  <description>Virtualization Platform</description>
+   <packagelist>
+    <packagereq type="mandatory">libvirt</packagereq>
+    <packagereq type="mandatory">libvirt-client</packagereq>
+    <packagereq type="mandatory">fence-virtd-libvirt</packagereq>
+    <packagereq type="mandatory">fence-virtd-multicast</packagereq>
+    <packagereq type="mandatory">fence-virtd-serial</packagereq>
+    <packagereq type="mandatory">libvirt-cim</packagereq>
+    <packagereq type="mandatory">libvirt-java</packagereq>
+    <packagereq type="mandatory">perl-Sys-Virt</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>walloon-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Walloon Support</name>
+  <description>Walloon Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-wa</packagereq>
+    <packagereq type="mandatory">kde-l10n-Walloon</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>web-server</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Web Server</name>
+  <description>Web Server</description>
+   <packagelist>
+    <packagereq type="mandatory">httpd</packagereq>
+    <packagereq type="mandatory">crypto-utils</packagereq>
+    <packagereq type="mandatory">httpd-manual</packagereq>
+    <packagereq type="mandatory">mod_perl</packagereq>
+    <packagereq type="mandatory">mod_ssl</packagereq>
+    <packagereq type="mandatory">mod_wsgi</packagereq>
+    <packagereq type="mandatory">webalizer</packagereq>
+    <packagereq type="mandatory">certmonger</packagereq>
+    <packagereq type="mandatory">libmemcached</packagereq>
+    <packagereq type="mandatory">memcached</packagereq>
+    <packagereq type="mandatory">mod_auth_kerb</packagereq>
+    <packagereq type="mandatory">mod_auth_mysql</packagereq>
+    <packagereq type="mandatory">mod_auth_pgsql</packagereq>
+    <packagereq type="mandatory">mod_authz_ldap</packagereq>
+    <packagereq type="mandatory">mod_nss</packagereq>
+    <packagereq type="mandatory">perl-CGI</packagereq>
+    <packagereq type="mandatory">perl-CGI-Session</packagereq>
+    <packagereq type="mandatory">perl-Cache-Memcached</packagereq>
+    <packagereq type="mandatory">python-memcached</packagereq>
+    <packagereq type="mandatory">squid</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>web-servlet</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Web Servlet Engine</name>
+  <description>Web Servlet Engine</description>
+   <packagelist>
+    <packagereq type="mandatory">tomcat6</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>welsh-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Welsh Support</name>
+  <description>Welsh Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-cy</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>x11</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>X Window System</name>
+  <description>X Window System</description>
+   <packagelist>
+    <packagereq type="mandatory">xorg-x11-drivers</packagereq>
+    <packagereq type="mandatory">xorg-x11-server-Xorg</packagereq>
+    <packagereq type="mandatory">xorg-x11-xauth</packagereq>
+    <packagereq type="mandatory">xorg-x11-xinit</packagereq>
+    <packagereq type="mandatory">firstboot</packagereq>
+    <packagereq type="mandatory">glx-utils</packagereq>
+    <packagereq type="mandatory">hal</packagereq>
+    <packagereq type="mandatory">plymouth-system-theme</packagereq>
+    <packagereq type="mandatory">wacomexpresskeys</packagereq>
+    <packagereq type="mandatory">xorg-x11-server-utils</packagereq>
+    <packagereq type="mandatory">xorg-x11-utils</packagereq>
+    <packagereq type="mandatory">xvattr</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>xhosa-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Xhosa Support</name>
+  <description>Xhosa Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-xh</packagereq>
+   </packagelist>
+ </group>
+ <group>
+  <id>zulu-support</id>
+  <default>False</default>
+  <uservisible>True</uservisible>
+  <name>Zulu Support</name>
+  <description>Zulu Support</description>
+   <packagelist>
+    <packagereq type="mandatory">hunspell-zu</packagereq>
+    <packagereq type="mandatory">hyphen-zu</packagereq>
+   </packagelist>
+ </group>
+   <category>
+    <id>base-system</id>
+    <name>Base System</name>
+    <name xml:lang='as'>মূল ব্যৱস্থাপ্ৰণালী</name>
+    <name xml:lang='bal'>سیستم پایه</name>
+    <name xml:lang='bg'>Базова система</name>
+    <name xml:lang='bn'>বেজ সিস্টেম</name>
+    <name xml:lang='bn_IN'>মৌলিক সিস্টেম</name>
+    <name xml:lang='bs'>Osnovni sistem</name>
+    <name xml:lang='ca'>Sistema bàsic</name>
+    <name xml:lang='cs'>Základní programy</name>
+    <name xml:lang='cy'>Cysawd Sail</name>
+    <name xml:lang='da'>Basesystem</name>
+    <name xml:lang='de'>Basissystem</name>
+    <name xml:lang='el'>Βασικό σύστημα</name>
+    <name xml:lang='en_GB'>Base System</name>
+    <name xml:lang='es'>Sistema Base</name>
+    <name xml:lang='et'>Põhisüsteem</name>
+    <name xml:lang='fi'>Perusjärjestelmä</name>
+    <name xml:lang='fr'>Système de base</name>
+    <name xml:lang='gu'>આધાર સિસ્ટમ</name>
+    <name xml:lang='he'>מערכת בסיס</name>
+    <name xml:lang='hi'>बेस सिस्टम</name>
+    <name xml:lang='hr'>Osnovni sustav</name>
+    <name xml:lang='hu'>Alaprendszer</name>
+    <name xml:lang='id'>Sistem Dasar</name>
+    <name xml:lang='is'>Grunnkerfið</name>
+    <name xml:lang='it'>Sistema base</name>
+    <name xml:lang='ja'>ベースシステム</name>
+    <name xml:lang='ka'>ძირითადი სისტემა</name>
+    <name xml:lang='kn'>ಮೂಲ ವ್ಯವಸ್ಥೆ</name>
+    <name xml:lang='ko'>기반 시스템</name>
+    <name xml:lang='lv'>Pamatsistēma</name>
+    <name xml:lang='mai'>बेस सिस्टम</name>
+    <name xml:lang='ml'>ബെയിസ് സിസ്റ്റം</name>
+    <name xml:lang='mr'>आधार प्रणाली</name>
+    <name xml:lang='ms'>Sistem Asas</name>
+    <name xml:lang='nb'>Basissystem</name>
+    <name xml:lang='ne'>आधार प्रणाली</name>
+    <name xml:lang='nl'>Basissysteem</name>
+    <name xml:lang='or'>ମୌଳିକ ତନ୍ତ୍ର</name>
+    <name xml:lang='pa'>ਮੁੱਢਲਾ ਸਿਸਟਮ</name>
+    <name xml:lang='pl'>Podstawowy system</name>
+    <name xml:lang='pt'>Sistema de Base</name>
+    <name xml:lang='pt_BR'>Sistema Básico</name>
+    <name xml:lang='ro'>Sistem de bază</name>
+    <name xml:lang='ru'>Базовая система</name>
+    <name xml:lang='si'>මූලික පද්ධතිය</name>
+    <name xml:lang='sk'>Základ systému</name>
+    <name xml:lang='sl'>Osnovni sistem</name>
+    <name xml:lang='sq'>Sistem Bazë</name>
+    <name xml:lang='sr'>Основни систем</name>
+    <name xml:lang='sr@Latn'>Osnovni sistem</name>
+    <name xml:lang='sr@latin'>Osnovni sistem</name>
+    <name xml:lang='sv'>Bassystem</name>
+    <name xml:lang='ta'>அடிப்படை அமைப்பு</name>
+    <name xml:lang='te'>ఆధార వ్యవస్థ</name>
+    <name xml:lang='tg'>Асосҳои системавӣ</name>
+    <name xml:lang='th'>ระบบพื้นฐาน</name>
+    <name xml:lang='tr'>Temel Sistem</name>
+    <name xml:lang='uk'>Базова система</name>
+    <name xml:lang='zh_CN'>基本系统</name>
+    <name xml:lang='zh_TW'>基礎系統</name>
+    <description>Core system components.</description>
+    <description xml:lang='as'>প্ৰণালীৰ মূখ্য সামগ্ৰী ।</description>
+    <description xml:lang='bn_IN'>সিস্টেমের কোর সামগ্রী।</description>
+    <description xml:lang='de'>Zentrale Systemkomponenten.</description>
+    <description xml:lang='es'>Componentes de sistema Core</description>
+    <description xml:lang='fr'>Composants du système de base.</description>
+    <description xml:lang='gu'>કોર સિસ્ટમ સાધનો.</description>
+    <description xml:lang='hi'>प्रधान सिस्टम घटक</description>
+    <description xml:lang='it'>Componenti di base del sistema.</description>
+    <description xml:lang='ja'>コアシステムコンポーネント</description>
+    <description xml:lang='kn'>ಪ್ರಮುಖ ವ್ಯವಸ್ಥೆಯ ಘಟಕಗಳು.</description>
+    <description xml:lang='ko'>핵심 시스템 콤포넌트.</description>
+    <description xml:lang='ml'>കോര്‍ സിസ്റ്റം ഘടകങ്ങള്‍.</description>
+    <description xml:lang='mr'>कोर प्रणाली घटके.</description>
+    <description xml:lang='or'>ମୂଖ୍ୟ ତନ୍ତ୍ର ଉପାଦାନଗୁଡ଼ିକ।</description>
+    <description xml:lang='pa'>ਮੁੱਖ ਸਿਸਟਮ ਹਿੱਸੇ।</description>
+    <description xml:lang='pl'>Główne składniki systemu.</description>
+    <description xml:lang='pt_BR'>Componentes de sistema central</description>
+    <description xml:lang='ru'>Основные компоненты системы.</description>
+    <description xml:lang='sv'>Grundläggande systemkomponenter.</description>
+    <description xml:lang='ta'>உள்ளீடு கணினி ஆக்கக்கூறுகள்.</description>
+    <description xml:lang='te'>కోర్ సిస్టమ్ మూలకములు.</description>
+    <description xml:lang='uk'>Основні компонент систем.</description>
+    <description xml:lang='zh_CN'>核系统组件。</description>
+    <description xml:lang='zh_TW'>核心系統元件。</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>backup-client</groupid>
+      <groupid>base</groupid>
+      <groupid>compat-libraries</groupid>
+      <groupid>console-internet</groupid>
+      <groupid>debugging</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>directory-client</groupid>
+      <groupid>hardware-monitoring</groupid>
+      <groupid>infiniband</groupid>
+      <groupid>java-platform</groupid>
+      <groupid>large-systems</groupid>
+      <groupid>legacy-unix</groupid>
+      <groupid>mainframe-access</groupid>
+      <groupid>network-file-system-client</groupid>
+      <groupid>network-tools</groupid>
+      <groupid>performance</groupid>
+      <groupid>perl-runtime</groupid>
+      <groupid>print-client</groupid>
+      <groupid>scientific</groupid>
+      <groupid>security-tools</groupid>
+      <groupid>smart-card</groupid>
+      <groupid>storage-client-fcoe</groupid>
+      <groupid>storage-client-iscsi</groupid>
+      <groupid>storage-client-multipath</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>servers</id>
+    <name>Servers</name>
+    <name xml:lang='af'>Bedieners</name>
+    <name xml:lang='am'>ሰርቨሮች</name>
+    <name xml:lang='ar'>خوادم</name>
+    <name xml:lang='as'>সেৱক সমূহ</name>
+    <name xml:lang='bal'>سروران</name>
+    <name xml:lang='be'>Паслужнікі</name>
+    <name xml:lang='bg'>Сървъри</name>
+    <name xml:lang='bn'>সার্ভার</name>
+    <name xml:lang='bn_IN'>সার্ভার</name>
+    <name xml:lang='bs'>Poslužitelji</name>
+    <name xml:lang='ca'>Servidors</name>
+    <name xml:lang='cs'>Servery</name>
+    <name xml:lang='cy'>Gweinyddion</name>
+    <name xml:lang='da'>Servere</name>
+    <name xml:lang='de'>Server</name>
+    <name xml:lang='el'>Εξυπηρετητές</name>
+    <name xml:lang='en_GB'>Servers</name>
+    <name xml:lang='es'>Servidores</name>
+    <name xml:lang='et'>Serverid</name>
+    <name xml:lang='fa'>کارگزارها</name>
+    <name xml:lang='fi'>Palvelimet</name>
+    <name xml:lang='fr'>Serveurs</name>
+    <name xml:lang='gl'>Servidores</name>
+    <name xml:lang='gu'>સર્વરો</name>
+    <name xml:lang='he'>שרתים</name>
+    <name xml:lang='hi'>सर्वर</name>
+    <name xml:lang='hr'>Poslužitelji</name>
+    <name xml:lang='hu'>Kiszolgálók</name>
+    <name xml:lang='hy'>Սերվերներ</name>
+    <name xml:lang='id'>Server</name>
+    <name xml:lang='ilo'>Serbidor</name>
+    <name xml:lang='is'>Þjónar</name>
+    <name xml:lang='it'>Servers</name>
+    <name xml:lang='ja'>サーバー</name>
+    <name xml:lang='ka'>სერვერები</name>
+    <name xml:lang='kn'>ಪರಿಚಾರಕಗಳು</name>
+    <name xml:lang='ko'>서버</name>
+    <name xml:lang='lv'>Serveri</name>
+    <name xml:lang='mai'>सर्वर</name>
+    <name xml:lang='mk'>Сервери</name>
+    <name xml:lang='ml'>സറ്‍വറുകള്‍</name>
+    <name xml:lang='mr'>सेवक</name>
+    <name xml:lang='ms'>Pelayan-Pelayan</name>
+    <name xml:lang='nb'>Tjenere</name>
+    <name xml:lang='ne'>सर्भर</name>
+    <name xml:lang='nl'>Servers</name>
+    <name xml:lang='no'>Tjenere</name>
+    <name xml:lang='nso'>Baabi</name>
+    <name xml:lang='or'>ସେବକ ମାନେ</name>
+    <name xml:lang='pa'>ਸਰਵਰ</name>
+    <name xml:lang='pl'>Serwery</name>
+    <name xml:lang='pt'>Servidores</name>
+    <name xml:lang='pt_BR'>Servidores</name>
+    <name xml:lang='ro'>Servere</name>
+    <name xml:lang='ru'>Серверы</name>
+    <name xml:lang='si'>සේවා දායකයන්</name>
+    <name xml:lang='sk'>Servery</name>
+    <name xml:lang='sl'>Strežniki</name>
+    <name xml:lang='sq'>Shërbyesa</name>
+    <name xml:lang='sr'>Сервери</name>
+    <name xml:lang='sr@Latn'>Serveri</name>
+    <name xml:lang='sr@latin'>Serveri</name>
+    <name xml:lang='sv'>Servrar</name>
+    <name xml:lang='ta'>சேவையகங்கள்</name>
+    <name xml:lang='te'>సేవికలు</name>
+    <name xml:lang='tg'>Хидматгоҳҳо</name>
+    <name xml:lang='th'>ตัวให้บริการ</name>
+    <name xml:lang='tr'>Sunucular</name>
+    <name xml:lang='uk'>Сервери</name>
+    <name xml:lang='ur'>سرورز</name>
+    <name xml:lang='vi'>Server</name>
+    <name xml:lang='zh_CN'>服务器</name>
+    <name xml:lang='zh_TW'>伺服器</name>
+    <name xml:lang='zu'>Abalekeleli</name>
+    <description>Various network services.</description>
+    <description xml:lang='as'>বিভিন্ন নে'টৱৰ্ক সেৱা ।</description>
+    <description xml:lang='bn_IN'>বিভিন্ন নেটওয়ার্ক পরিসেবা।</description>
+    <description xml:lang='de'>Verschiedene Netzwerkdienste.</description>
+    <description xml:lang='es'>Varios servicios de red</description>
+    <description xml:lang='fr'>Divers services de réseau.</description>
+    <description xml:lang='gu'>વિવિધ નેટવર્ક સેવાઓ.</description>
+    <description xml:lang='hi'>विविध संजाल सेवाएँ.</description>
+    <description xml:lang='it'>Servizi di rete vari.</description>
+    <description xml:lang='ja'>多様なネットワークサービスです。</description>
+    <description xml:lang='kn'>ಹಲವು ಜಾಲ ಸೇವೆಗಳು.</description>
+    <description xml:lang='ko'>여러 네트워크 서비스.</description>
+    <description xml:lang='ml'>അനവധി നെറ്റ്‌വര്‍ക്ക് സര്‍വീസുകള്‍.</description>
+    <description xml:lang='mr'>विविध नेटवर्क सर्व्हिसेस्.</description>
+    <description xml:lang='or'>ବିଭିନ୍ନ ନେଟୱାର୍କ ସେବା।</description>
+    <description xml:lang='pa'>ਵੱਖ-ਵੱਖ ਨੈੱਟਵਰਕ ਸਰਵਿਸਾਂ।</description>
+    <description xml:lang='pl'>Różne usługi sieciowe.</description>
+    <description xml:lang='pt_BR'>Diversos Servidores de Rede</description>
+    <description xml:lang='ru'>Различные сетевые службы.</description>
+    <description xml:lang='sv'>Diverse nätverkstjänster.</description>
+    <description xml:lang='ta'>பல்வேறு பிணைய சேவைகள்.</description>
+    <description xml:lang='te'>వివిధ నెట్వర్కు సేవలు.</description>
+    <description xml:lang='uk'>Різні мережні служби.</description>
+    <description xml:lang='zh_CN'>各种网络服务器。</description>
+    <description xml:lang='zh_TW'>各種網路服務。</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>cifs-file-server</groupid>
+      <groupid>directory-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>network-server</groupid>
+      <groupid>nfs-file-server</groupid>
+      <groupid>server-platform</groupid>
+      <groupid>storage-server</groupid>
+      <groupid>system-admin-tools</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>web-services</id>
+    <name>Web Services</name>
+    <name xml:lang='as'>ৱেব সেৱা</name>
+    <name xml:lang='bn_IN'>ওয়েব পরিসেবা</name>
+    <name xml:lang='de'>Web-Dienste</name>
+    <name xml:lang='es'>Servidor de Web</name>
+    <name xml:lang='fr'>Services Web</name>
+    <name xml:lang='gu'>વેબ સેવાઓ</name>
+    <name xml:lang='hi'>वेब सेवाएँ</name>
+    <name xml:lang='it'>Servizi web</name>
+    <name xml:lang='ja'>Web サービス</name>
+    <name xml:lang='kn'>ಜಾಲ ಸೇವೆಗಳು</name>
+    <name xml:lang='ko'>웹 서비스</name>
+    <name xml:lang='ml'>വെബ് സര്‍വീസുകള്‍</name>
+    <name xml:lang='mr'>बेल सर्व्हिसेस्</name>
+    <name xml:lang='or'>ୱେବ ସର୍ଭିସଗୁଡ଼ିକ</name>
+    <name xml:lang='pa'>ਵੈੱਬ ਸਰਵਿਸਾਂ</name>
+    <name xml:lang='pl'>Usługi WWW</name>
+    <name xml:lang='pt_BR'>Serviços da Web</name>
+    <name xml:lang='ru'>Веб-службы</name>
+    <name xml:lang='sv'>Webbtjänster</name>
+    <name xml:lang='ta'>வெப் சேவைகள்</name>
+    <name xml:lang='te'>వెబ్ సేవలు</name>
+    <name xml:lang='uk'>Веб-служби</name>
+    <name xml:lang='zh_CN'>Web 服务</name>
+    <name xml:lang='zh_TW'>網站服務</name>
+    <description>Web and web application servers.</description>
+    <description xml:lang='as'>ৱেব আৰু ৱেব অনুপ্ৰয়োগ সেৱক ।</description>
+    <description xml:lang='bn_IN'>ওয়েব ও ওয়েব অ্যাপ্লিকেশন সার্ভার।</description>
+    <description xml:lang='de'>Web- und Web-Applikations-Server.</description>
+    <description xml:lang='es'>Servidores y aplicaciones de Web</description>
+    <description xml:lang='fr'>Web et serveurs d'applications web.</description>
+    <description xml:lang='gu'>વેબ અને વેબ કાર્યક્રમ સર્વરો.</description>
+    <description xml:lang='hi'>वेब और वेब अनुप्रयोग सर्वर.</description>
+    <description xml:lang='it'>Web server ed applicazione web.</description>
+    <description xml:lang='ja'>Web および Web アプリケーションサーバーです。</description>
+    <description xml:lang='kn'>ಜಾಲ ಹಾಗು ಜಾಲ ಅನ್ವಯ ಪರಿಚಾರಕಗಳು.</description>
+    <description xml:lang='ko'>웹과 웹 어플리케이션 서버.</description>
+    <description xml:lang='ml'>വെബ്, വെബ് ആപ്ലിക്കേഷന്‍ സര്‍വറുകള്‍.</description>
+    <description xml:lang='mr'>वेब व वेब ऍप्लिकेशन सर्व्हर्स्.</description>
+    <description xml:lang='or'>ୱେବ ଏବଂ ୱେବ ପ୍ରୟୋଗ ସର୍ଭରଗୁଡ଼ିକ।</description>
+    <description xml:lang='pa'>ਵੈੱਬ ਅਤੇ ਵੈੱਬ ਐਪਲਕੇਸ਼ਨ ਸਰਵਰ।</description>
+    <description xml:lang='pl'>Serwery WWW i aplikacji WWW.</description>
+    <description xml:lang='pt_BR'>Web e Servidores de aplicativos da web</description>
+    <description xml:lang='ru'>Веб и серверы веб-приложений.</description>
+    <description xml:lang='sv'>Webb- och webbprogramservrar.</description>
+    <description xml:lang='ta'>வெப் மற்றும் வெப் பயன்பாடுகளின் சேவையகங்கள்.</description>
+    <description xml:lang='te'>వెబ్ మరియు వెబ్ అనువర్తన సర్వర్స్.</description>
+    <description xml:lang='uk'>Веб та сервери веб-програм.</description>
+    <description xml:lang='zh_CN'>Web 和 web 程序服务器。</description>
+    <description xml:lang='zh_TW'>網站和網站應用程式伺服器。</description>
+    <display_order>30</display_order>
+    <grouplist>
+      <groupid>php</groupid>
+      <groupid>turbogears</groupid>
+      <groupid>web-server</groupid>
+      <groupid>web-servlet</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>databases</id>
+    <name>Databases</name>
+    <name xml:lang='bn_IN'>ডাটাবেস</name>
+    <name xml:lang='de'>Datenbanken</name>
+    <name xml:lang='es'>Base de datos</name>
+    <name xml:lang='fr'>Base de données</name>
+    <name xml:lang='gu'>ડેટાબેઝો</name>
+    <name xml:lang='hi'>डेटाबेस</name>
+    <name xml:lang='it'>Database</name>
+    <name xml:lang='ja'>データベース</name>
+    <name xml:lang='kn'>ದತ್ತಸಂಚಯಗಳು</name>
+    <name xml:lang='ko'>데이터베이스</name>
+    <name xml:lang='ml'>ഡാറ്റാബെയിസുകള്‍</name>
+    <name xml:lang='mr'>डाटाबेसेस्</name>
+    <name xml:lang='or'>ତଥ୍ଯାଧାରମାନ</name>
+    <name xml:lang='pa'>ਡਾਟਾਬੇਸ</name>
+    <name xml:lang='pl'>Bazy danych</name>
+    <name xml:lang='pt_BR'>Banco de Dados</name>
+    <name xml:lang='ru'>Базы данных</name>
+    <name xml:lang='sv'>Databaser</name>
+    <name xml:lang='ta'>தரவுத்தளங்கள்</name>
+    <name xml:lang='te'>డాటాబేస్‌లు</name>
+    <name xml:lang='zh_CN'>数据库</name>
+    <name xml:lang='zh_TW'>資料庫</name>
+    <description>SQL Databases</description>
+    <description xml:lang='bn_IN'>SQL ডাটাবেস</description>
+    <description xml:lang='de'>SQL-Datenbanken</description>
+    <description xml:lang='es'>Base de datos SQL</description>
+    <description xml:lang='fr'>Bases de données SQL</description>
+    <description xml:lang='gu'>SQL ડેટાબેઝો</description>
+    <description xml:lang='hi'>SQL डाटाबेस</description>
+    <description xml:lang='it'>Database SQL</description>
+    <description xml:lang='ja'>SQL データベース</description>
+    <description xml:lang='kn'>SQL ದತ್ತಸಂಚಯಗಳು</description>
+    <description xml:lang='ko'>SQL 데이터베이스</description>
+    <description xml:lang='ml'>SQL ഡാറ്റാബെയിസുകള്‍</description>
+    <description xml:lang='mr'>SQL डाटाबेसेस्</description>
+    <description xml:lang='or'>SQL ତଥ୍ଯାଧାରମାନ</description>
+    <description xml:lang='pa'>SQL ਡਾਟਾਬੇਸ</description>
+    <description xml:lang='pl'>Bazy danych SQL</description>
+    <description xml:lang='pt_BR'>Banco de Dados SQL</description>
+    <description xml:lang='ru'>Базы данных MySQL</description>
+    <description xml:lang='sv'>SQL-databaser</description>
+    <description xml:lang='ta'>SQL தரவுத்தளங்கள்</description>
+    <description xml:lang='te'>SQL డాటాబేస్‌లు</description>
+    <description xml:lang='zh_CN'>SQL 数据库</description>
+    <description xml:lang='zh_TW'>SQL 資料庫</description>
+    <display_order>35</display_order>
+    <grouplist>
+      <groupid>mysql</groupid>
+      <groupid>mysql-client</groupid>
+      <groupid>postgresql</groupid>
+      <groupid>postgresql-client</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>system-management</id>
+    <name>System Management</name>
+    <name xml:lang='as'>প্ৰণালী পৰিচালন</name>
+    <name xml:lang='bn_IN'>সিস্টেম পরিচালনা</name>
+    <name xml:lang='de'>System-Management</name>
+    <name xml:lang='es'>Administración de sistemas</name>
+    <name xml:lang='fr'>Gestion du système</name>
+    <name xml:lang='gu'>સિસ્ટમ સંચાલન</name>
+    <name xml:lang='hi'>तंत्र प्रबंधन</name>
+    <name xml:lang='it'>Gestione del sistema</name>
+    <name xml:lang='ja'>システム管理</name>
+    <name xml:lang='kn'>ವ್ಯವಸ್ಥೆ ನಿರ್ವಹಣೆ</name>
+    <name xml:lang='ko'>시스템 관리</name>
+    <name xml:lang='ml'>സിസ്റ്റം മാനേജ്മെന്റ്</name>
+    <name xml:lang='mr'>प्रणाली व्यवस्थापन</name>
+    <name xml:lang='or'>ତନ୍ତ୍ର ପରିଚାଳନା</name>
+    <name xml:lang='pa'>ਸਿਸਟਮ ਪਰਬੰਧਨ</name>
+    <name xml:lang='pl'>Zarządzanie systemem</name>
+    <name xml:lang='pt_BR'>Gerenciamento de Sistema</name>
+    <name xml:lang='ru'>Управление системой</name>
+    <name xml:lang='sv'>Systemhantering</name>
+    <name xml:lang='ta'>கணினி மேலாண்மை</name>
+    <name xml:lang='te'>సిస్టమ్ నిర్వహణ</name>
+    <name xml:lang='uk'>Керування системою</name>
+    <name xml:lang='zh_CN'>系统管理</name>
+    <name xml:lang='zh_TW'>系統管理</name>
+    <description>System Management frameworks</description>
+    <description xml:lang='bn_IN'>সিস্টেম পরিচালনার পরিকাঠামো</description>
+    <description xml:lang='de'>System-Management-Frameworks</description>
+    <description xml:lang='es'>Marcos de administración de sistemas</description>
+    <description xml:lang='fr'>Frameworks de gestion de système</description>
+    <description xml:lang='gu'>સિસ્ટમ સંચાલન ફ્રેમવર્ક</description>
+    <description xml:lang='hi'>तंत्र प्रबंधन फ्रेमवर्क</description>
+    <description xml:lang='it'>Framework per la gestione del sistema</description>
+    <description xml:lang='ja'>システム管理のフレームワーク</description>
+    <description xml:lang='kn'>ವ್ಯವಸ್ಥೆ ನಿರ್ವಹಣಾ ಫ್ರೇಮ್‌ವರ್ಕುಗಳು</description>
+    <description xml:lang='ko'>시스템 관리 프레임워크</description>
+    <description xml:lang='ml'>സിസ്റ്റം മാനേജ്മെന്റ് ഫ്രെയിം വര്‍ക്കുകള്‍</description>
+    <description xml:lang='mr'>प्रणाली व्यवस्थापन फ्रेमवर्क्स्</description>
+    <description xml:lang='or'>ତନ୍ତ୍ର ପରିଚାଳନା ଫ୍ରେମୱର୍କମାନ</description>
+    <description xml:lang='pa'>ਸਿਸਟਮ ਪਰਬੰਧਨ ਫਰੇਮਵਰਕ</description>
+    <description xml:lang='pl'>Struktury zarządzania systemem</description>
+    <description xml:lang='pt_BR'>Frameworks de Gerenciamento de Sistema</description>
+    <description xml:lang='ru'>Управление системой</description>
+    <description xml:lang='sv'>Systemhanteringsramverk</description>
+    <description xml:lang='ta'>கணினி மேலாண்மை ஃப்ரேம்வொர்க்ஸ்</description>
+    <description xml:lang='te'>సిస్టమ్ నిర్వహణ ఫ్రేమ్‌వర్కులు</description>
+    <description xml:lang='zh_CN'>系统管理框架</description>
+    <description xml:lang='zh_TW'>系統管理框架</description>
+    <display_order>50</display_order>
+    <grouplist>
+      <groupid>system-management</groupid>
+      <groupid>system-management-messaging-client</groupid>
+      <groupid>system-management-messaging-server</groupid>
+      <groupid>system-management-snmp</groupid>
+      <groupid>system-management-wbem</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>virtualization</id>
+    <name>Virtualization</name>
+    <name xml:lang='ar'>تقديريات</name>
+    <name xml:lang='as'>ভাৰচুৱেলাইজেচন্</name>
+    <name xml:lang='bal'>مجازی کتن</name>
+    <name xml:lang='bg'>Виртуализация</name>
+    <name xml:lang='bn'>ভার্চুয়ালাইজেশন</name>
+    <name xml:lang='bn_IN'>ভার্চুয়ালাইজেশন</name>
+    <name xml:lang='bs'>Virtualizacija</name>
+    <name xml:lang='ca'>Virtualització</name>
+    <name xml:lang='cs'>Virtualizace</name>
+    <name xml:lang='da'>Virtualisering</name>
+    <name xml:lang='de'>Virtualisierung</name>
+    <name xml:lang='el'>Εικονικοποίηση</name>
+    <name xml:lang='en_GB'>Virtualisation</name>
+    <name xml:lang='es'>Virtualización</name>
+    <name xml:lang='et'>Virtualiseerimine</name>
+    <name xml:lang='fi'>Virtualisointi</name>
+    <name xml:lang='fr'>Virtualisation</name>
+    <name xml:lang='gu'>વર્ચ્યુઅલાઈઝેશન</name>
+    <name xml:lang='he'>הדמייה (וירטואליזציה)</name>
+    <name xml:lang='hi'>दृश्यकरण</name>
+    <name xml:lang='hr'>Virtualizacija</name>
+    <name xml:lang='hu'>Virtualizáció</name>
+    <name xml:lang='hy'>Վիրտուալիզացիա</name>
+    <name xml:lang='id'>Virtualisasi</name>
+    <name xml:lang='is'>Sýndarvélar</name>
+    <name xml:lang='it'>Virtualizzazione</name>
+    <name xml:lang='ja'>仮想化</name>
+    <name xml:lang='ka'>ვირტუალიზება</name>
+    <name xml:lang='kn'>ವರ್ಚುವಲೈಸೇಶನ್</name>
+    <name xml:lang='ko'>가상화</name>
+    <name xml:lang='lv'>Virtualizācija</name>
+    <name xml:lang='mai'>वर्चुअलाइजेशन</name>
+    <name xml:lang='ml'>വിര്‍ച്ച്വലൈസേഷന്‍</name>
+    <name xml:lang='mr'>वर्च्युअलाइजेशन</name>
+    <name xml:lang='ms'>Virtualization</name>
+    <name xml:lang='nb'>Virtualisering</name>
+    <name xml:lang='ne'>भर्चुअलाइजेसन</name>
+    <name xml:lang='nl'>Virtualisatie</name>
+    <name xml:lang='or'>ଆଭାସୀକରଣ</name>
+    <name xml:lang='pa'>ਵੁਰਚੁਲਾਈਜ਼ੇਸ਼ਨ</name>
+    <name xml:lang='pl'>Wirtualizacja</name>
+    <name xml:lang='pt'>Virtualização</name>
+    <name xml:lang='pt_BR'>Virtualização</name>
+    <name xml:lang='ro'>Virtualizare</name>
+    <name xml:lang='ru'>Виртуализация</name>
+    <name xml:lang='si'>අථත්‍යකරණය</name>
+    <name xml:lang='sk'>Virtualizácia</name>
+    <name xml:lang='sl'>Virtualizacija</name>
+    <name xml:lang='sr'>Виртуализација</name>
+    <name xml:lang='sr@Latn'>Virtualizacija</name>
+    <name xml:lang='sr@latin'>Virtualizacija</name>
+    <name xml:lang='sv'>Virtualisering</name>
+    <name xml:lang='ta'>மெய்நிகராக்கம்</name>
+    <name xml:lang='te'>వర్చ్యులైజేషన్</name>
+    <name xml:lang='tg'>Барномаҳои виртуалӣ</name>
+    <name xml:lang='th'>Virtualization</name>
+    <name xml:lang='tr'>Sanallaştırma</name>
+    <name xml:lang='uk'>Віртуалізація</name>
+    <name xml:lang='zh_CN'>虚拟化</name>
+    <name xml:lang='zh_TW'>虛擬化</name>
+    <description>Virtualization support.</description>
+    <description xml:lang='as'>ভাৰ্চুৱেলাইজেছন সমৰ্থন ।</description>
+    <description xml:lang='bn_IN'>ভার্চুয়ালাইজেশন সমর্থন।</description>
+    <description xml:lang='de'>Virtualisierungsunterstützung.</description>
+    <description xml:lang='es'>Soporte de virtualización</description>
+    <description xml:lang='fr'>Prise en charge de la virtualisation.</description>
+    <description xml:lang='gu'>વર્ચ્યુઅલાઈઝેશન આધાર.</description>
+    <description xml:lang='hi'>वर्चुअलाइजेशन समर्थन.</description>
+    <description xml:lang='it'>Supporto per la virtualizzazione.</description>
+    <description xml:lang='ja'>仮想化サポート</description>
+    <description xml:lang='kn'>ವರ್ಚುವಲೈಸೇಶನ್ ಬೆಂಬಲ.</description>
+    <description xml:lang='ko'>가상화 지원.</description>
+    <description xml:lang='ml'>വിര്‍ച്ച്വലൈസേഷന്‍ പിന്തുണ.</description>
+    <description xml:lang='mr'>वर्च्युअलाइजेशन समर्थन.</description>
+    <description xml:lang='or'>ଆଭାସୀକରଣ ସମର୍ଥନ।</description>
+    <description xml:lang='pa'>ਵਰਚੁਲਾਈਜ਼ੇਸ਼ਨ ਸਹਿਯੋਗ।</description>
+    <description xml:lang='pl'>Obsługa wirtualizacji.</description>
+    <description xml:lang='pt_BR'>Suporte à Virtualização. </description>
+    <description xml:lang='ru'>Поддержка виртуализации.</description>
+    <description xml:lang='sv'>Virtualiseringstöd.</description>
+    <description xml:lang='ta'>மெய்நிகராக்க துணை.</description>
+    <description xml:lang='te'>వర్చ్యులైజేషన్ మద్దతు.</description>
+    <description xml:lang='uk'>Підтримка віртуалізації.</description>
+    <description xml:lang='zh_CN'>虚拟化支持。</description>
+    <description xml:lang='zh_TW'>虛擬化支援。</description>
+    <display_order>60</display_order>
+    <grouplist>
+      <groupid>virtualization</groupid>
+      <groupid>virtualization-client</groupid>
+      <groupid>virtualization-platform</groupid>
+      <groupid>virtualization-tools</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>desktops</id>
+    <name>Desktops</name>
+    <name xml:lang='af'>Werkskerms</name>
+    <name xml:lang='am'>ዴስክቶፖች</name>
+    <name xml:lang='ar'>أسطح المكتب</name>
+    <name xml:lang='as'>ডেস্কট'প</name>
+    <name xml:lang='be'>Стальцы</name>
+    <name xml:lang='bn'>বিভিন্ন ডেস্কটপ</name>
+    <name xml:lang='bn_IN'>ডেস্কটপ</name>
+    <name xml:lang='bs'>Radne površine</name>
+    <name xml:lang='ca'>Escriptoris</name>
+    <name xml:lang='cy'>Penbyrddau</name>
+    <name xml:lang='de'>Desktops</name>
+    <name xml:lang='en_GB'>Desktops</name>
+    <name xml:lang='es'>Escritorios</name>
+    <name xml:lang='fa'>محیط‌های رومیزی</name>
+    <name xml:lang='fi'>Työpöydät</name>
+    <name xml:lang='fr'>Bureaux</name>
+    <name xml:lang='gl'>Escritorios</name>
+    <name xml:lang='gu'>ડેસ્કટોપો</name>
+    <name xml:lang='hi'>डेस्कटॉप</name>
+    <name xml:lang='hr'>Radne površine</name>
+    <name xml:lang='hu'>Munkaasztalok</name>
+    <name xml:lang='hy'>Դեսքթոփներ</name>
+    <name xml:lang='id'>Desktop</name>
+    <name xml:lang='ilo'>Eskritorio</name>
+    <name xml:lang='it'>Desktop</name>
+    <name xml:lang='ja'>デスクトップ</name>
+    <name xml:lang='ka'>სამუშაო გარემოები</name>
+    <name xml:lang='kn'>ಗಣಕತೆರೆಗಳು</name>
+    <name xml:lang='ko'>데스크탑</name>
+    <name xml:lang='lv'>Darbvirsmas</name>
+    <name xml:lang='mk'>Графички работни околини</name>
+    <name xml:lang='ml'>പണിയിടങ്ങള്‍</name>
+    <name xml:lang='mr'>डेस्कटॉप्स्</name>
+    <name xml:lang='no'>Skrivebord</name>
+    <name xml:lang='nso'>Diteseke</name>
+    <name xml:lang='or'>ଡେସ୍କଟପ୍ ମାନ</name>
+    <name xml:lang='pa'>ਡੈਸਕਟਾਪ</name>
+    <name xml:lang='pl'>Środowiska</name>
+    <name xml:lang='pt_BR'>Desktops</name>
+    <name xml:lang='ru'>Рабочие столы</name>
+    <name xml:lang='si'>Desktops</name>
+    <name xml:lang='sl'>Namizja</name>
+    <name xml:lang='sq'>Desktopë</name>
+    <name xml:lang='sv'>Skrivbord</name>
+    <name xml:lang='ta'>பணிமேடைகள்</name>
+    <name xml:lang='te'>డెస్కుటాప్స్</name>
+    <name xml:lang='th'>เดสก์ท็อป</name>
+    <name xml:lang='tr'>Masaüstleri</name>
+    <name xml:lang='uk'>Робочі столи</name>
+    <name xml:lang='ur'>ڈيسک ٹاپس</name>
+    <name xml:lang='vi'>Desktop</name>
+    <name xml:lang='zh_CN'>桌面</name>
+    <name xml:lang='zh_TW'>桌面環境</name>
+    <name xml:lang='zu'>Amadesktop</name>
+    <description>Desktops and thin clients.</description>
+    <description xml:lang='as'>ডেস্কট'প আৰু থিন ক্লায়েন্ট ।</description>
+    <description xml:lang='bn_IN'>ডেস্কটপ ও থিন ক্লায়েন্ট।</description>
+    <description xml:lang='de'>Desktops und Thin-Clients.</description>
+    <description xml:lang='es'>Escritorios y clientes livianos.</description>
+    <description xml:lang='fr'>Bnvirox et clients légers.nnements de bureau</description>
+    <description xml:lang='gu'>ડેસ્કટોપ અને પાતળા ક્લાયન્ટો.</description>
+    <description xml:lang='hi'>डेस्कटॉप और थिन क्लाइंट</description>
+    <description xml:lang='it'>Desktop e thin client.</description>
+    <description xml:lang='ja'>デスクトップとシンクライアント</description>
+    <description xml:lang='kn'>ಗಣಕತೆರೆಗಳು ಹಾಗು ಥಿನ್‌ ಕ್ಲೈಂಟ್‌ಗಳು.</description>
+    <description xml:lang='ko'>데스크탑과 씬 클라이언트</description>
+    <description xml:lang='ml'>ഡസ്ക്ടോപ്പുകളും ഥിന്‍ ക്ലയന്റുകളും്റുകള്‍</description>
+    <description xml:lang='mr'>डेस्कटॉप्स् व थीन क्लाएंट्स्.</description>
+    <description xml:lang='or'>ଡେସ୍କଟପ ଏବଂ ଥିନ କ୍ଲାଏଣ୍ଟମାନ।</description>
+    <description xml:lang='pa'>ਡੈਸਕਟਾਪ ਅਤੇ ਥਿੰਨ ਕਲਾਂਈਟ</description>
+    <description xml:lang='pl'>Środowiska i cienkie klienty.</description>
+    <description xml:lang='pt_BR'>Ambientes de Trabalho e clientes finos</description>
+    <description xml:lang='ru'>Рабочие столы и ?тонкие? клиенты.</description>
+    <description xml:lang='sv'>Skrivbord och tunna klienter.</description>
+    <description xml:lang='ta'>பணிமேடை மற்றும் ஒல்லியான வாடிக்கையாளர்கள்.</description>
+    <description xml:lang='te'>డెస్కుటాప్స్ మరియు తిన్ క్లైంట్లు.</description>
+    <description xml:lang='uk'>Робочі столи та тонкі клієнти.</description>
+    <description xml:lang='zh_CN'>桌面和瘦客户端。</description>
+    <description xml:lang='zh_TW'>桌面環境與 thin clinet。</description>
+    <display_order>70</display_order>
+    <grouplist>
+      <groupid>basic-desktop</groupid>
+      <groupid>desktop-debugging</groupid>
+      <groupid>desktop-platform</groupid>
+      <groupid>fonts</groupid>
+      <groupid>general-desktop</groupid>
+      <groupid>graphical-admin-tools</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>kde-desktop</groupid>
+      <groupid>legacy-x</groupid>
+      <groupid>remote-desktop-clients</groupid>
+      <groupid>x11</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>applications</id>
+    <name>Applications</name>
+    <name xml:lang='af'>Toepassings</name>
+    <name xml:lang='am'>መጠቀሚያ ፕሮግራሞች</name>
+    <name xml:lang='ar'>تطبيقات</name>
+    <name xml:lang='as'>অনুপ্ৰয়োগ</name>
+    <name xml:lang='bal'>کارمرزیان</name>
+    <name xml:lang='be'>Дастасаваньні</name>
+    <name xml:lang='bg'>Приложения</name>
+    <name xml:lang='bn'>বিবিধ অ্যাপ্লিকেশন</name>
+    <name xml:lang='bn_IN'>অ্যাপ্লিকেশন</name>
+    <name xml:lang='bs'>Aplikacije</name>
+    <name xml:lang='ca'>Aplicacions</name>
+    <name xml:lang='cs'>Aplikace</name>
+    <name xml:lang='cy'>Cymwysiadau</name>
+    <name xml:lang='da'>Programmer</name>
+    <name xml:lang='de'>Anwendungen</name>
+    <name xml:lang='el'>Εφαρμογές</name>
+    <name xml:lang='en_GB'>Applications</name>
+    <name xml:lang='es'>Aplicaciones</name>
+    <name xml:lang='et'>Rakendused</name>
+    <name xml:lang='fa'>برنامه‌ها</name>
+    <name xml:lang='fi'>Apuohjelmat</name>
+    <name xml:lang='fr'>Applications</name>
+    <name xml:lang='gl'>Aplicacións</name>
+    <name xml:lang='gu'>કાર્યક્રમો</name>
+    <name xml:lang='he'>ישומים</name>
+    <name xml:lang='hi'>अनुप्रयोग</name>
+    <name xml:lang='hr'>Aplikacije</name>
+    <name xml:lang='hu'>Alkalmazások</name>
+    <name xml:lang='hy'>ծրագրեր</name>
+    <name xml:lang='id'>Aplikasi</name>
+    <name xml:lang='ilo'>Dagiti Aplikasion</name>
+    <name xml:lang='is'>Forrit</name>
+    <name xml:lang='it'>Applicazioni</name>
+    <name xml:lang='ja'>アプリケーション</name>
+    <name xml:lang='ka'>პროგრამები</name>
+    <name xml:lang='kn'>ಅನ್ವಯಗಳು</name>
+    <name xml:lang='ko'>응용 프로그램</name>
+    <name xml:lang='lv'>Lietojumprogrammas</name>
+    <name xml:lang='mai'>अनुप्रयोग</name>
+    <name xml:lang='mk'>Апликации</name>
+    <name xml:lang='ml'>പ്രയോഗങ്ങള്‍</name>
+    <name xml:lang='mr'>अनुप्रयोग</name>
+    <name xml:lang='ms'>Aplikasi</name>
+    <name xml:lang='nb'>Programmer</name>
+    <name xml:lang='ne'>अनुप्रयोग</name>
+    <name xml:lang='nl'>Toepassingen</name>
+    <name xml:lang='no'>Programmer</name>
+    <name xml:lang='nso'>Ditirišo</name>
+    <name xml:lang='or'>ପ୍ରୟୋଗ</name>
+    <name xml:lang='pa'>ਕਾਰਜ</name>
+    <name xml:lang='pl'>Aplikacje</name>
+    <name xml:lang='pt'>Aplicações</name>
+    <name xml:lang='pt_BR'>Aplicações</name>
+    <name xml:lang='ro'>Aplicaţii</name>
+    <name xml:lang='ru'>Приложения</name>
+    <name xml:lang='si'>වැඩසටහන්</name>
+    <name xml:lang='sk'>Aplikácie</name>
+    <name xml:lang='sl'>Aplikacije</name>
+    <name xml:lang='sq'>Zbatime</name>
+    <name xml:lang='sr'>Програми</name>
+    <name xml:lang='sr@Latn'>Programi</name>
+    <name xml:lang='sr@latin'>Programi</name>
+    <name xml:lang='sv'>Program</name>
+    <name xml:lang='ta'>பயன்பாடுகள்</name>
+    <name xml:lang='te'>అనువర్తనాలు</name>
+    <name xml:lang='tg'>Барномаҳо</name>
+    <name xml:lang='th'>แอพลิเคชัน</name>
+    <name xml:lang='tr'>Uygulamalar</name>
+    <name xml:lang='uk'>Програми</name>
+    <name xml:lang='ur'>اپلکیشن</name>
+    <name xml:lang='vi'>Ứng dụng</name>
+    <name xml:lang='zh_CN'>应用程序</name>
+    <name xml:lang='zh_TW'>應用程式</name>
+    <name xml:lang='zu'>Abayaleli</name>
+    <description>End-user applications.</description>
+    <description xml:lang='as'>ব্যৱহাৰকৰ্তাৰ অনুপ্ৰয়োগ ।</description>
+    <description xml:lang='bn_IN'>ব্যবহারকারী-প্রান্তের অ্যাপ্লিকেশন।</description>
+    <description xml:lang='de'>End-Benutzer-Anwendungen.</description>
+    <description xml:lang='es'>Aplicaciones de usuario final.</description>
+    <description xml:lang='fr'>Applications pour utilisateur final.</description>
+    <description xml:lang='gu'>અંતિમ-વપરાશકર્તા કાર્યક્રમો.</description>
+    <description xml:lang='hi'>अंत्य उपयोक्ता अनुप्रयोग.</description>
+    <description xml:lang='it'>Applicazioni utente finale.</description>
+    <description xml:lang='ja'>エンドユーザーアプリケーション</description>
+    <description xml:lang='kn'>ಎಂಡ್-ಯೂಸರ್ ಅನ್ವಯಗಳು</description>
+    <description xml:lang='ko'>최종사용자 어플리케이션.</description>
+    <description xml:lang='ml'>ഉപയോക്താവിനുള്ള പ്രയോഗങ്ങള്‍.</description>
+    <description xml:lang='mr'>एंड-यूजर ऍप्लिकेशन्स्.</description>
+    <description xml:lang='or'>ଚାଳକ ପ୍ରୟୋଗଗୁଡ଼ିକ।</description>
+    <description xml:lang='pa'>ਅੰਤਲਾ-ਯੂਜ਼ਰ ਐਪਲੀਕੇਸ਼ਨ।</description>
+    <description xml:lang='pl'>Aplikacje dla użytkownika końcowego.</description>
+    <description xml:lang='pt_BR'>Aplicações de usuário final.</description>
+    <description xml:lang='ru'>Приложения пользователя.</description>
+    <description xml:lang='sv'>Slutanvändarprogram.</description>
+    <description xml:lang='ta'>கடைசி-பயனர் பயன்பாடுகள்.</description>
+    <description xml:lang='te'>అంత్య-వినియోగదారి అనువర్తనములు.</description>
+    <description xml:lang='uk'>Програми користувача.</description>
+    <description xml:lang='zh_CN'>终端用户应用程序。</description>
+    <description xml:lang='zh_TW'>終端用戶應用程式。</description>
+    <display_order>80</display_order>
+    <grouplist>
+      <groupid>emacs</groupid>
+      <groupid>graphics</groupid>
+      <groupid>internet-applications</groupid>
+      <groupid>internet-browser</groupid>
+      <groupid>office-suite</groupid>
+      <groupid>technical-writing</groupid>
+      <groupid>tex</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>development</id>
+    <name>Development</name>
+    <name xml:lang='af'>Ontwikkeling</name>
+    <name xml:lang='am'>እድገት</name>
+    <name xml:lang='ar'>تطوير</name>
+    <name xml:lang='as'>বিকাশ</name>
+    <name xml:lang='bal'>پیش روگ</name>
+    <name xml:lang='be'>Распрацоўка</name>
+    <name xml:lang='bg'>Разработка</name>
+    <name xml:lang='bn'>সফটওয়্যার তৈরি</name>
+    <name xml:lang='bn_IN'>সফ্টওয়্যার নির্মাণ</name>
+    <name xml:lang='bs'>Razvoj</name>
+    <name xml:lang='ca'>Desenvolupament</name>
+    <name xml:lang='cs'>Vývoj aplikací</name>
+    <name xml:lang='cy'>Datblygiad</name>
+    <name xml:lang='da'>Udvikling</name>
+    <name xml:lang='de'>Softwareentwicklung</name>
+    <name xml:lang='el'>Ανάπτυξη λογισμικού</name>
+    <name xml:lang='en_GB'>Development</name>
+    <name xml:lang='es'>Desarrollo</name>
+    <name xml:lang='et'>Arendus</name>
+    <name xml:lang='fa'>برنامه‌سازی</name>
+    <name xml:lang='fi'>Ohjelmistokehitys</name>
+    <name xml:lang='fr'>Développement</name>
+    <name xml:lang='gl'>Desenvolvemento</name>
+    <name xml:lang='gu'>વિકાસ</name>
+    <name xml:lang='he'>פיתוח</name>
+    <name xml:lang='hi'>विकास</name>
+    <name xml:lang='hr'>Razvoj</name>
+    <name xml:lang='hu'>Fejlesztőeszközök</name>
+    <name xml:lang='hy'>Ծրագրավորում</name>
+    <name xml:lang='id'>Pengembangan</name>
+    <name xml:lang='ilo'>Panagbukel</name>
+    <name xml:lang='is'>Þróun</name>
+    <name xml:lang='it'>Sviluppo</name>
+    <name xml:lang='ja'>開発</name>
+    <name xml:lang='ka'>პრიოგრამირება</name>
+    <name xml:lang='kn'>ವಿಕಾಸನ</name>
+    <name xml:lang='ko'>개발</name>
+    <name xml:lang='lv'>Programmēšana</name>
+    <name xml:lang='mai'>विकास</name>
+    <name xml:lang='mk'>Развој</name>
+    <name xml:lang='ml'>ഡെവലപ്പ്മെന്‍റ്</name>
+    <name xml:lang='mr'>विकास</name>
+    <name xml:lang='ms'>Pembangunan</name>
+    <name xml:lang='nb'>Utviklingsverktøy</name>
+    <name xml:lang='ne'>विकास</name>
+    <name xml:lang='nl'>Ontwikkeling</name>
+    <name xml:lang='no'>Utviklingsverktøy</name>
+    <name xml:lang='nso'>Tšwetšopele</name>
+    <name xml:lang='or'>ବିକାଶ</name>
+    <name xml:lang='pa'>ਡੀਵੈਲਪਮਿੰਟ</name>
+    <name xml:lang='pl'>Programowanie</name>
+    <name xml:lang='pt'>Desenvolvimento</name>
+    <name xml:lang='pt_BR'>Desenvolvimento</name>
+    <name xml:lang='ro'>Dezvoltare</name>
+    <name xml:lang='ru'>Программирование</name>
+    <name xml:lang='si'>ප්‍රවර්ධනය</name>
+    <name xml:lang='sk'>Vývoj</name>
+    <name xml:lang='sl'>Razvoj</name>
+    <name xml:lang='sq'>Zhvillim</name>
+    <name xml:lang='sr'>Развој</name>
+    <name xml:lang='sr@Latn'>Razvoj</name>
+    <name xml:lang='sr@latin'>Razvoj</name>
+    <name xml:lang='sv'>Utveckling</name>
+    <name xml:lang='ta'>உருவாக்கம்</name>
+    <name xml:lang='te'>అభివృద్ధి</name>
+    <name xml:lang='tg'>Барноманависӣ</name>
+    <name xml:lang='th'>การพัฒนาซอฟต์แวร์</name>
+    <name xml:lang='tr'>Geliştirme</name>
+    <name xml:lang='uk'>Програмування</name>
+    <name xml:lang='ur'>تمیرات</name>
+    <name xml:lang='vi'>Phát triển</name>
+    <name xml:lang='zh_CN'>开发</name>
+    <name xml:lang='zh_TW'>程式開發</name>
+    <name xml:lang='zu'>Intuthuko</name>
+    <description>Development tools and libraries.</description>
+    <description xml:lang='as'>বিকাশৰ বাবে সৰঞ্জাম আৰু লাইব্ৰৰি ।</description>
+    <description xml:lang='bn_IN'>নির্মাণের জন্য প্রয়োজনীয় সরঞ্জাম ও লাইব্রেরি।</description>
+    <description xml:lang='de'>Entwicklungs-Tools und -bibliotheken.</description>
+    <description xml:lang='es'>Herramientas de desarrollo y bibliotecas.</description>
+    <description xml:lang='fr'>Outils et bibliothèques de développement.</description>
+    <description xml:lang='gu'>વિકાસ સાધનો અને લાઈબ્રેરીઓ.</description>
+    <description xml:lang='hi'>विकासात्मक औजार और लाइब्रेरी</description>
+    <description xml:lang='it'>Librerie e tool di sviluppo</description>
+    <description xml:lang='ja'>開発ツールおよびライブラリ</description>
+    <description xml:lang='kn'>ವಿಕಸನಾ ಉಪಕರಣಗಳು ಹಾಗು ಲೈಬ್ರರಿಗಳು.</description>
+    <description xml:lang='ko'>개발용 도구와 라이브러리</description>
+    <description xml:lang='ml'>ഡെവലപ്പ്മെന്റ് ഉപകരണങ്ങളും ലൈബ്രറികളും.</description>
+    <description xml:lang='mr'>डेव्हलपमेंट साधने व लाइब्ररीज्.</description>
+    <description xml:lang='or'>ବିକାଶ ଉପକରଣ ଏବଂ ପାଠାଗାର।</description>
+    <description xml:lang='pa'>ਡਿਵੈਲਪਮੈਂਟ ਟੂਲ ਅਤੇ ਲਾਇਬਰੇਰੀਆਂ।</description>
+    <description xml:lang='pl'>Narzędzia i biblioteki programistyczne.</description>
+    <description xml:lang='pt_BR'>Bibliotecas e ferramentas de Desenvolvimento</description>
+    <description xml:lang='ru'>Инструменты и библиотеки для разработки программ.</description>
+    <description xml:lang='sv'>Utvecklingsverktyg och -bibliotek.</description>
+    <description xml:lang='ta'>உருவாக்க கருவிகள் மற்றும் நூலகங்கள்</description>
+    <description xml:lang='te'>అభివృద్దీకరణ సాధనములు మరియు లైబ్రరీలు.</description>
+    <description xml:lang='uk'>Засоби та бібліотеки для розробки програм.</description>
+    <description xml:lang='zh_CN'>开发工具和程序库。</description>
+    <description xml:lang='zh_TW'>開發工具與函式庫。</description>
+    <display_order>90</display_order>
+    <grouplist>
+      <groupid>additional-devel</groupid>
+      <groupid>desktop-platform-devel</groupid>
+      <groupid>development</groupid>
+      <groupid>eclipse</groupid>
+      <groupid>server-platform-devel</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>language-support</id>
+    <name>Languages</name>
+    <name xml:lang='ar'>اللغات</name>
+    <name xml:lang='as'>ভাষা</name>
+    <name xml:lang='bal'>زبانان</name>
+    <name xml:lang='bg'>Езици</name>
+    <name xml:lang='bn'>ভাষা</name>
+    <name xml:lang='bn_IN'>ভাষা</name>
+    <name xml:lang='bs'>Jezici</name>
+    <name xml:lang='ca'>Llengües</name>
+    <name xml:lang='cs'>Jazyky</name>
+    <name xml:lang='cy'>Ieithoedd</name>
+    <name xml:lang='da'>Sprogunderstøttelse</name>
+    <name xml:lang='de'>Sprachen</name>
+    <name xml:lang='el'>Γλώσσες</name>
+    <name xml:lang='en_GB'>Languages</name>
+    <name xml:lang='es'>Idiomas</name>
+    <name xml:lang='et'>Keeled</name>
+    <name xml:lang='fi'>Kielet</name>
+    <name xml:lang='fr'>Langues</name>
+    <name xml:lang='gu'>ભાષાઓ</name>
+    <name xml:lang='he'>שפות</name>
+    <name xml:lang='hi'>भाषायें</name>
+    <name xml:lang='hr'>Jezici</name>
+    <name xml:lang='hu'>Nyelvi támogatások</name>
+    <name xml:lang='hy'>Լեզուներ</name>
+    <name xml:lang='id'>Bahasa</name>
+    <name xml:lang='ilo'>Pagsasao</name>
+    <name xml:lang='is'>Tungumál</name>
+    <name xml:lang='it'>Linguaggi</name>
+    <name xml:lang='ja'>言語</name>
+    <name xml:lang='ka'>ენები</name>
+    <name xml:lang='kn'>ಭಾಷೆಗಳು</name>
+    <name xml:lang='ko'>언어 지원</name>
+    <name xml:lang='lv'>Valodas</name>
+    <name xml:lang='mai'>भाषासभ</name>
+    <name xml:lang='ml'>ഭാഷകള്‍</name>
+    <name xml:lang='mr'>भाषा</name>
+    <name xml:lang='ms'>Bahasa</name>
+    <name xml:lang='nb'>Språk</name>
+    <name xml:lang='ne'>भाषा</name>
+    <name xml:lang='nl'>Talen</name>
+    <name xml:lang='or'>ଭାଷା</name>
+    <name xml:lang='pa'>ਭਾਸ਼ਾਵਾਂ</name>
+    <name xml:lang='pl'>Języki</name>
+    <name xml:lang='pt'>Línguas</name>
+    <name xml:lang='pt_BR'>Idiomas</name>
+    <name xml:lang='ro'>Limbi</name>
+    <name xml:lang='ru'>Языки</name>
+    <name xml:lang='si'>භාශාවන්</name>
+    <name xml:lang='sk'>Jazyky</name>
+    <name xml:lang='sl'>Jeziki</name>
+    <name xml:lang='sq'>Gjuhë</name>
+    <name xml:lang='sr'>Језици</name>
+    <name xml:lang='sr@Latn'>Jezici</name>
+    <name xml:lang='sr@latin'>Jezici</name>
+    <name xml:lang='sv'>Språkstöd</name>
+    <name xml:lang='ta'>மொழிகள்</name>
+    <name xml:lang='te'>భాషలు</name>
+    <name xml:lang='tg'>Забонҳо</name>
+    <name xml:lang='th'>ภาษา</name>
+    <name xml:lang='tr'>Diller</name>
+    <name xml:lang='uk'>Мови</name>
+    <name xml:lang='zh_CN'>语言支持</name>
+    <name xml:lang='zh_TW'>語言</name>
+    <description>These packages provide support for various locales including fonts and input methods.</description>
+    <description xml:lang='am'>እነዚህ ጥቅሎች ለተለያዩ ውስጣዊዎች የጽሑፍ ዓይነቶች እና የማስገቢያ ዘዴዎች ተስማሚ የሆነ ድጋፍ ያቀርባሉ።</description>
+    <description xml:lang='ar'>هذه الحزم تقدم دعما للغات المحلية بما في ذلك الخطوط وطرق الإدخال.</description>
+    <description xml:lang='as'>এই সৰঞ্জাম সমূহে বিভিন্ন অৱস্থানৰ লগত আখৰ আৰু নিবেশ পদ্ধতিৰ সমৰ্থনৰ যোগান ধৰে ।</description>
+    <description xml:lang='bal'>ای بستگان حمایت آریت په هر دابن محلیان په داب فونت و گه دابان ورودی</description>
+    <description xml:lang='bg'>Пакетите осигуряват поддръжката за различни региони и включват шрифтове и методи за въвеждане.</description>
+    <description xml:lang='bn'>এই প্যাকেজগুলোতে বিভিন্ন লোকাল-এর (Locale) সমর্থন রয়েছে; এর অংশ হল ফন্ট ও ইনপুট পদ্ধতি (মেথড) ।</description>
+    <description xml:lang='bn_IN'>এই প্যাকেজ সংকলনগুলি, ফন্ট ও ইনপুট পদ্ধতিসহ বিভিন্ন লেকেইল ব্যবহারের জন্য সমর্থন উপলব্ধ করে।</description>
+    <description xml:lang='bs'>Ovi paketi omogućuju podršku za različite lokalizacije, uključujući i lokalne fontove i tipkovnice</description>
+    <description xml:lang='ca'>Aquests paquets proporcionen suport per a diverses localitzacions incloent els tipus de lletra i els mètodes d'entrada.</description>
+    <description xml:lang='cs'>Balíčky, které poskytují podporu pro různá locale (různá jazyková prostředí) včetně písem a různých vstupních metod.</description>
+    <description xml:lang='da'>Disse pakker giver understøttelse for forskellige localer inklusive skrifttyper og indtastningsmetoder.</description>
+    <description xml:lang='de'>Diese Pakete stellen Unterstützung für verschiedene Schriftarten und Eingabemethoden bereit.</description>
+    <description xml:lang='el'>Τα πακέτα αυτά παρέχουν υποστήριξη τοποθεσίας με γραμματοσειρές και μεθόδους εισαγωγής κειμένου.</description>
+    <description xml:lang='en_GB'>These packages provide support for various locales including fonts and input methods.</description>
+    <description xml:lang='es'>Estos paquetes proporcionan soporte para diversos idiomas, incluyendotipografías y métodos de escritura.</description>
+    <description xml:lang='et'>Need paketid võimaldavad ühilduvust erinevate keeltele ka fontidele ja sisendmeetoditele.</description>
+    <description xml:lang='fi'>Tämä paketti tarjoaa tuen useita kirjasimia ja syöttötapoja useille kielille.</description>
+    <description xml:lang='fr'>Ces paquetages offrent le support pour la compatibilité pour différentes localisations comprenant des polices de caractères et des méthodes de saisie.</description>
+    <description xml:lang='gu'>આ પેકેજો ફોન્ટ અને ઈનપુટ પદ્ધતિઓને સમાવીને વિવિધ લોકેલોનો આધાર પૂરો પાડે છે.</description>
+    <description xml:lang='he'>חבילות המספקות תמיכה מקומית, כולל גופנים ושיטות קלט מקומיות.</description>
+    <description xml:lang='hi'>ये पैकेज फंट व इनपुट विधि के साथ विविध लोकेल के लिये समर्थन उपलब्ध कराता है.</description>
+    <description xml:lang='hr'>Ovi paketi omogućuju podršku za različite lokalizacije, uključujući i lokalne fontove i tipkovnice</description>
+    <description xml:lang='hu'>Ezek a csomagok különféle nyelvekhez nyújtanak támogatást, például betűkészleteket és beviteli módszereket.</description>
+    <description xml:lang='id'>Paket-paket ini menyediakan dukungan untuk berbagai locale termasuk font dan metode input.</description>
+    <description xml:lang='is'>Þessir pakkar veita stuðning við ýmis tungumál ásamt letri og innsláttargerðum.</description>
+    <description xml:lang='it'>Questi pacchetti forniscono supporto per le varie localizzazioni inclusi i caratteri ed i metodi di input.</description>
+    <description xml:lang='ja'>これらのパッケージでは、フォントや入力メソッドなどの各種ロケールのサポートを提供しています。</description>
+    <description xml:lang='kn'>ಈ ಪ್ಯಾಕೇಜ್‍ಗಳು ಅಕ್ಷರಶೈಲಿ (ಫಾಂಟ್) ಹಾಗೂ ಇನ್‌ಪುಟ್ ವಿಧಾನಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ವಿವಿಧ ಲೊಕ್ಯಾಲ್ ಬೆಂಬಲ ನೀಡುತ್ತವೆ.</description>
+    <description xml:lang='ko'>이 패키지는 다양한 로케일 (글꼴 및 입력 방식)을 지원합니다.</description>
+    <description xml:lang='lv'>Šīs pakotnes nodrošina dažādu reģionālo iestatījumu (šriftu un ievades metožu) atbalstu</description>
+    <description xml:lang='mai'>ई पैकेज फाँट व इनपुट विधिक संग विविध लोकेल क' लेल समर्थन उपलब्ध कराबैछ.</description>
+    <description xml:lang='mk'>Овие пакети нудат поддршка за локализација заедно со фонтови и методи за внесување.</description>
+    <description xml:lang='ml'>ഫോണ്ടസും ഇന്‍പുട്ട് മെഥേഡും ഉല്‍പ്പടെയുളള വിവിധ ലൊക്കേലുകള്‍ക്കും ഈ പാക്കേജുകള്‍ പിന്തുണ നല്‍കുന്നു.</description>
+    <description xml:lang='mr'>ही संकुले फॉन्ट आणि आदान(इनपुट) पद्धतींसह विविध स्थानिकांसाठी समर्थन पुरवतात.</description>
+    <description xml:lang='ms'>Pakej ini menyediakan sokongan untuk pelbagai bahasa termasuk font dan kaedah masukan.</description>
+    <description xml:lang='nb'>Disse pakkene inneholder støttefunksjoner for ulike localer. Dette inkluderer skrifter og inndatametoder.</description>
+    <description xml:lang='ne'>यी प्याकेजले बिभिन्न फन्ट र आगत विधि समाविष्ट लोकेलका लागि समर्थन उपलब्ध गर्दछन् ।</description>
+    <description xml:lang='nl'>Deze pakketten bieden ondersteuning voor verschillende taalgebieden, inclusief lettertypes en invoermethodes.</description>
+    <description xml:lang='no'>Disse pakkene inneholder støtter for diverse lokale skrifttyper og oppsett.</description>
+    <description xml:lang='or'>ଏହି ପ୍ଯାକେଜ ଗୁଡିକ ଅକ୍ଷର ରୂପ ଏବଂ ନିବେଶ ପ୍ରକ୍ରିୟା ମାନଙ୍କ ସହିତ ବିଭିନ୍ନ ମାନଙ୍କୁ ଲୋକେଲ ମାନଙ୍କୁ ସହାୟତା ପ୍ରଦାନ କରିଥାଏ</description>
+    <description xml:lang='pa'>ਇਹਨਾਂ ਪੈਕੇਜਾਂ ਵਿੱਚ ਕਈ ਲੋਕੇਲਾਂ ਨੂੰ ਸਹਿਯੋਗ ਦੇਣ ਲਈ ਫੋੰਟ ਅਤੇ ਇੰਪੁੱਟ ਢੰਗਾਂ ਸ਼ਾਮਿਲ ਹਨ।</description>
+    <description xml:lang='pl'>Te pakiety dostarczają obsługę różnych lokalizacji, w tym czcionki i metody wprowadzania.</description>
+    <description xml:lang='pt'>Estes pacotes fornecem suporte a várias localizações, incluindo tipos de letra e método de entrada.</description>
+    <description xml:lang='pt_BR'>Estes pacotes oferecem suporte para várias localidades, incluindo fontes e métodos de entrada.</description>
+    <description xml:lang='ro'>Aceste pachete oferă suport pentru diverse localizări, acesta incluzând fonturi şi metode de introducere.</description>
+    <description xml:lang='ru'>Эти пакеты обеспечивают поддержку различных региональных настроек, включая шрифты и метод ввода.</description>
+    <description xml:lang='si'>මෙම ඇසුරුම් තුල විවධ අක්‍ෂර සහ භාෂා පහසුකම, අක්‍ෂර යතුරු පුවරුව මඟින් ඇතුල් කරන පිළිවෙල ආදී විවිධ භාෂා සඳහා අවශ්‍ය සියල්ල වැඩසටහන් ඇතුලත් වේ.</description>
+    <description xml:lang='sk'>Tieto balíčky poskytujú podporu pre rôzne jazykové mutácie, vrátane písiem a metód vstupu.</description>
+    <description xml:lang='sl'>Paketi z podpora različnim lokalizacijam vključno s fonti ter metodami vnosa.</description>
+    <description xml:lang='sq'>Këto paketa ofrjnë asistencë për vendore të ndryshme, përfshi gërma dhe metoda dhëniesh teksti.</description>
+    <description xml:lang='sr'>Ови пакети пружају подршку разним језицима укључујући фонтове и методе уноса података.</description>
+    <description xml:lang='sr@Latn'>Ovi paketi pružaju podršku raznim jezicima uključujući fontove i metode unosa podataka.</description>
+    <description xml:lang='sr@latin'>Ovi paketi pružaju podršku raznim jezicima uključujući fontove i metode unosa podataka.</description>
+    <description xml:lang='sv'>Dessa paket tillhandahåller stöd för diverse lokaler, inklusive typsnitt och inmatningsmetoder.</description>
+    <description xml:lang='ta'>இந்த தொகுப்புகள் பல்வேறு இருப்பிடங்கள் அதாவது எழுத்துரு மற்றும் உள்ளீடு முறைகளின் துணையை தருகிறது.</description>
+    <description xml:lang='te'>ఫాంట్స్‍ మరియు ఇన్‌పుట్ పద్దతులను కలుపుకుని అనేక స్థానికాలకు ఈ సంకలనాలు మద్దతునిస్తాయి.</description>
+    <description xml:lang='tg'>Ин барномаҳо пуштибониро барои забонҳои гуногун бо ҳарфҳо ва тарзи воридот таъмин мекунанд.</description>
+    <description xml:lang='th'>แพกเกจเหล่านี้ทำให้สนับสนุนภาษาต่างๆ ซึ่งประกอบด้วยแบบอักษรและระบบป้อนข้อมูลของแต่ละภาษา</description>
+    <description xml:lang='tr'>Bu paketler çeşitli diller için yazı tipi ve girdi desteğini sağlar.</description>
+    <description xml:lang='uk'>Ці пакети забезпечують підтримку різних регіональних параметрів, включаючи шрифти та методи вводу.</description>
+    <description xml:lang='ur'>  یہ  مجموعات مختلف لوکیلز  اور فوانٹز  کا ساتھ مھیا کرتے ہیں   </description>
+    <description xml:lang='zh_CN'>这些软件包提供了对不同语言的支持，包括字体和输入法。</description>
+    <description xml:lang='zh_TW'>這些套件提供了多種不同的區域設定，包括字型與輸入法。</description>
+    <display_order>1024</display_order>
+    <grouplist>
+      <groupid>afrikaans-support</groupid>
+      <groupid>albanian-support</groupid>
+      <groupid>amazigh-support</groupid>
+      <groupid>arabic-support</groupid>
+      <groupid>armenian-support</groupid>
+      <groupid>assamese-support</groupid>
+      <groupid>azerbaijani-support</groupid>
+      <groupid>basque-support</groupid>
+      <groupid>belarusian-support</groupid>
+      <groupid>bengali-support</groupid>
+      <groupid>bhutanese-support</groupid>
+      <groupid>brazilian-support</groupid>
+      <groupid>breton-support</groupid>
+      <groupid>british-support</groupid>
+      <groupid>bulgarian-support</groupid>
+      <groupid>burmese-support</groupid>
+      <groupid>catalan-support</groupid>
+      <groupid>chhattisgarhi-support</groupid>
+      <groupid>chichewa-support</groupid>
+      <groupid>chinese-support</groupid>
+      <groupid>coptic-support</groupid>
+      <groupid>croatian-support</groupid>
+      <groupid>czech-support</groupid>
+      <groupid>danish-support</groupid>
+      <groupid>dutch-support</groupid>
+      <groupid>esperanto-support</groupid>
+      <groupid>estonian-support</groupid>
+      <groupid>ethiopic-support</groupid>
+      <groupid>faroese-support</groupid>
+      <groupid>fijian-support</groupid>
+      <groupid>filipino-support</groupid>
+      <groupid>finnish-support</groupid>
+      <groupid>french-support</groupid>
+      <groupid>frisian-support</groupid>
+      <groupid>friulian-support</groupid>
+      <groupid>gaelic-support</groupid>
+      <groupid>galician-support</groupid>
+      <groupid>georgian-support</groupid>
+      <groupid>german-support</groupid>
+      <groupid>greek-support</groupid>
+      <groupid>gujarati-support</groupid>
+      <groupid>hebrew-support</groupid>
+      <groupid>hiligaynon-support</groupid>
+      <groupid>hindi-support</groupid>
+      <groupid>hungarian-support</groupid>
+      <groupid>icelandic-support</groupid>
+      <groupid>indonesian-support</groupid>
+      <groupid>interlingua-support</groupid>
+      <groupid>inuktitut-support</groupid>
+      <groupid>irish-support</groupid>
+      <groupid>italian-support</groupid>
+      <groupid>japanese-support</groupid>
+      <groupid>kannada-support</groupid>
+      <groupid>kashmiri-support</groupid>
+      <groupid>kashubian-support</groupid>
+      <groupid>kazakh-support</groupid>
+      <groupid>khmer-support</groupid>
+      <groupid>kinyarwanda-support</groupid>
+      <groupid>konkani-support</groupid>
+      <groupid>korean-support</groupid>
+      <groupid>kurdish-support</groupid>
+      <groupid>lao-support</groupid>
+      <groupid>latin-support</groupid>
+      <groupid>latvian-support</groupid>
+      <groupid>lithuanian-support</groupid>
+      <groupid>low-saxon-support</groupid>
+      <groupid>luxembourgish-support</groupid>
+      <groupid>macedonian-support</groupid>
+      <groupid>maithili-support</groupid>
+      <groupid>malagasy-support</groupid>
+      <groupid>malay-support</groupid>
+      <groupid>malayalam-support</groupid>
+      <groupid>maltese-support</groupid>
+      <groupid>manx-support</groupid>
+      <groupid>maori-support</groupid>
+      <groupid>marathi-support</groupid>
+      <groupid>mongolian-support</groupid>
+      <groupid>nepali-support</groupid>
+      <groupid>northern-sotho-support</groupid>
+      <groupid>norwegian-support</groupid>
+      <groupid>occitan-support</groupid>
+      <groupid>oriya-support</groupid>
+      <groupid>persian-support</groupid>
+      <groupid>polish-support</groupid>
+      <groupid>portuguese-support</groupid>
+      <groupid>punjabi-support</groupid>
+      <groupid>romanian-support</groupid>
+      <groupid>russian-support</groupid>
+      <groupid>sanskrit-support</groupid>
+      <groupid>sardinian-support</groupid>
+      <groupid>serbian-support</groupid>
+      <groupid>sindhi-support</groupid>
+      <groupid>sinhala-support</groupid>
+      <groupid>slovak-support</groupid>
+      <groupid>slovenian-support</groupid>
+      <groupid>somali-support</groupid>
+      <groupid>southern-ndebele-support</groupid>
+      <groupid>southern-sotho-support</groupid>
+      <groupid>spanish-support</groupid>
+      <groupid>swahili-support</groupid>
+      <groupid>swati-support</groupid>
+      <groupid>swedish-support</groupid>
+      <groupid>tagalog-support</groupid>
+      <groupid>tajik-support</groupid>
+      <groupid>tamil-support</groupid>
+      <groupid>telugu-support</groupid>
+      <groupid>tetum-support</groupid>
+      <groupid>thai-support</groupid>
+      <groupid>tibetan-support</groupid>
+      <groupid>tsonga-support</groupid>
+      <groupid>tswana-support</groupid>
+      <groupid>turkish-support</groupid>
+      <groupid>turkmen-support</groupid>
+      <groupid>ukrainian-support</groupid>
+      <groupid>upper-sorbian-support</groupid>
+      <groupid>urdu-support</groupid>
+      <groupid>uzbek-support</groupid>
+      <groupid>venda-support</groupid>
+      <groupid>vietnamese-support</groupid>
+      <groupid>walloon-support</groupid>
+      <groupid>welsh-support</groupid>
+      <groupid>xhosa-support</groupid>
+      <groupid>zulu-support</groupid>
+    </grouplist>
+  </category>
+</comps>
