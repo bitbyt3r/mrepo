@@ -25,24 +25,33 @@ def main():
   
   verbose = False
   if "verbose" in arguments.keys() and arguments['verbose']:
+    print "I am in the process of being quite excessively verbose, in case this sentence has not made that entirely apparent."
     verbose = True
   
   if "groupdir" in arguments.keys() and arguments['groupdir']:
+    if verbose:
+      print "Fetching group and categories from:", arguments['groupdir']
     groupFiles = getFiles(arguments['groupdir'])
     groups.extend(parseGroupFiles(groupFiles))
     categories.extend(categoriesFromDirs(arguments['groupdir']))
     
   if "rhelcomps" in arguments.keys() and arguments['rhelcomps']:
+    if verbose:
+      print "Parsing input from XML:", arguments['rhelcomps']
     groups.extend(parseRhelComp(arguments['rhelcomps']))
     categories.extend(categoriesFromXML(arguments['rhelcomps']))
     
   if "excludelist" in arguments.keys() and arguments['excludelist']:
+    if verbose:
+      print "Excluding all entries in:", arguments['excludelist']
     with open(arguments['excludelist'], "r") as excludeFile:
       excluded = set([x.strip() for x in excludeFile.readlines()])
     for i in groups:
       for j in i['packages']:
         if j in excluded:
           i['packages'].remove(j)
+  if verbose:
+    print
 
   names = [x['name'] for x in groups]
   d = {}
@@ -62,6 +71,7 @@ def main():
     if len(i['packages']) == 0:
       groups.remove(i)
       print "Removed %s because it has no packages." % i['name']
+  print
       
   for i in categories:
     if len(i['groups']) == 0:
@@ -75,6 +85,7 @@ def main():
       if not(save):
         categories.remove(i)
         print "Removed %s because all of its groups were removed." % i['name']
+  print
         
   categories.sort()
   groups.sort()
@@ -91,9 +102,19 @@ def main():
   writeFile(comps, arguments['outfile'])
   print "Output written to: " + arguments['outfile']
   if "listpackages" in arguments.keys() and arguments['listpackages']:
+    print
     for i in groups:
       for j in i['packages']:
         print j
+  if "listorphans" in arguments.keys() and arguments['listorphans']:
+    print
+    for i in groups:
+      hasParent = False
+      for j in categories:
+        if i['id'] in j['groups']:
+          hasParent = True
+      if not(hasParent):
+        print i['name'], "has no parents!"
   
 def validArgs(arguments):
   return True
@@ -102,8 +123,7 @@ def categoriesFromDirs(directory):
   categories = []
   for i in [name for name in os.listdir(directory) if os.path.isdir(directory+"/"+name) and not(".svn" in name)]:
     category = {}
-    category['groups'] = [name for name in os.listdir(directory+"/"+i) if (not(".svn" in i) and not("CategoryDesc.txt" in i) and not(os.path.isdir(directory+"/"+i+"/"+name)))]
-    print i
+    category['groups'] = [name for name in os.listdir(directory+"/"+i) if (not(".svn" in name) and not("CategoryDesc.txt" in name) and not(os.path.isdir(directory+"/"+i+"/"+name)))]
     with open(directory + "/" + i + "/CategoryDesc.txt") as categoryDescFile:
       categoryDesc = categoryDescFile.readlines()
       category['id'] = categoryDesc[0].strip()
@@ -156,6 +176,7 @@ def processArgs():
   parser.add_option('--listpackages', '-l', help="Prints a list of every package listed in a group", action="store_true")
   parser.add_option('--excludelist', '-e', help="File that contains a list of packages to exclude from all groups")
   parser.add_option('--verbose', '-v', help="Prints a more detailed rendition of what I am doing", action="store_true")
+  parser.add_option('--listorphans', '-O', help="lists groups that aren't in any categories", action="store_true")
   (options, args) = parser.parse_args()
   return options.__dict__
   
@@ -174,7 +195,7 @@ def parseRhelComp(rhelComps):
         # I hate xml...
         # This searches for the packagelist section, and returns the text from every packagereq line
         group['packages'] = [x.text for x in groupData.find('packagelist').findall('packagereq')]
-        group['filename'] = groupData.find('id').text
+        group['id'] = groupData.find('id').text
         groups.append(group)
   return groups
   
@@ -196,12 +217,12 @@ def parseGroupFiles(groupFiles):
         name = lines[0].strip()
         description = lines[1].strip()
         packages = [x.strip() for x in lines[2:]]
-        groups.append({"filename":filename, "name":name, "description":description, "packages":packages})
+        groups.append({"id":filename, "name":name, "description":description, "packages":packages})
   return groups
   
 def genGroupXML(group):
   xml = " <group>\n"
-  xml += "  <id>" + group['filename'] + "</id>\n"
+  xml += "  <id>" + group['id'] + "</id>\n"
   xml += "  <default>False</default>\n"
   xml += "  <uservisible>True</uservisible>\n"
   xml += "  <name>" + group['name'] + "</name>\n"

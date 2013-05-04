@@ -1451,16 +1451,6 @@
    </packagelist>
  </group>
  <group>
-  <id>cfengine</id>
-  <default>False</default>
-  <uservisible>True</uservisible>
-  <name>cfengine</name>
-  <description>This group installs everything for our cfengine.</description>
-   <packagelist>
-    <packagereq type="mandatory">cfengine-community</packagereq>
-   </packagelist>
- </group>
- <group>
   <id>afrikaans-support</id>
   <default>False</default>
   <uservisible>True</uservisible>
@@ -3119,17 +3109,6 @@
    </packagelist>
  </group>
  <group>
-  <id>nvidia-new</id>
-  <default>False</default>
-  <uservisible>True</uservisible>
-  <name>new_nvidia</name>
-  <description>This group provides drivers for our newer cards</description>
-   <packagelist>
-    <packagereq type="mandatory">kmod-nvidia-310xx-310.64</packagereq>
-    <packagereq type="mandatory">nvidia-x11-drv-310xx-310.64</packagereq>
-   </packagelist>
- </group>
- <group>
   <id>mainframe-access</id>
   <default>False</default>
   <uservisible>True</uservisible>
@@ -3576,15 +3555,6 @@
      <groupid>welsh-support</groupid>
      <groupid>xhosa-support</groupid>
      <groupid>zulu-support</groupid>
-   </grouplist>
- </category>
- <category>
-   <id>newsystems</id>
-   <name>New Systems</name>
-   <description>This is the CSEE category for marks new system development</description>
-   <grouplist>
-     <groupid>nvidia-new</groupid>
-     <groupid>cfengine</groupid>
    </grouplist>
  </category>
  <category>
