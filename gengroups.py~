@@ -22,12 +22,14 @@ def main():
   if not(validArgs(arguments)):
     sys.exit("Need help? Try -h. \n")
   groups = []
+  categories = []
   if "groupdir" in arguments.keys() and arguments['groupdir']:
     groupFiles = getFiles(arguments['groupdir'])
     groups.extend(parseGroupFiles(groupFiles))
+    categories.extend(categoriesFromDirs(arguments['groupdir'])
   if "rhelcomps" in arguments.keys() and arguments['rhelcomps']:
     groups.extend(parseRhelComp(arguments['rhelcomps']))
-    
+    categories.extend(categoriesFromXML(arguments['rhelcomps'])
   if "excludelist" in arguments.keys() and arguments['excludelist']:
     with open(arguments['excludelist'], "r") as excludeFile:
       excluded = set([x.strip() for x in excludeFile.readlines()])
@@ -59,6 +61,9 @@ def main():
   for i in groups:
     print "@" + i['name']
     comps += genGroupXML(i)
+  for i in categories:
+    print "Added category: " + i.keys()[0]
+    comps += genCategoryXML(i)
   comps += XML_FOOTER
   writeFile(comps, arguments['outfile'])
   print "Output written to: " + arguments['outfile']
@@ -69,6 +74,34 @@ def main():
   
 def validArgs(arguments):
   return True
+  
+def categoriesFromDirs(directory):
+  categories = []
+  for i in [name for name in os.listdir(directory) if os.path.isdir(name) and not(".svn" in name)]:
+    categories.append({name:[name for name in os.listdir(directory+"/"+name) if not(".svn" in name)]})
+  return categories
+  
+def categoriesFromXML(rhelComps):
+  tree = ET.parse(rhelComps)
+  root = tree.getroot()
+  categories = []
+  if root.tag == "comps":
+    for categoryData in root:
+      if categoryData.tag == "category":
+	category = {}
+	category[categoryData.find('name').text] = [x.text for x in categoryData.find('grouplist').findall('groupid')]
+	categories.append(category)
+  return categories
+  
+def genCategoryXML(category):
+  xml = " <category>\n"
+  xml += "   <id>" + category.keys()[0] + "</id>\n"
+  xml += "   <name>" + category.keys()[0] + "</name>\n"
+  xml += "   <description>This is a CSEE category</description>\n"
+  xml += "   <grouplist>\n"
+  for i in category[category.keys()[0]]:
+    xml += "     <groupid>" + i + "</groupid>\n"
+  xml += "   </grouplist>\n </category>\n"
   
 def parseConfigFile(arguments):
   config = ConfigParser.ConfigParser()

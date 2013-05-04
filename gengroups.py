@@ -35,8 +35,8 @@ def main():
       excluded = set([x.strip() for x in excludeFile.readlines()])
     for i in groups:
       for j in i['packages']:
-	if j in excluded:
-	  i['packages'].remove(j)
+        if j in excluded:
+          i['packages'].remove(j)
 
   names = [x['name'] for x in groups]
   d = {}
@@ -70,7 +70,7 @@ def main():
   if "listpackages" in arguments.keys() and arguments['listpackages']:
     for i in groups:
       for j in i['packages']:
-	print j
+        print j
   
 def validArgs(arguments):
   return True
@@ -78,7 +78,14 @@ def validArgs(arguments):
 def categoriesFromDirs(directory):
   categories = []
   for i in [name for name in os.listdir(directory) if os.path.isdir(name) and not(".svn" in name)]:
-    categories.append({name:[name for name in os.listdir(directory+"/"+name) if not(".svn" in name)]})
+    category = {}
+    category['grouplist'] = [name for name in os.listdir(directory+"/"+name) if not(".svn" in name)]
+    with open(directory+"/"+name+"/CategoryDesc.txt") as categoryDescFile:
+      category['id'] = categoryDescFile.read().strip()
+      category['name'] = categoryDescFile.read().strip()
+      category['description'] = categoryDescFile.read().strip()
+      categoryDescFile.close()
+    categories.append(category)
   return categories
   
 def categoriesFromXML(rhelComps):
@@ -88,17 +95,23 @@ def categoriesFromXML(rhelComps):
   if root.tag == "comps":
     for categoryData in root:
       if categoryData.tag == "category":
-	category = {}
-	category[categoryData.find('name').text] = [x.text for x in categoryData.find('grouplist').findall('groupid')]
-	categories.append(category)
+        category = {}
+        category['groups'] = [x.text for x in categoryData.find('grouplist').findall('groupid')]
+        category['name'] = categoryData.find('name').text
+        category['id'] = categoryData.find('id').text
+        category['description'] = categoryData.find('description').text
+        categories.append(category)
   return categories
   
 def genCategoryXML(category):
   xml = " <category>\n"
-  xml += "   <id>" + category.keys()[0] + "</id>\n"
-  xml += "   <name>" + category.keys()[0] + "</name>\n"
-  xml += "   <description>This is a CSEE category</description>\n"
-  xml += 
+  xml += "   <id>" + category['id'] + "</id>\n"
+  xml += "   <name>" + category['name'] + "</name>\n"
+  xml += "   <description>" + category['description'] + "</description>\n"
+  xml += "   <grouplist>\n"
+  for i in category.keys['groups']:
+    xml += "     <groupid>" + i + "</groupid>\n"
+  xml += "   </grouplist>\n </category>\n"
   
 def parseConfigFile(arguments):
   config = ConfigParser.ConfigParser()
@@ -106,7 +119,7 @@ def parseConfigFile(arguments):
   if config.has_section("main"):
     for i in arguments.keys():
       if config.has_option("main", i) and config.get("main", i) and not(arguments[i]):
-	arguments[i] = config.get("main", i)
+        arguments[i] = config.get("main", i)
   return arguments
   
 def processArgs():
@@ -126,14 +139,13 @@ def parseRhelComp(rhelComps):
   if root.tag == "comps":
     for groupData in root:
       if groupData.tag == "group":
-	group = {}
-	group['name'] = groupData.find('name').text
-	group['description'] = groupData.find('name').text
-	# I hate xml...
-	# This searches for the packagelist section, and returns the text from every packagereq line
-	group['packages'] = [x.text for x in groupData.find('packagelist').findall('packagereq')]
-	group['filename'] = groupData.find('id').text
-	groups.append(group)
+        group = {}
+        group['description'] = groupData.find('name').text
+        # I hate xml...
+        # This searches for the packagelist section, and returns the text from every packagereq line
+        group['packages'] = [x.text for x in groupData.find('packagelist').findall('packagereq')]
+        group['filename'] = groupData.find('id').text
+        groups.append(group)
   return groups
   
 def getFiles(groupDir):
@@ -146,12 +158,13 @@ def getFiles(groupDir):
 def parseGroupFiles(groupFiles):
   groups = []
   for root, filename in groupFiles:
-    with open(root+"/"+filename, "r") as file:
-      lines = file.readlines()
-      name = lines[0].strip()
-      description = lines[1].strip()
-      packages = [x.strip() for x in lines[2:]]
-      groups.append({"filename":filename, "name":name, "description":description, "packages":packages})
+    if not("CategoryDesc.txt" in filename):
+      with open(root+"/"+filename, "r") as file:
+        lines = file.readlines()
+        name = lines[0].strip()
+        description = lines[1].strip()
+        packages = [x.strip() for x in lines[2:]]
+        groups.append({"filename":filename, "name":name, "description":description, "packages":packages})
   return groups
   
 def genGroupXML(group):
