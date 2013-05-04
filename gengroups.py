@@ -18,18 +18,24 @@ def main():
   if processArgs():
     arguments = processArgs()
   arguments = parseConfigFile(arguments)
-  print arguments
   if not(validArgs(arguments)):
     sys.exit("Need help? Try -h. \n")
   groups = []
   categories = []
+  
+  verbose = False
+  if "verbose" in arguments.keys() and arguments['verbose']:
+    verbose = True
+  
   if "groupdir" in arguments.keys() and arguments['groupdir']:
     groupFiles = getFiles(arguments['groupdir'])
     groups.extend(parseGroupFiles(groupFiles))
-    categories.extend(categoriesFromDirs(arguments['groupdir'])
+    categories.extend(categoriesFromDirs(arguments['groupdir']))
+    
   if "rhelcomps" in arguments.keys() and arguments['rhelcomps']:
     groups.extend(parseRhelComp(arguments['rhelcomps']))
-    categories.extend(categoriesFromXML(arguments['rhelcomps'])
+    categories.extend(categoriesFromXML(arguments['rhelcomps']))
+    
   if "excludelist" in arguments.keys() and arguments['excludelist']:
     with open(arguments['excludelist'], "r") as excludeFile:
       excluded = set([x.strip() for x in excludeFile.readlines()])
@@ -56,13 +62,30 @@ def main():
     if len(i['packages']) == 0:
       groups.remove(i)
       print "Removed %s because it has no packages." % i['name']
-    
+      
+  for i in categories:
+    if len(i['groups']) == 0:
+      categories.remove(i)
+      print "Removed %s because it has no groups." % i['name']
+    else:
+      save = False
+      for j in i['groups']:
+        if j in [x['name'] for x in groups]:
+          save = True
+      if not(save):
+        categories.remove(i)
+        print "Removed %s because all of its groups were removed." % i['name']
+        
+  categories.sort()
+  groups.sort()
   comps = XML_HEADER
   for i in groups:
-    print "@" + i['name']
+    if verbose:
+      print "@" + i['name']
     comps += genGroupXML(i)
   for i in categories:
-    print "Added category: " + i.keys()[0]
+    if verbose:
+      print "Added category: " + i['name']
     comps += genCategoryXML(i)
   comps += XML_FOOTER
   writeFile(comps, arguments['outfile'])
@@ -77,13 +100,14 @@ def validArgs(arguments):
   
 def categoriesFromDirs(directory):
   categories = []
-  for i in [name for name in os.listdir(directory) if os.path.isdir(name) and not(".svn" in name)]:
+  for i in [name for name in os.listdir(directory) if os.path.isdir(directory+"/"+name) and not(".svn" in name)]:
     category = {}
-    category['grouplist'] = [name for name in os.listdir(directory+"/"+name) if not(".svn" in name)]
-    with open(directory+"/"+name+"/CategoryDesc.txt") as categoryDescFile:
-      category['id'] = categoryDescFile.read().strip()
-      category['name'] = categoryDescFile.read().strip()
-      category['description'] = categoryDescFile.read().strip()
+    category['groups'] = [name for name in os.listdir(directory+"/"+i) if (not(".svn" in name) and not("CategoryDesc.txt" in name) and not(os.path.isdir(directory+"/"+i+"/"+name)))]
+    with open(directory + "/" + i + "/CategoryDesc.txt") as categoryDescFile:
+      categoryDesc = categoryDescFile.readlines()
+      category['id'] = categoryDesc[0].strip()
+      category['name'] = categoryDesc[1].strip()
+      category['description'] = categoryDesc[2].strip()
       categoryDescFile.close()
     categories.append(category)
   return categories
@@ -109,9 +133,10 @@ def genCategoryXML(category):
   xml += "   <name>" + category['name'] + "</name>\n"
   xml += "   <description>" + category['description'] + "</description>\n"
   xml += "   <grouplist>\n"
-  for i in category.keys['groups']:
+  for i in category['groups']:
     xml += "     <groupid>" + i + "</groupid>\n"
   xml += "   </grouplist>\n </category>\n"
+  return xml
   
 def parseConfigFile(arguments):
   config = ConfigParser.ConfigParser()
@@ -129,6 +154,7 @@ def processArgs():
   parser.add_option('--rhelcomps', '-r', help="Gives me a comps.xml file from redhat to get additional groups from")
   parser.add_option('--listpackages', '-l', help="Prints a list of every package listed in a group", action="store_true")
   parser.add_option('--excludelist', '-e', help="File that contains a list of packages to exclude from all groups")
+  parser.add_option('--verbose', '-v', help="Prints a more detailed rendition of what I am doing", action="store_true")
   (options, args) = parser.parse_args()
   return options.__dict__
   
@@ -140,7 +166,10 @@ def parseRhelComp(rhelComps):
     for groupData in root:
       if groupData.tag == "group":
         group = {}
-        group['description'] = groupData.find('name').text
+        group['description'] = groupData.find('description').text
+        if not(group['description']):
+          group['description'] = "This group needs no description"
+        group['name'] = groupData.find('name').text
         # I hate xml...
         # This searches for the packagelist section, and returns the text from every packagereq line
         group['packages'] = [x.text for x in groupData.find('packagelist').findall('packagereq')]
@@ -161,6 +190,8 @@ def parseGroupFiles(groupFiles):
     if not("CategoryDesc.txt" in filename):
       with open(root+"/"+filename, "r") as file:
         lines = file.readlines()
+        if len(lines) < 3:
+          sys.exit("Invalid group file: " + filename + "\nIt is too short.")
         name = lines[0].strip()
         description = lines[1].strip()
         packages = [x.strip() for x in lines[2:]]
