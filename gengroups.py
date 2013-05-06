@@ -2,8 +2,12 @@
 import os
 import sys
 from optparse import OptionParser
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 import ConfigParser
+import hashlib
+import gzip
+import shutil
+import time
 
 XML_HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
@@ -27,7 +31,16 @@ def main():
   if "verbose" in arguments.keys() and arguments['verbose']:
     print "I am in the process of being quite excessively verbose, in case this sentence has not made that entirely apparent."
     verbose = True
-  
+  pushgroups = False
+  if "pushgroups" in arguments.keys() and arguments['pushgroups']:
+    if verbose:
+      print "After I am done, I will copy the resulting xml to the repository:",
+    if "webdir" in arguments.keys() and arguments['webdir']:
+      print arguments['webdir']
+    else:
+      sys.exit("If you want me to put things in the web directory, you will have to tell me where it is.")
+    pushgroups = True
+    
   if "groupdir" in arguments.keys() and arguments['groupdir']:
     if verbose:
       print "Fetching group and categories from:", arguments['groupdir']
@@ -116,7 +129,43 @@ def main():
           hasParent = True
       if not(hasParent):
         print i['name'], "has no parents!"
-  
+  if pushgroups:
+    m = hashlib.sha256()
+    with open("arguments['outfile']") as xml:
+      fileContents = xml.read()
+    m.update(fileContents)
+    xmlLength = len(fileContents)
+    xmlHash = m.hexdigest()
+    with gzip.open("/tmp/comps-file.gz", "wb") as gzippedXMLFile:
+      gzippedXMLFile.write(fileContents)
+    m = hashlib.sha256()
+    with open("/tmp/comps-file.gz") as gzippedXMLFile:
+      fileContents = gzippedXMLFile.read()
+    m.update(fileContents)
+    gzipLength = len(fileContents)
+    gzipHash = m.hexdigest()
+    
+    shutil.copyfile("/tmp/comps-file.gz", arguments['webdir']+"/repodata/"+gzipHash+"-comps-csee.xml.gz")
+    shutil.copyfile(arguments['outfile'], arguments['webdir']+"/repodata/"+xmlHash+"-comps-csee.xml")
+    tree = ET.parse(arguments['webdir']+"/repodata/repomd.xml")
+    root = tree.getroot()
+    namespace = "{http://linux.duke.edu/metadata/repo}"
+    for i in root.findall(namespace+"data"):
+      if i.get("type") == 'group':
+        i.find(namespace+"checksum").text = xmlHash
+        i.find(namespace+"location").text = "repodata/"+xmlHash+"-comps-csee.xml"
+        i.find(namespace+"timestamp").text = "%.2f" % time.time()
+        i.find(namespace+"size").text = xmlLength
+      if i.get("type") == 'group_gz':
+        i.find(namespace+"checksum").text = gzipHash
+        i.find(namespace+"open-checksum").text = xmlHash
+        i.find(namespace+"location").text = "repodata/"+gzipHash+"-comps-csee.xml.gz"
+        i.find(namespace+"timestamp").text = "%.2f" % time.time()
+        i.find(namespace+"size").text = gzipLength
+    tree.write(arguments['webdir']+"/repodata/repomd.xml", xml_declaration=True, encoding="UTF-8", pretty_print=True)
+    if verbose:
+      print "Wrote new xml files to:" +  arguments['webdir']+"/repodata/"
+    
 def validArgs(arguments):
   return True
   
@@ -178,6 +227,8 @@ def processArgs():
   parser.add_option('--excludelist', '-e', help="File that contains a list of packages to exclude from all groups")
   parser.add_option('--verbose', '-v', help="Prints a more detailed rendition of what I am doing", action="store_true")
   parser.add_option('--listorphans', '-O', help="lists groups that aren't in any categories", action="store_true")
+  parser.add_option('--webdir', '-w', help="The directory of the repository as served by the webserver")
+  parser.add_option('--pushgroups', '-p', help="If flagged, apply the resulting xml file to the repository at <webdir>", action="store_true")
   (options, args) = parser.parse_args()
   return options.__dict__
   
