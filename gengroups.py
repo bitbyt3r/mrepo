@@ -155,15 +155,15 @@ def main():
     for i in root.findall(namespace+"data"):
       if i.get("type") == 'group':
         i.find(namespace+"checksum").text = xmlHash
-        i.find(namespace+"location").text = "repodata/"+xmlHash+"-comps-csee.xml"
+        i.find(namespace+"location").set("href", "repodata/"+xmlHash+"-comps-csee.xml")
         i.find(namespace+"timestamp").text = "%.2f" % time.time()
-        i.find(namespace+"size").text = xmlLength
+        i.find(namespace+"size").text = str(xmlLength)
       if i.get("type") == 'group_gz':
         i.find(namespace+"checksum").text = gzipHash
         i.find(namespace+"open-checksum").text = xmlHash
-        i.find(namespace+"location").text = "repodata/"+gzipHash+"-comps-csee.xml.gz"
+        i.find(namespace+"location").set("href", "repodata/"+gzipHash+"-comps-csee.xml.gz")
         i.find(namespace+"timestamp").text = "%.2f" % time.time()
-        i.find(namespace+"size").text = gzipLength
+        i.find(namespace+"size").text = str(gzipLength)
     tree.write(arguments['webdir']+"/repodata/repomd.xml", xml_declaration=True, encoding="UTF-8", pretty_print=True)
     if verbose:
       print "Wrote new xml files to:" +  arguments['webdir']+"/repodata/"
