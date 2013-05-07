@@ -166,11 +166,13 @@ def main():
     for i in root.findall(namespace+"data"):
       if i.get("type") == 'group':
         i.find(namespace+"checksum").text = xmlHash
+        i.find(namespace+"checksum").set("type", "sha256")
         i.find(namespace+"location").set("href", "repodata/"+xmlHash+"-comps-csee.xml")
         i.find(namespace+"timestamp").text = "%.2f" % time.time()
         i.find(namespace+"size").text = str(xmlLength)
       if i.get("type") == 'group_gz':
         i.find(namespace+"checksum").text = gzipHash
+        i.find(namespace+"checksum").set("type", "sha256")
         i.find(namespace+"open-checksum").text = xmlHash
         i.find(namespace+"location").set("href", "repodata/"+gzipHash+"-comps-csee.xml.gz")
         i.find(namespace+"timestamp").text = "%.2f" % time.time()
