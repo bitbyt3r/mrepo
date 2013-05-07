@@ -2,7 +2,7 @@
 import os
 import sys
 from optparse import OptionParser
-from xml import etree as ET
+from lxml import etree as ET
 import ConfigParser
 import hashlib
 import gzip

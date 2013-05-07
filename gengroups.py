@@ -31,6 +31,7 @@ def main():
   if "verbose" in arguments.keys() and arguments['verbose']:
     print "I am in the process of being quite excessively verbose, in case this sentence has not made that entirely apparent."
     verbose = True
+    print "Here are my arguments:", arguments
   pushgroups = False
   if "pushgroups" in arguments.keys() and arguments['pushgroups']:
     if verbose:
