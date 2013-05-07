@@ -109,7 +109,7 @@ def main():
   groups.sort()
   comps = XML_HEADER
   if kickstart:
-    kickstart.write("REMOVE=\"")
+    kickstart.write("GROUPS=\"")
   for i in groups:
     if verbose:
       print "@" + i['name']
