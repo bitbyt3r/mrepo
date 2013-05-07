@@ -42,6 +42,10 @@ def main():
       sys.exit("If you want me to put things in the web directory, you will have to tell me where it is.")
     pushgroups = True
     
+  kickstart = False
+  if "kickstart" in arguments.keys() and arguments['kickstart']:
+    kickstart = open(arguments['kickstart'])
+    
   if "groupdir" in arguments.keys() and arguments['groupdir']:
     if verbose:
       print "Fetching group and categories from:", arguments['groupdir']
@@ -107,8 +111,12 @@ def main():
   for i in groups:
     if verbose:
       print "@" + i['name']
+    if kickstart:
+      kickstart.write("@"+i['name'])
     comps += genGroupXML(i)
   print
+  if kickstart:
+    kickstart.close()
   for i in categories:
     if verbose:
       print "Added category: " + i['name']
@@ -161,7 +169,7 @@ def main():
       if i.get("type") == 'group_gz':
         i.find(namespace+"checksum").text = gzipHash
         i.find(namespace+"open-checksum").text = xmlHash
-        i.find(namespace+"location").text = "repodata/"+gzipHash+"-comps-csee.xml.gz"
+        i.find(namespace+"location").set("href", "repodata/"+gzipHash+"-comps-csee.xml.gz")
         i.find(namespace+"timestamp").text = "%.2f" % time.time()
         i.find(namespace+"size").text = str(gzipLength)
     tree.write(arguments['webdir']+"/repodata/repomd.xml", xml_declaration=True, encoding="UTF-8", pretty_print=True)
@@ -231,6 +239,7 @@ def processArgs():
   parser.add_option('--listorphans', '-O', help="lists groups that aren't in any categories", action="store_true")
   parser.add_option('--webdir', '-w', help="The directory of the repository as served by the webserver")
   parser.add_option('--pushgroups', '-p', help="If flagged, apply the resulting xml file to the repository at <webdir>", action="store_true")
+  parser.add_option('--kickstart', '-k', help="Specify a location to push the kickstart packages to, i.e. /var/www/html/updaterpm.rhel6w-complete")
   (options, args) = parser.parse_args()
   return options.__dict__
   
