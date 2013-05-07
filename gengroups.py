@@ -137,8 +137,9 @@ def main():
     m.update(fileContents)
     xmlLength = len(fileContents)
     xmlHash = m.hexdigest()
-    with gzip.open("/tmp/comps-file.gz", "wb") as gzippedXMLFile:
-      gzippedXMLFile.write(fileContents)
+    gzippedXMLFile = gzip.open("/tmp/comps-file.gz", "wb")
+    gzippedXMLFile.write(fileContents)
+    gzippedXMLFile.close()
     m = hashlib.sha256()
     with open("/tmp/comps-file.gz") as gzippedXMLFile:
       fileContents = gzippedXMLFile.read()

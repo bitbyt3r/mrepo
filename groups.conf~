@@ -1,6 +1,6 @@
 [main]
 # outFile: The file to write to
-outFile = ./testing.xml
+outFile = /mrepo/rhel6w-complete-x86_64/all-comps.xml
 
 # rhelComps: The location of the rhel-provided comps file.
 # Comment out to ignore the rhel definitions.
@@ -12,7 +12,6 @@ rhelComps = ./rhel-comps.xml
 # excludeList: The list of packages to exclude from any group they appear in.
 excludeList = ./exclude.list
 
-[repo]
 # rootDir: The location of the root directory of the repository
 rootDir = /var/mrepo/rhel6w-complete-x86_64
 
@@ -21,4 +20,4 @@ rootDir = /var/mrepo/rhel6w-complete-x86_64
 webDir = /var/www/mrepo/rhel6w-complete-x86_64
 
 # pushgroups: If true, copies generated xml file to <webDir>/repodata, and updates <webDir>/repodata/repomd.xml to match.
-pushgroups = True
+pushgroups = False
