@@ -132,7 +132,7 @@ def main():
         print i['name'], "has no parents!"
   if pushgroups:
     m = hashlib.sha256()
-    with open("arguments['outfile']") as xml:
+    with open(arguments['outfile']) as xml:
       fileContents = xml.read()
     m.update(fileContents)
     xmlLength = len(fileContents)
