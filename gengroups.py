@@ -108,14 +108,17 @@ def main():
   categories.sort()
   groups.sort()
   comps = XML_HEADER
+  if kickstart:
+    kickstart.write("REMOVE=\"")
   for i in groups:
     if verbose:
       print "@" + i['name']
     if kickstart:
-      kickstart.write("@"+i['name'])
+      kickstart.write("@"+i['name']+"\n")
     comps += genGroupXML(i)
   print
   if kickstart:
+    kickstart.write("\"")
     kickstart.close()
   for i in categories:
     if verbose:
