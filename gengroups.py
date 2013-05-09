@@ -298,7 +298,7 @@ def genGroupXML(group):
   xml += "  <description>" + group['description'] + "</description>\n"
   xml += "   <packagelist>\n"
   for i in group['packages']:
-    xml += "    <packagereq type=\"mandatory\">" + i + "</packagereq>\n"
+    xml += "    <packagereq type=\"default\">" + i + "</packagereq>\n"
   xml += "   </packagelist>\n"
   xml += " </group>\n"
   return xml
