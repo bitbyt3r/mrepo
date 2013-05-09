@@ -58,14 +58,15 @@ def main():
       print "Parsing input from XML:", arguments['rhelcomps']
     groups.extend(parseRhelComp(arguments['rhelcomps']))
     categories.extend(categoriesFromXML(arguments['rhelcomps']))
-    
+
   if "excludelist" in arguments.keys() and arguments['excludelist']:
     if verbose:
       print "Excluding all entries in:", arguments['excludelist']
     with open(arguments['excludelist'], "r") as excludeFile:
       excluded = set([x.strip() for x in excludeFile.readlines()])
     for i in groups:
-      for j in i['packages']:
+      packageCopy = list(i['packages'])
+      for j in packageCopy:
         if j in excluded:
           i['packages'].remove(j)
   if verbose:
@@ -142,7 +143,7 @@ def main():
       if not(hasParent):
         print i['name'], "has no parents!"
   if pushgroups:
-    m = hashlib.sha256()
+    m = hashlib.sha1()
     with open(arguments['outfile']) as xml:
       fileContents = xml.read()
     m.update(fileContents)
@@ -151,7 +152,7 @@ def main():
     gzippedXMLFile = gzip.open("/tmp/comps-file.gz", "wb")
     gzippedXMLFile.write(fileContents)
     gzippedXMLFile.close()
-    m = hashlib.sha256()
+    m = hashlib.sha1()
     with open("/tmp/comps-file.gz") as gzippedXMLFile:
       fileContents = gzippedXMLFile.read()
     m.update(fileContents)
@@ -166,13 +167,13 @@ def main():
     for i in root.findall(namespace+"data"):
       if i.get("type") == 'group':
         i.find(namespace+"checksum").text = xmlHash
-        i.find(namespace+"checksum").set("type", "sha256")
+        i.find(namespace+"checksum").set("type", "sha")
         i.find(namespace+"location").set("href", "repodata/"+xmlHash+"-comps-csee.xml")
         i.find(namespace+"timestamp").text = "%.2f" % time.time()
         i.find(namespace+"size").text = str(xmlLength)
       if i.get("type") == 'group_gz':
         i.find(namespace+"checksum").text = gzipHash
-        i.find(namespace+"checksum").set("type", "sha256")
+        i.find(namespace+"checksum").set("type", "sha")
         i.find(namespace+"open-checksum").text = xmlHash
         i.find(namespace+"location").set("href", "repodata/"+gzipHash+"-comps-csee.xml.gz")
         i.find(namespace+"timestamp").text = "%.2f" % time.time()

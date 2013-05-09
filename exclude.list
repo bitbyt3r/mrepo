@@ -124,3 +124,13 @@ libcmpiCppImpl0
 openoffice.org-langpack-hr_HR
 openoffice.org-presentation-minimizer
 openoffice.org-langpack-de
+sblim-cmpi-dhcp
+sblim-cmpi-dns
+sblim-cmpi-fsvol
+sblim-cmpi-network
+sblim-cmpi-nfsv3
+sblim-cmpi-nfsv4
+sblim-cmpi-params
+sblim-cmpi-samba
+sblim-cmpi-sysfs
+sblim-cmpi-syslog
