@@ -143,6 +143,10 @@ def main():
       if not(hasParent):
         print i['name'], "has no parents!"
   if pushgroups:
+    for root, dirs, files in os.walk(arguments['webdir']+"/repodata/"):
+      for name in files:
+        if "comps" in name:
+          os.remove(os.path.join(root, name))
     m = hashlib.sha1()
     with open(arguments['outfile']) as xml:
       fileContents = xml.read()

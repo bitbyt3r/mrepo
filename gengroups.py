@@ -87,6 +87,11 @@ def main():
     sys.exit("There can only be one of each group name")
     
   for i in groups:
+    for j in i['packages']:
+      if not j:
+        i.remove(j)
+        
+  for i in groups:
     if len(i['packages']) == 0:
       groups.remove(i)
       print "Removed %s because it has no packages." % i['name']
