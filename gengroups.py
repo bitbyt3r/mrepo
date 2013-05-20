@@ -44,7 +44,7 @@ def main():
     
   kickstart = False
   if "kickstart" in arguments.keys() and arguments['kickstart']:
-    kickstart = open(arguments['kickstart'], "w")
+    kickstart = open(arguments['kickstartlocation'], "w")
     
   if "groupdir" in arguments.keys() and arguments['groupdir']:
     if verbose:
